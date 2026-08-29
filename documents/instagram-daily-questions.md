@@ -6,9 +6,11 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 ---
 
-## POST 001 — SQL `WHERE email = NULL` (pulse check)
+## POST 001 — SQL `NOT IN` + NULL (pulse check)
 
-Original. Not a training-Reel clone. A/B/C so we can read the audience: %A = “NULL equals NULL”, %B = they know `IS NULL`, %C = they think it is a syntax error.
+One level above `IS NULL` (too easy for this feed). Still school-level SQL. The careless move: `NOT IN` a list that contains NULL.
+
+Pulse: %A = “it just drops the managers”, %B = they know NULL poisons NOT IN, %C = they think it errors.
 
 | Field | Value |
 | --- | --- |
@@ -16,27 +18,30 @@ Original. Not a training-Reel clone. A/B/C so we can read the audience: %A = “
 | Pattern | M — code gotcha + MCQ |
 | Caption shape | C4 — myth + flow |
 | Label | `🚨 Interviewer asked:` |
-| Body words | 12 |
-| Code | 2 lines |
-| Caption words | 244 |
+| Body words | 11 |
+| Code | 4 lines |
+| Caption words | 279 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | A / B / C |
-| Picker gates | pass — nouns SQL/NULL/email; trap `= NULL`; camps A vs B |
+| Picker gates | pass — nouns employees/NULL/NOT IN; trap “exclude the IDs”; camps A vs B |
 | Status | ready to post — pulse instrument |
+| Killed draft | `WHERE email = NULL` — Ashok: everyone already knows IS NULL |
 
 ### On-screen (the frame)
 
 🚨 Interviewer asked:
 
 ```
-SELECT * FROM users
-WHERE email = NULL
+SELECT * FROM employees
+WHERE id NOT IN (
+  SELECT manager_id FROM employees
+)
 ```
 
-Your users table has 50 NULL emails.
+Your manager_id column has one NULL.
 What does this query return?
 
-A. 50 rows
+A. All non-managers
 B. 0 rows
 C. Error
 
@@ -47,94 +52,97 @@ C. Error
 ```
 Read it 👇
 
-🚫 NULL = NULL is never true
+🚫 NOT IN + NULL returns nothing
 
 🚨 Interviewer asked:
 
-SELECT * FROM users
-WHERE email = NULL
+SELECT * FROM employees
+WHERE id NOT IN (
+  SELECT manager_id FROM employees
+)
 
-Your users table has 50 NULL emails.
+Your manager_id column has one NULL.
 What does this query return?
 
-A. 50 rows
+A. All non-managers
 B. 0 rows
 C. Error
 
 💡 Answer: B. 0 rows
 
 Most developers think:
-👈 = NULL will find the empty emails 😏
+👈 It just excludes the manager IDs 😏
 ❌ Wrong
 
 ____
 
 What actually happens? 🤔
 
-In SQL, NULL means unknown.
+You know IS NULL. This is the next trap.
 
-Unknown = unknown is not true.
+NOT IN is a chain of <> checks.
 
-So the WHERE clause drops every row.
+id <> 5 AND id <> 8 AND id <> NULL
 
-Including the 50 NULL emails.
+id <> NULL is UNKNOWN, so the whole AND dies.
+
+WHERE keeps only TRUE. Every row is dropped.
 
 ____
 
 Real Flow ⚡
 
-email is NULL
+subquery returns 5, 8, NULL
 ↓
-engine checks: NULL = NULL
+id NOT IN (5, 8, NULL)
 ↓
-result is UNKNOWN
+id <> 5 AND id <> 8 AND id <> NULL
 ↓
-WHERE keeps only TRUE
+last check is UNKNOWN
 ↓
 0 rows come back
 
 ____
 
-✅ 1. Use IS NULL
-WHERE email IS NULL
-That returns the 50 rows.
+✅ 1. Filter NULLs out of the list
+WHERE id NOT IN (
+  SELECT manager_id FROM employees
+  WHERE manager_id IS NOT NULL
+)
 
-✅ 2. Use IS NOT NULL
-When you want real emails only.
-
-✅ 3. Never write = NULL
-Not in WHERE. Not in JOIN. Not in CASE.
+✅ 2. Prefer NOT EXISTS
+It does not get poisoned by NULL.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "NULL is just empty, so = works."
+❌ Instead of saying: "NOT IN just removes those IDs."
 
 Say:
-"NULL means unknown. Equality with NULL is unknown, not true, so I filter with IS NULL or IS NOT NULL."
+"NOT IN is a chain of not-equal checks. One NULL makes a check UNKNOWN, so I filter NULLs out or I use NOT EXISTS."
 
 That's a much stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "NULL is not a value. It does not equal anything. Not even NULL."
+👉 "One NULL inside NOT IN, and the query returns 0 rows."
 
 🧠 Mental model
-NULL = a blank answer sheet
-= is "did they write the same thing?"
-You cannot mark two blanks as equal.
+NOT IN = "prove it is none of these"
+NULL = "I don't know this one"
+You cannot prove it if one answer is blank.
 
 ____
 
-In short: = NULL → 0 rows. Use IS NULL.
+In short: NOT IN + NULL → 0 rows. Use NOT EXISTS.
 
 🔖 Save this for your next SQL interview.
 
 💬 Comment A, B, or C before you scroll.
 
-(sql, null, where clause, is null, mysql, postgres, backend, coding interview, placement)
+(sql, not in, null, not exists, subquery, mysql, postgres, backend, coding interview, placement)
 
 #SQL #InterviewPrep #BackendDevelopment #Database #Placement
 ```

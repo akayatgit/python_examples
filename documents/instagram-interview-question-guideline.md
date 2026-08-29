@@ -231,16 +231,18 @@ Code: 3–5 lines. One mutation / reference / scope / default-arg surprise.
 
 Options: A / B / C. One trap, one correct, one crash/error.
 
-Example (original — do **not** reuse the training `y = x` reel):
+Example (one level above `= NULL` — do **not** reuse the training `y = x` reel):
 
 ```sql
-SELECT * FROM users
-WHERE email = NULL
+SELECT * FROM employees
+WHERE id NOT IN (
+  SELECT manager_id FROM employees
+)
 ```
 
-Your users table has 50 NULL emails. What does this query return?
+Your manager_id column has one NULL. What does this query return?
 
-A. `50 rows`  
+A. `all non-managers`  
 B. `0 rows`  
 C. `Error`
 
@@ -287,7 +289,7 @@ The 13 reference Reels are a **formation** source, not a topic-difficulty source
 | 4 | **Two-camp test** | Comments can split (A vs B, “just gitignore”, `[1,2,3]` vs `[1,2,3,4]`) | No argument, no poll energy |
 | 5 | **Teach-in-three-sentences test** | A senior spoken answer fits in 3 sentences in the `Say:` line | The real answer needs a paper or a 40-minute design |
 
-Difficulty band: **first-year to SDE-1 fundamentals with a trap**. Not trivia. Not staff-engineer.
+Difficulty band: **first-year to SDE-1 fundamentals with a trap**. One level above the fact everyone already recites (`IS NULL`, `HTTPS means security`). Not trivia. Not staff-engineer.
 
 ### 8.2 Prefer these nouns (everyday, high confusion)
 
@@ -328,7 +330,8 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 **Ship (broad + trap)**  
 - `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
-- `WHERE email = NULL` vs `IS NULL` — looks like basic SQL, people write `=` all week.  
+- `NOT IN` + a NULL in the subquery — one level above `IS NULL`. People still write it.  
+- `= NULL` / `IS NULL` — too easy for this feed. Do not ship.  
 - `list.sort()` prints `None` — not the training `y = x` reel.  
 - `git reset` vs `revert` on `main` — two camps, both think they are sure.
 
