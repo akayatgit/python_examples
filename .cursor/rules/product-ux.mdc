@@ -1,0 +1,16 @@
+---
+description: Standing product and content UX laws for Watch Tower / interview content
+alwaysApply: true
+---
+
+# Product / content UX laws
+
+## Instagram daily interview questions
+
+- Source of truth: `documents/instagram-interview-question-guideline.md`. Update that file in place. Do not fork copies.
+- On-screen question body is 10–28 words (sweet spot 15–22). Helper/constraint 4–9 words. Stakes hook 7–11 words. CTA 2–8 words.
+- Frame is a riddle. Caption teaches. Never put the answer on the frame.
+- Use one formation pattern per post (A–M in the guideline). Do not repeat yesterday’s pattern or topic lane.
+- Voice: second person, one painful number or real system, one failure mode. No textbook “explain in detail”.
+- Code gotchas: 3–5 lines, A/B/C only.
+- Do not build the daily generator until Ashok picks the ship path in the guideline (manual / CLI / scheduled agent).
