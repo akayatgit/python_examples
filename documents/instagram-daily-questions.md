@@ -6,11 +6,11 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 ---
 
-## POST 001 — SQL `NOT IN` + NULL (pulse check)
+## POST 001 — SQL `COUNT(*)` vs `COUNT(email)` (pulse check)
 
-One level above `IS NULL` (too easy for this feed). Still school-level SQL. The careless move: `NOT IN` a list that contains NULL.
+Mind game. Two numbers. You do the math in your head. One notch above `IS NULL`. No nested query.
 
-Pulse: %A = “it just drops the managers”, %B = they know NULL poisons NOT IN, %C = they think it errors.
+Pulse: %A = “count is count”, %B = they know COUNT(col) skips NULL, %C = they think COUNT(*) also skips NULL.
 
 | Field | Value |
 | --- | --- |
@@ -19,31 +19,31 @@ Pulse: %A = “it just drops the managers”, %B = they know NULL poisons NOT IN
 | Caption shape | C4 — myth + flow |
 | Label | `🚨 Interviewer asked:` |
 | Body words | 11 |
-| Code | 4 lines |
-| Caption words | 280 |
+| Code | 2 lines |
+| Caption words | (counted on write) |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | A / B / C |
-| Picker gates | pass — nouns employees/NULL/NOT IN; trap “exclude the IDs”; camps A vs B |
+| Picker gates | pass — mind game; nouns COUNT/NULL; trap “both 50” |
 | Status | ready to post — pulse instrument |
-| Killed draft | `WHERE email = NULL` — Ashok: everyone already knows IS NULL |
+| Killed drafts | `= NULL` too easy. `NOT IN` + NULL too hard to read on a feed |
 
 ### On-screen (the frame)
 
 🚨 Interviewer asked:
 
+50 users.
+10 emails are NULL.
+
 ```
-SELECT * FROM employees
-WHERE id NOT IN (
-  SELECT manager_id FROM employees
-)
+COUNT(*)
+COUNT(email)
 ```
 
-Your manager_id column has one NULL.
-What does this query return?
+What do these two return?
 
-A. All non-managers
-B. 0 rows
-C. Error
+A. 50 and 50
+B. 50 and 40
+C. 40 and 40
 
 📍 Read Caption
 
@@ -52,97 +52,98 @@ C. Error
 ```
 Read it 👇
 
-🚫 NOT IN + NULL returns nothing
+🧠 COUNT is not always COUNT
 
 🚨 Interviewer asked:
 
-SELECT * FROM employees
-WHERE id NOT IN (
-  SELECT manager_id FROM employees
-)
+50 users.
+10 emails are NULL.
 
-Your manager_id column has one NULL.
-What does this query return?
+COUNT(*)
+COUNT(email)
 
-A. All non-managers
-B. 0 rows
-C. Error
+What do these two return?
 
-💡 Answer: B. 0 rows
+A. 50 and 50
+B. 50 and 40
+C. 40 and 40
+
+💡 Answer: B. 50 and 40
 
 Most developers think:
-👈 It just excludes the manager IDs 😏
+👈 Count is count. Both are 50 😏
 ❌ Wrong
 
 ____
 
 What actually happens? 🤔
 
-You know IS NULL. This is the next trap.
+COUNT(*) counts rows.
 
-NOT IN is a chain of <> checks.
+50 users = 50 rows.
 
-id <> 5 AND id <> 8 AND id <> NULL
+COUNT(email) counts values.
 
-id <> NULL is UNKNOWN, so the whole AND dies.
+NULL is not a value.
 
-WHERE keeps only TRUE. Every row is dropped.
+So it skips the 10 empty emails.
+
+50 minus 10 = 40.
 
 ____
 
 Real Flow ⚡
 
-subquery returns 5, 8, NULL
+50 rows in the table
 ↓
-id NOT IN (5, 8, NULL)
+COUNT(*) → 50
 ↓
-id <> 5 AND id <> 8 AND id <> NULL
+10 emails are NULL
 ↓
-last check is UNKNOWN
+COUNT(email) skips those 10
 ↓
-0 rows come back
+50 and 40
 
 ____
 
-✅ 1. Filter NULLs out of the list
-WHERE id NOT IN (
-  SELECT manager_id FROM employees
-  WHERE manager_id IS NOT NULL
-)
+✅ 1. Want every row?
+Use COUNT(*)
 
-✅ 2. Prefer NOT EXISTS
-It does not get poisoned by NULL.
+✅ 2. Want filled emails only?
+Use COUNT(email)
+
+✅ 3. Same idea for SUM and AVG
+They skip NULL too.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "NOT IN just removes those IDs."
+❌ Instead of saying: "COUNT just counts the rows."
 
 Say:
-"NOT IN is a chain of not-equal checks. One NULL makes a check UNKNOWN, so I filter NULLs out or I use NOT EXISTS."
+"COUNT(*) counts rows. COUNT(column) counts non-NULL values. With 10 NULL emails I expect 50 and 40."
 
 That's a much stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "One NULL inside NOT IN, and the query returns 0 rows."
+👉 "COUNT(*) counts people. COUNT(email) counts inboxes."
 
 🧠 Mental model
-NOT IN = "prove it is none of these"
-NULL = "I don't know this one"
-You cannot prove it if one answer is blank.
+COUNT(*) = how many chairs
+COUNT(email) = how many chairs have a bag on them
 
 ____
 
-In short: NOT IN + NULL → 0 rows. Use NOT EXISTS.
+In short: COUNT(*) = 50. COUNT(email) = 40.
 
 🔖 Save this for your next SQL interview.
 
 💬 Comment A, B, or C before you scroll.
 
-(sql, not in, null, not exists, subquery, mysql, postgres, backend, coding interview, placement)
+(sql, count, null, aggregate, mysql, postgres, backend, coding interview, placement)
 
 #SQL #InterviewPrep #BackendDevelopment #Database #Placement
 ```

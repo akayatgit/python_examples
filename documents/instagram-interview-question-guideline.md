@@ -231,20 +231,18 @@ Code: 3–5 lines. One mutation / reference / scope / default-arg surprise.
 
 Options: A / B / C. One trap, one correct, one crash/error.
 
-Example (one level above `= NULL` — do **not** reuse the training `y = x` reel):
+Example (mind game — 2 seconds on a phone. Not `= NULL`. Not `NOT IN`):
 
 ```sql
-SELECT * FROM employees
-WHERE id NOT IN (
-  SELECT manager_id FROM employees
-)
+COUNT(*)
+COUNT(email)
 ```
 
-Your manager_id column has one NULL. What does this query return?
+50 users. 10 emails are NULL. What do these two return?
 
-A. `all non-managers`  
-B. `0 rows`  
-C. `Error`
+A. `50 and 50`  
+B. `50 and 40`  
+C. `40 and 40`
 
 ---
 
@@ -288,8 +286,9 @@ The 13 reference Reels are a **formation** source, not a topic-difficulty source
 | 3 | **Wrong-first-answer test** | The first comment most people type is wrong or incomplete | 90% would get it right in one word |
 | 4 | **Two-camp test** | Comments can split (A vs B, “just gitignore”, `[1,2,3]` vs `[1,2,3,4]`) | No argument, no poll energy |
 | 5 | **Teach-in-three-sentences test** | A senior spoken answer fits in 3 sentences in the `Say:` line | The real answer needs a paper or a 40-minute design |
+| 6 | **Mind-game test** | Readable in 2 seconds. Solvable in your head while scrolling | Nested query, truth table, pen-and-paper (`NOT IN` + NULL) |
 
-Difficulty band: **first-year to SDE-1 fundamentals with a trap**. One level above the fact everyone already recites (`IS NULL`, `HTTPS means security`). Not trivia. Not staff-engineer.
+Difficulty band: **first-year to SDE-1 fundamentals with a trap**. One level above the fact everyone already recites (`IS NULL`). **Mind game, not homework.** If the viewer needs a pen, a nested query, or a truth table to even *read* the frame, it is too hard for the feed. Not trivia. Not staff-engineer.
 
 ### 8.2 Prefer these nouns (everyday, high confusion)
 
@@ -330,8 +329,8 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 **Ship (broad + trap)**  
 - `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
-- `NOT IN` + a NULL in the subquery — one level above `IS NULL`. People still write it.  
-- `= NULL` / `IS NULL` — too easy for this feed. Do not ship.  
+- `COUNT(*)` vs `COUNT(email)` with two numbers — mind game, one notch above `IS NULL`.  
+- `= NULL` / `IS NULL` — too easy. `NOT IN` + NULL subquery — too hard to read on a feed. Do not ship.  
 - `list.sort()` prints `None` — not the training `y = x` reel.  
 - `git reset` vs `revert` on `main` — two camps, both think they are sure.
 
@@ -546,7 +545,7 @@ A question is ready to post only if all of these are true:
 - [ ] Body is 10–28 words
 - [ ] Exactly one pattern from section 6
 - [ ] Exactly one interviewer label style
-- [ ] All five section-8 picker gates pass (noun, careless mistake, wrong first answer, two camps, teach in three sentences)
+- [ ] All six section-8 picker gates pass (including mind-game / no pen-and-paper)
 - [ ] A number, a real system, or a concrete port/value is present
 - [ ] The obvious one-word answer is either wrong or blocked by helper text
 - [ ] No answer text on the frame
@@ -615,6 +614,7 @@ Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-
 - Answer leak: `Hint: think semantic similarity` on the frame
 - Two topics: CORS and JWT in one frame
 - Clone of a training Reel or guideline example (`y = x` append, CORS :3000/:8080, DELETE vs TRUNCATE, …)
+- Pen-and-paper frame: nested subquery, `NOT IN` + NULL, anything that needs a truth table to parse
 - God-level topic: RAG, embeddings, LLM-as-Judge, Raft, CRDT — audience cannot parse the question
 - Specialist-only: true, but only 5% of the feed has heard the noun
 - Trivia with no trap: `What does HTML stand for?`
