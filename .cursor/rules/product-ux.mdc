@@ -16,4 +16,5 @@ alwaysApply: true
 - Use one formation pattern per post (A–M in the guideline). Do not repeat yesterday’s pattern or topic lane.
 - Voice: second person, one painful number or real system, one failure mode. No textbook “explain in detail”.
 - Code gotchas: 3–5 lines, A/B/C only.
+- Never ship a question body from the reference Reels or guideline examples. Those taught formation only. New noun, new trap, every post.
 - Do not build the daily generator until Ashok picks the ship path in the guideline (manual / CLI / scheduled agent).

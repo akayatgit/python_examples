@@ -231,17 +231,17 @@ Code: 3–5 lines. One mutation / reference / scope / default-arg surprise.
 
 Options: A / B / C. One trap, one correct, one crash/error.
 
-Example hook: `This python question cost my friend ₹22LPA offer`
+Example (original — do **not** reuse the training `y = x` reel):
 
-```python
-x = [1, 2, 3]
-y = x
-y.append(4)
-print(x)
+```sql
+SELECT * FROM users
+WHERE email = NULL
 ```
 
-A. `[1,2,3]`  
-B. `[1,2,3,4]`  
+Your users table has 50 NULL emails. What does this query return?
+
+A. `50 rows`  
+B. `0 rows`  
 C. `Error`
 
 ---
@@ -328,9 +328,12 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 **Ship (broad + trap)**  
 - `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
-- `y = x` then `append` — looks like class 11 Python, seniors still miss it.  
-- localhost:3000 vs :8080 CORS — every intern hits this.  
-- DELETE vs TRUNCATE on 100 million rows — two camps, both think they are sure.
+- `WHERE email = NULL` vs `IS NULL` — looks like basic SQL, people write `=` all week.  
+- `list.sort()` prints `None` — not the training `y = x` reel.  
+- `git reset` vs `revert` on `main` — two camps, both think they are sure.
+
+**Do not ship (reference clones)**  
+The 13 training Reels and the guideline’s worked copies (`y = x` append, HTTP vs HTTPS, CORS ports, DELETE vs TRUNCATE, JWT logout, cache vs DB, Maps, RAG, LLM-as-Judge, IRCTC, Orders API latency) are **style only**. Recreating them is a reject.
 
 **Kill (smart but too tall)**  
 - “How do you make LLM-as-a-Judge reliable?” — noun fail.  
@@ -608,6 +611,7 @@ Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-
 - Fake stakes: `This question ruined 1000 careers`
 - Answer leak: `Hint: think semantic similarity` on the frame
 - Two topics: CORS and JWT in one frame
+- Clone of a training Reel or guideline example (`y = x` append, CORS :3000/:8080, DELETE vs TRUNCATE, …)
 - God-level topic: RAG, embeddings, LLM-as-Judge, Raft, CRDT — audience cannot parse the question
 - Specialist-only: true, but only 5% of the feed has heard the noun
 - Trivia with no trap: `What does HTML stand for?`

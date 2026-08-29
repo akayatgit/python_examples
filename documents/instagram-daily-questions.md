@@ -6,37 +6,38 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 ---
 
-## POST 001 — Python `y = x` (pulse check)
+## POST 001 — SQL `WHERE email = NULL` (pulse check)
 
-First public post. A/B/C so we can read the audience: %A = copy camp, %B = reference camp, %C = crash camp.
+Original. Not a training-Reel clone. A/B/C so we can read the audience: %A = “NULL equals NULL”, %B = they know `IS NULL`, %C = they think it is a syntax error.
 
 | Field | Value |
 | --- | --- |
-| Topic lane | python |
+| Topic lane | backend / SQL |
 | Pattern | M — code gotcha + MCQ |
 | Caption shape | C4 — myth + flow |
-| Label | stakes hook (no Interviewer chip) |
-| Hook words | 9 |
-| Code | 4 lines |
-| Caption words | 267 |
+| Label | `🚨 Interviewer asked:` |
+| Body words | 12 |
+| Code | 2 lines |
+| Caption words | 244 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | A / B / C |
-| Picker gates | pass — nouns list/append/print; trap “y is a copy”; camps A vs B |
+| Picker gates | pass — nouns SQL/NULL/email; trap `= NULL`; camps A vs B |
 | Status | ready to post — pulse instrument |
 
 ### On-screen (the frame)
 
-This python question cost my friend ₹22LPA offer
+🚨 Interviewer asked:
 
 ```
-x = [1, 2, 3]
-y = x
-y.append(4)
-print(x)
+SELECT * FROM users
+WHERE email = NULL
 ```
 
-A. [1, 2, 3]
-B. [1, 2, 3, 4]
+Your users table has 50 NULL emails.
+What does this query return?
+
+A. 50 rows
+B. 0 rows
 C. Error
 
 📍 Read Caption
@@ -46,95 +47,96 @@ C. Error
 ```
 Read it 👇
 
-🐍 y = x does NOT copy the list
+🚫 NULL = NULL is never true
 
-This python question cost my friend ₹22LPA offer
+🚨 Interviewer asked:
 
-x = [1, 2, 3]
-y = x
-y.append(4)
-print(x)
+SELECT * FROM users
+WHERE email = NULL
 
-A. [1, 2, 3]
-B. [1, 2, 3, 4]
+Your users table has 50 NULL emails.
+What does this query return?
+
+A. 50 rows
+B. 0 rows
 C. Error
 
-💡 Answer: B. [1, 2, 3, 4]
+💡 Answer: B. 0 rows
 
 Most developers think:
-👈 y is a copy, so x stays [1, 2, 3] 😏
+👈 = NULL will find the empty emails 😏
 ❌ Wrong
 
 ____
 
 What actually happens? 🤔
 
-y = x does not create a new list.
+In SQL, NULL means unknown.
 
-y and x point to the SAME list.
+Unknown = unknown is not true.
 
-append(4) changes that one list.
+So the WHERE clause drops every row.
 
-So print(x) shows [1, 2, 3, 4]
+Including the 50 NULL emails.
 
 ____
 
 Real Flow ⚡
 
-x = [1, 2, 3]
+email is NULL
 ↓
-y = x
-same object, not a copy
+engine checks: NULL = NULL
 ↓
-y.append(4)
+result is UNKNOWN
 ↓
-the only list is [1, 2, 3, 4]
+WHERE keeps only TRUE
 ↓
-print(x) → [1, 2, 3, 4]
+0 rows come back
 
 ____
 
-✅ 1. Assignment is a name
-y = x is another name for the same object.
+✅ 1. Use IS NULL
+WHERE email IS NULL
+That returns the 50 rows.
 
-✅ 2. Lists are mutable
-append changes the object in place.
+✅ 2. Use IS NOT NULL
+When you want real emails only.
 
-✅ 3. Want a real copy?
-Use x.copy() or list(x)
-That is a new list.
+✅ 3. Never write = NULL
+Not in WHERE. Not in JOIN. Not in CASE.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "y is a copy of x."
+❌ Instead of saying: "NULL is just empty, so = works."
 
 Say:
-"y = x binds another name to the same list. Lists are mutable, so y.append(4) mutates that list, and x sees it."
+"NULL means unknown. Equality with NULL is unknown, not true, so I filter with IS NULL or IS NOT NULL."
 
 That's a much stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "Assignment copies the reference. Not the list."
+👉 "NULL is not a value. It does not equal anything. Not even NULL."
 
 🧠 Mental model
-x and y = two stickers on one box
-append = putting an item in that box
+NULL = a blank answer sheet
+= is "did they write the same thing?"
+You cannot mark two blanks as equal.
 
 ____
 
-In short: y = x → same list → append changes x too.
+In short: = NULL → 0 rows. Use IS NULL.
 
-🔖 Save this for your next Python interview.
+🔖 Save this for your next SQL interview.
 
 💬 Comment A, B, or C before you scroll.
 
-(python, list, mutability, reference vs copy, append, coding interview, placement, backend)
+(sql, null, where clause, is null, mysql, postgres, backend, coding interview, placement)
 
-#Python #InterviewPrep #CodingInterview #BackendDevelopment #Placement
+#SQL #InterviewPrep #BackendDevelopment #Database #Placement
 ```
 
 ---
