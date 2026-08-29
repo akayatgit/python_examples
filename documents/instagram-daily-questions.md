@@ -20,7 +20,7 @@ Pulse: %A = “count is count”, %B = they know COUNT(col) skips NULL, %C = the
 | Label | `🚨 Interviewer asked:` |
 | Body words | 11 |
 | Code | 2 lines |
-| Caption words | (counted on write) |
+| Caption words | 211 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | A / B / C |
 | Picker gates | pass — mind game; nouns COUNT/NULL; trap “both 50” |

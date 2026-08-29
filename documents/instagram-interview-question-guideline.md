@@ -631,7 +631,7 @@ This file is the style contract. It is not the generator.
 When we decide how to ship one question per day, the generator must:
 
 1. Read this guideline
-2. Pick a topic that passes all five section-8 gates, then a pattern (no repeat of yesterday’s lane)
+2. Pick a topic that passes all six section-8 gates (mind-game included), then a pattern (no repeat of yesterday’s lane)
 3. Fill the template in section 9
 4. Count words and fail closed if outside 10–28
 5. Write the caption using section 10 (shape C1–C6, 140–280 words)
