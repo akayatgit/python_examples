@@ -539,6 +539,7 @@ Publish rule: if the caption is under 140 words or has fewer than 6 sections, re
 A question is ready to post only if all of these are true:
 
 - [ ] Body is 10–28 words
+- [ ] Body is complete sentences and ends in a decision (`Will you use X or Y?`)
 - [ ] Exactly one pattern from section 6
 - [ ] Exactly one interviewer label style
 - [ ] All six section-8 picker gates pass (including mind-game / no pen-and-paper)
