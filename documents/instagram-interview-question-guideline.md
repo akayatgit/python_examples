@@ -311,14 +311,164 @@ Publish rule: if `word_count_body` is under 10 or over 28, rewrite. Do not ship.
 
 ## 10. Caption contract (always written with the frame)
 
-The frame without a caption is incomplete. Caption structure:
+The frame is the riddle. The caption is the class.
 
-1. **One-line verdict** (max 18 words). The answer, not a tease.
-2. **The trap** (1–2 sentences). Why juniors miss it.
-3. **Interview points** (2–4 bullets). What to say in the room.
-4. **Closer** (1 line). `Save this for the round that asks [topic].`
+A caption that is four bullets and a “save this” line is **not done**. The reference Reels teach in a scannable, mobile-first layout: hook, myth, punchy answer, numbered mechanics, interview one-liner, closer.
 
-Caption may be longer. Frame may not.
+Caption may be long. It must never be a wall of text. Frame may not grow.
+
+### 10.1 Hard length and layout
+
+| Layer | Limit |
+| --- | --- |
+| Total caption | **140–280 words** |
+| Sentence | **one idea**. Max ~18 words. |
+| Line | **max 8 words** before a line break when listing |
+| Blank line | between **every** section and almost every sentence |
+| Sections | **6–10** signposted blocks |
+| Emojis | **functional icons only** (header / ❌ / ✅ / 👉). Not decoration. |
+| Separators | `____` or `———` between major blocks |
+
+Instagram has no markdown. Do not use `**bold**`. Emphasize with ALL CAPS on the 2–4 technical nouns (`GITIGNORE`, `DELETE`, `CORS`) and with emojis as headers.
+
+### 10.2 Required anatomy (every caption)
+
+Use this order. Skip a block only if the pattern below says so.
+
+```text
+Read it 👇
+
+[emoji] [5–10 word headline that names the trap]
+
+[optional: repeat the on-screen question, 1:1]
+
+💡 Answer: [punchy verdict. max 12 words]
+
+Most developers think:
+👈 [the cheap answer] 😏
+❌ Wrong
+
+____
+
+[TEACHING BLOCK — pick one shape from 10.3]
+
+____
+
+💡 Interview Tip
+
+❌ Instead of saying: "[junior one-liner]"
+
+Say:
+"[senior 1–3 sentences. the words they should speak in the room]"
+
+That's a much stronger interview answer.
+
+____
+
+🔥 Interview One-Liner
+👉 "[one sentence they can memorize]"
+
+[optional 🧠 Mental model: A = x, B = y]
+
+____
+
+In short: [rotate / choose / do this → then that]
+
+🔖 Save this for your next [lane] interview.
+
+💬 Comment [KEYWORD] if you want the exact [commands / notes / PDF].
+
+([8–16 comma-separated keywords])
+
+#3to6Hashtags
+```
+
+### 10.3 Teaching-block shapes (pick one; match the question pattern)
+
+**C1 — Expected-fix-fails** (question G, JWT / gitignore / logout)
+
+1. `What actually happens?` — 3–5 short lines
+2. `Real Flow ⚡` — 5–7 steps with `↓`
+3. `✅ 1. [Action]` + one helper sentence. Repeat for 3–4 actions
+4. `In production:` one stack line (`Rotate + purge + re-clone`)
+
+**C2 — This-or-that** (question B, delete vs truncate)
+
+1. Repeat the interviewer question
+2. Numbered **1–8** (not 20). Each line: `DELETE … ; TRUNCATE …`
+3. `👉 Conclusion:` 2–3 sentences that pick a side **with the constraint**
+
+**C3 — Mystery how** (question C / D, Maps / Tatkal)
+
+1. `💡 Answer: [noun].` (Your Phone. / A queue.)
+2. What it collects / does — emoji bullets
+3. One concrete number example (`60 km/h → 10 km/h`)
+4. `Behind the Scenes` — ✅ list
+5. `🔥 System Design Insight:` 2 sentences
+
+**C4 — If-advantage / myth** (question E / L / H, cache vs DB, CORS, HTTP)
+
+1. Myth → ❌ Wrong
+2. `What is [X]?` + formula or definition
+3. Numbered 1️⃣–4️⃣ `Keyword — one sentence`
+4. `🧠` wallet/bank-style metaphor
+5. One-line law (`Cache is not your source of truth.`)
+
+**C5 — Scenario pick** (question K / J, which LLM)
+
+1. `✅ Answer:` no single winner
+2. `💻 Scenario N:` example → models → `Why?` * bullets → `Trade-off:`
+3. 2–4 scenarios max
+4. `🎯 Interview Tip` + `✅ Short Answer :` a quoted 2–3 sentence script
+
+**C6 — Diagnostic / drift** (question F / I, RAG, latency)
+
+1. Two-line hook (`Your X didn't break. Your Y went stale.`)
+2. `A junior answer:` ❌
+3. `A senior answer:` ✅
+4. `What actually causes this:` `→` concept — definition
+5. `The production pattern:` `Monitor → detect → fix → swap`
+
+### 10.4 Caption voice laws
+
+**Do**
+
+- Open with `Read it 👇` or a 📌 myth (`Everyone says, “X.”`)
+- Give the answer in the first screen of the caption. Do not tease.
+- Contrast junior vs senior in public (`❌` / `✅` or `Instead of saying` / `Say:`)
+- Use a real number or a real command in the teaching block
+- End with Save + one comment keyword + keyword soup + 3–6 hashtags
+- Keep every block independently readable if someone lands mid-caption
+
+**Do not**
+
+- Write a 4-bullet “verdict / trap / points / save” stub — that is a draft, not a caption
+- Stack three paragraphs with no line breaks
+- Put 12 hashtags or a novel in the first line
+- Leak a second topic (don’t teach Docker inside a git caption)
+- Use `info`, `note`, or blog headings (`## Introduction`)
+- Bold-markdown that dies in Instagram paste
+
+### 10.5 Caption template (for the generator, later)
+
+```text
+headline: [5-10 words]
+answer_line: [max 12 words]
+myth: [the cheap answer]
+teaching_shape: C1-C6
+steps_or_points: [3-8]
+interview_tip_dont: "[junior]"
+interview_tip_say: "[senior 1-3 sentences]"
+one_liner: "[memorize this]"
+mental_model: [optional metaphor]
+in_short: [A → B → C]
+comment_keyword: GIT | CORS | RAG | MAPS
+keywords: [8-16]
+hashtags: [3-6]
+word_count: [140-280]
+```
+
+Publish rule: if the caption is under 140 words or has fewer than 6 sections, rewrite. Do not ship.
 
 ---
 
@@ -331,9 +481,10 @@ A question is ready to post only if all of these are true:
 - [ ] Exactly one interviewer label style
 - [ ] A number, a real system, or a concrete port/value is present
 - [ ] The obvious one-word answer is either wrong or blocked by helper text
-- [ ] A competent engineer can argue for 60 seconds from the caption bullets
 - [ ] No answer text on the frame
-- [ ] Caption has verdict + trap + 2–4 points + closer
+- [ ] Caption is 140–280 words, 6–10 sections, heavy line breaks
+- [ ] Caption has hook, 💡 Answer, myth ❌, teaching block (C1–C6), Interview Tip, one-liner, In short, Save, comment keyword, keywords, hashtags
+- [ ] Interview Tip has an ❌ line and a spoken `Say:` script
 - [ ] Pattern and topic lane differ from yesterday
 - [ ] Code (if any) is 3–5 lines and has one surprising print/output
 
@@ -385,6 +536,8 @@ C. `Error`
 🔥 Interviewer: "How do companies decide which database to use in production?"  
 Check caption 👇
 
+Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-daily-questions.md`. Do not invent a shorter caption style than that sample.
+
 ---
 
 ## 13. Anti-patterns (reject these)
@@ -397,6 +550,9 @@ Check caption 👇
 - Fake stakes: `This question ruined 1000 careers`
 - Answer leak: `Hint: think semantic similarity` on the frame
 - Two topics: CORS and JWT in one frame
+- Stub caption: verdict + 4 bullets + “save this” with no myth, no flow, no `Say:` script
+- Caption wall: three long paragraphs and no `____` breaks
+- Caption tease: “answer in comments” with no 💡 Answer in the first screen
 
 ---
 
@@ -410,7 +566,7 @@ When we decide how to ship one question per day, the generator must:
 2. Pick tomorrow’s pattern + topic lane (no repeat of yesterday)
 3. Fill the template in section 9
 4. Count words and fail closed if outside 10–28
-5. Write the caption contract
+5. Write the caption using section 10 (shape C1–C6, 140–280 words)
 6. Store the pair so we never repeat a body
 
 Candidate approaches (do not build until we pick one):
