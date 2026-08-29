@@ -317,6 +317,8 @@ A caption that is four bullets and a “save this” line is **not done**. The r
 
 Caption may be long. It must never be a wall of text. Frame may not grow.
 
+Ashok lock (2026-08-29): this density is the **only** bar. Do not add a shorter Stories variant. Every post uses the same full teaching caption. Calibration sample: the git / `.gitignore` caption in `documents/instagram-daily-questions.md`.
+
 ### 10.1 Hard length and layout
 
 | Layer | Limit |
@@ -536,7 +538,7 @@ C. `Error`
 🔥 Interviewer: "How do companies decide which database to use in production?"  
 Check caption 👇
 
-Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-daily-questions.md`. Do not invent a shorter caption style than that sample.
+Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-daily-questions.md`. Match that density. Do not invent a shorter Stories caption.
 
 ---
 

@@ -18,7 +18,7 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 | Caption words | 238 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | GIT |
-| Status | draft for Ashok |
+| Status | caption density approved — question still draft |
 
 ### On-screen (the frame)
 
