@@ -231,18 +231,11 @@ Code: 3–5 lines. One mutation / reference / scope / default-arg surprise.
 
 Options: A / B / C. One trap, one correct, one crash/error.
 
-Example (mind game — 2 seconds on a phone. Not `= NULL`. Not `NOT IN`):
+Prefer Pattern B for the feed. If you use Pattern M, the decision sentence still sits above the code.
 
-```sql
-COUNT(*)
-COUNT(email)
-```
+Decisional example (one read):
 
-50 users. 10 emails are NULL. What do these two return?
-
-A. `50 and 50`  
-B. `50 and 40`  
-C. `40 and 40`
+You need how many users filled their email. 10 emails are NULL. Will you use COUNT(*) or COUNT(email)?
 
 ---
 
@@ -252,6 +245,8 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 
 **Do**
 
+- Full sentences. One read on a phone. No stacked labels (`COUNT(*)` then `COUNT(email)` then “what do these return?”)
+- End with a **decision**: `Will you use X or Y?` / `Still why…?` / `How do you…?`
 - Second person: `Your API`, `You need to`, `You immediately click Logout`
 - Concrete nouns: `Orders API`, `JWT token`, `IRCTC Tatkal`, `localhost:3000`
 - One number that hurts: `100 million`, `2 Million`, `200 ms` → `6-8 seconds`, `3 months`, `3AM`, `₹22LPA`
@@ -268,6 +263,7 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 - Invent fake company names when a real product is clearer
 - Pad to sound senior (`in a production-grade scalable microservice architecture`)
 - Repeat the same pattern two days in a row
+- Fragment frames: function names, numbers, then “what do you get?” with no decision sentence
 
 ---
 
@@ -329,7 +325,7 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 **Ship (broad + trap)**  
 - `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
-- `COUNT(*)` vs `COUNT(email)` with two numbers — mind game, one notch above `IS NULL`.  
+- `Will you use COUNT(*) or COUNT(email)?` when you need filled emails — decision sentence, one notch above `IS NULL`.  
 - `= NULL` / `IS NULL` — too easy. `NOT IN` + NULL subquery — too hard to read on a feed. Do not ship.  
 - `list.sort()` prints `None` — not the training `y = x` reel.  
 - `git reset` vs `revert` on `main` — two camps, both think they are sure.
