@@ -10,7 +10,7 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 | Field | Value |
 | --- | --- |
-| Topic lane | security / git |
+| Topic lane | git / auth |
 | Pattern | G — expected fix fails |
 | Caption shape | C1 — expected-fix-fails |
 | Label | `interviewer asked :` |
