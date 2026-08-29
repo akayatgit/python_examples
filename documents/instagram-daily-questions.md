@@ -15,7 +15,7 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 | Caption shape | C1 — expected-fix-fails |
 | Label | `interviewer asked :` |
 | Body words | 23 |
-| Caption words | ~250 |
+| Caption words | 238 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | GIT |
 | Status | draft for Ashok |
