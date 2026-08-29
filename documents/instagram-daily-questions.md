@@ -20,7 +20,7 @@ Pulse: %A = “it just drops the managers”, %B = they know NULL poisons NOT IN
 | Label | `🚨 Interviewer asked:` |
 | Body words | 11 |
 | Code | 4 lines |
-| Caption words | 279 |
+| Caption words | 280 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | A / B / C |
 | Picker gates | pass — nouns employees/NULL/NOT IN; trap “exclude the IDs”; camps A vs B |
