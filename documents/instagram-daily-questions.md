@@ -18,6 +18,7 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 | Caption words | 238 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | GIT |
+| Picker gates | pass — noun git/.env/.gitignore; trap “just gitignore”; camps ignore vs rewrite history |
 | Status | caption density approved — question still draft |
 
 ### On-screen (the frame)

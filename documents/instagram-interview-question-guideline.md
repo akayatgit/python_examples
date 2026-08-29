@@ -4,7 +4,7 @@ Source of truth for every on-screen question we post. Write to this file; do not
 
 Audience: Instagram Reels / Stories (9:16). Viewers are software engineers and job-seekers in India preparing for product-company interviews. They scroll fast. The frame must land in under 3 seconds.
 
-This guideline covers **question formation, helper text, and word counts** only. Daily generation and posting are a later decision.
+This guideline covers question formation, helper text, word counts, **topic picking**, and captions. Daily generation and posting are a later decision.
 
 ---
 
@@ -19,6 +19,8 @@ The viewer should feel:
 3. I have to comment, save, or open the caption.
 
 If a senior engineer can answer in one word with no trade-off, the question is too weak for the frame.
+
+If a 0–2 year job-seeker cannot **read the question** without Googling a noun, the topic is too advanced for this feed. Broad audience first. Likes and comments come from “I thought I knew this,” not from staff-level jargon.
 
 ---
 
@@ -269,19 +271,72 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 
 ---
 
-## 8. Topic lanes (rotate; do not stay in one lane)
+## 8. Topic picker — smart, fundamental, high-confusion
 
-| Lane | Patterns that fit | Example topics |
+Ashok lock (2026-08-29): pick topics where developers and job-seekers get **careless, confused, or make the wrong call** — but the topic itself stays **simple and fundamental**. Do not go god-level. If most of the audience cannot even understand the question, we lose likes and comments.
+
+The 13 reference Reels are a **formation** source, not a topic-difficulty source. Their AI-heavy posts (RAG drift, LLM-as-Judge, semantic cache) are style only. We do not copy that altitude.
+
+### 8.1 Five gates (all must pass)
+
+| # | Gate | Pass | Fail |
+| --- | --- | --- | --- |
+| 1 | **Noun test** | A campus student / 0–2 YoE can read every word on the frame without Googling | Frame uses `RAG`, `embeddings`, `LLM-as-Judge`, `vector index`, `CAP`, `CRDT`, `p99`, `Raft` |
+| 2 | **Careless-mistake test** | People do this wrong in real work this month | Only specialists hit this; no everyday decision |
+| 3 | **Wrong-first-answer test** | The first comment most people type is wrong or incomplete | 90% would get it right in one word |
+| 4 | **Two-camp test** | Comments can split (A vs B, “just gitignore”, `[1,2,3]` vs `[1,2,3,4]`) | No argument, no poll energy |
+| 5 | **Teach-in-three-sentences test** | A senior spoken answer fits in 3 sentences in the `Say:` line | The real answer needs a paper or a 40-minute design |
+
+Difficulty band: **first-year to SDE-1 fundamentals with a trap**. Not trivia. Not staff-engineer.
+
+### 8.2 Prefer these nouns (everyday, high confusion)
+
+| Lane | High-confusion fundamentals | Typical wrong first answer |
 | --- | --- | --- |
-| Python gotchas | M | mutability, defaults, `is` vs `==`, late binding, GIL-not-here traps |
-| Web | H, L | CORS, cookies vs localStorage, HTTP vs HTTPS, 301 vs 302 |
-| Backend / DB | B, E, I | delete vs truncate, indexes, N+1, transactions, connection pool |
-| System design | A, C, D | cache, maps traffic, Tatkal, UPI peak, notifications |
-| Security | G, L | JWT logout, stolen cookie, SSRF-not-on-frame, password reset |
-| AI / LLM | A, F, J, K | semantic cache, RAG drift, LLM-as-judge, model choice |
-| Performance | I, E | p99 spike, cache stampede, sync vs async |
+| Python | list alias (`y = x`), mutable default `[]`, `is` vs `==`, `None` in default args | “`y` is a copy” / “new list every call” |
+| Git | `.gitignore` vs history, reset vs revert, merge vs rebase, force-push, commit already on `main` | “just gitignore it” / “reset public main” |
+| Web | HTTP vs HTTPS, CORS on different ports, cookies not set, localStorage vs cookies | “same laptop = same origin” / “HTTPS = security” |
+| DB / SQL | DELETE vs TRUNCATE, `WHERE` without index, `NULL` in unique, `SELECT *` | “same thing, truncate is faster always” |
+| Cache | why not put all data in cache, cache with no invalidation | “cache is faster so use only cache” |
+| Auth | JWT logout, password change but session lives, `.env` on GitHub | “click Logout” / “add gitignore” |
+| Simple design | how Maps knows traffic, why one server dies at 10:00 AM bookings | “cameras / cops” / “just add servers” |
 
-Watch Tower fit: questions should train **interview judgment** (trade-offs, failure modes, “what actually broke”), not trivia.
+### 8.3 Ban on the frame (god-level / narrow)
+
+Do not put these on the frame. Caption may mention a tool name once if the *question* stayed fundamental.
+
+- AI internals: RAG, embeddings, vector DB, LLM-as-Judge, semantic cache, tokenization
+- Distributed deep: Raft, Paxos, CRDT, exactly-once, CAP as the question
+- Niche Python: metaclasses, descriptors, GIL deep dive, async event-loop internals
+- Ops flex: p99/p999, connection-pool stamps, bloom filters as the topic
+- Category chip `AI INTERVIEW` — rare. Prefer `BACKEND`, `PYTHON`, `GIT`, `WEB`
+
+### 8.4 Topic lanes (rotate; stay inside 8.2)
+
+| Lane | Patterns that fit | Use |
+| --- | --- | --- |
+| Python gotchas | M | Default lane for comment bait |
+| Git | B, G, L | Everyday mistakes |
+| Web | H, L | Ports, cookies, HTTP |
+| Backend / DB | B, E | DELETE vs TRUNCATE, cache vs DB |
+| Simple design | C, D, E | Maps, cache-not-all, booking rush — only if nouns stay common |
+| Auth | G | Logout, leaked token, leaked `.env` |
+
+Watch Tower fit: train **interview judgment on things people already think they know**.
+
+### 8.5 Picker examples
+
+**Ship (broad + trap)**  
+- `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
+- `y = x` then `append` — looks like class 11 Python, seniors still miss it.  
+- localhost:3000 vs :8080 CORS — every intern hits this.  
+- DELETE vs TRUNCATE on 100 million rows — two camps, both think they are sure.
+
+**Kill (smart but too tall)**  
+- “How do you make LLM-as-a-Judge reliable?” — noun fail.  
+- “Your embeddings went stale” — noun fail.  
+- “Design a semantic cache for 100 phrasings” — specialist.  
+- “Explain Raft leader election” — god-level, no careless everyday mistake.
 
 ---
 
@@ -292,7 +347,7 @@ Fill every field. Leave optional fields empty rather than padding.
 ```text
 label: Interviewer:
 emoji: 🚨 | 🔥 | none
-category: AI INTERVIEW | SYSTEM DESIGN | BACKEND | none
+category: BACKEND | PYTHON | GIT | WEB | none
 stakes_hook: none | This [x] question cost my friend ₹[n]LPA offer
 pattern: A-M
 scenario: [8-14 words]
@@ -301,11 +356,15 @@ helper_constraint: none | Don't tell me it's [word]
 cta: 📍 Read Caption | Check caption 👇 | Comment link for answer | none
 code: none | 3-5 lines
 options: none | A / B / C
-topic_lane: python | web | backend | design | security | ai | performance
+topic_lane: python | git | web | backend | design | auth
+noun_test: pass | fail
+careless_mistake: pass | fail
+wrong_first_answer: [the cheap comment]
+two_camp: [camp A] vs [camp B]
 word_count_body: [10-28]
 ```
 
-Publish rule: if `word_count_body` is under 10 or over 28, rewrite. Do not ship.
+Publish rule: if `word_count_body` is under 10 or over 28, rewrite. Do not ship. If any section-8 gate fails, rewrite the topic. Do not ship.
 
 ---
 
@@ -464,7 +523,7 @@ interview_tip_say: "[senior 1-3 sentences]"
 one_liner: "[memorize this]"
 mental_model: [optional metaphor]
 in_short: [A → B → C]
-comment_keyword: GIT | CORS | RAG | MAPS
+comment_keyword: GIT | CORS | CACHE | SQL | PYTHON
 keywords: [8-16]
 hashtags: [3-6]
 word_count: [140-280]
@@ -481,6 +540,7 @@ A question is ready to post only if all of these are true:
 - [ ] Body is 10–28 words
 - [ ] Exactly one pattern from section 6
 - [ ] Exactly one interviewer label style
+- [ ] All five section-8 picker gates pass (noun, careless mistake, wrong first answer, two camps, teach in three sentences)
 - [ ] A number, a real system, or a concrete port/value is present
 - [ ] The obvious one-word answer is either wrong or blocked by helper text
 - [ ] No answer text on the frame
@@ -496,21 +556,17 @@ A question is ready to post only if all of these are true:
 
 Use these as calibration. Word counts are body-only.
 
-**A — Scenario + design (18)**  
+**A — Scenario + design (16)**  
 Interviewer:  
-Your search API gets the same query 80 different spellings. How do you design a cache for it?
+Your login API gets the same token 100 times a second. How do you design a cache for it?
 
-**B — Scale + this or that (18)**  
+**B — Scale + this or that (15)**  
 Interviewer:  
-You need to expire 40 million Redis keys at midnight. Will you use TTL or a scan job?
+You need to undo a commit already on main. Will you use reset or revert?
 
 **H — Concrete setup + still why (20)**  
 🚨 Interviewer asked:  
 Your API is working on localhost:5000. UI is working on localhost:5173. Still why do cookies never set?
-
-**F — Worked then broke (21)**  
-Interviewer:  
-Your embeddings search was sharp in January. In April it ranks junk. You didn't change the code. What went wrong?
 
 **G — Expected fix fails (24)**  
 interviewer asked :  
@@ -552,6 +608,9 @@ Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-
 - Fake stakes: `This question ruined 1000 careers`
 - Answer leak: `Hint: think semantic similarity` on the frame
 - Two topics: CORS and JWT in one frame
+- God-level topic: RAG, embeddings, LLM-as-Judge, Raft, CRDT — audience cannot parse the question
+- Specialist-only: true, but only 5% of the feed has heard the noun
+- Trivia with no trap: `What does HTML stand for?`
 - Stub caption: verdict + 4 bullets + “save this” with no myth, no flow, no `Say:` script
 - Caption wall: three long paragraphs and no `____` breaks
 - Caption tease: “answer in comments” with no 💡 Answer in the first screen
@@ -565,7 +624,7 @@ This file is the style contract. It is not the generator.
 When we decide how to ship one question per day, the generator must:
 
 1. Read this guideline
-2. Pick tomorrow’s pattern + topic lane (no repeat of yesterday)
+2. Pick a topic that passes all five section-8 gates, then a pattern (no repeat of yesterday’s lane)
 3. Fill the template in section 9
 4. Count words and fail closed if outside 10–28
 5. Write the caption using section 10 (shape C1–C6, 140–280 words)
@@ -581,7 +640,7 @@ Candidate approaches (do not build until we pick one):
 
 ## 15. Reference set (the style we matched)
 
-These are the source posts this guideline was distilled from. Keep new work inside this distribution.
+These are the source posts this guideline was distilled from. Match their **formation and caption layout**. Do **not** match their hardest AI topics. Keep new work inside the section-8 difficulty band.
 
 | # | Pattern | Body words | Helper / extra |
 | --- | --- | --- | --- |
