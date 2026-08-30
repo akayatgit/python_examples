@@ -141,31 +141,29 @@ In short: already on main → revert. reset only if you are alone.
 
 ---
 
-## POST 002 — Gmail `while(1);` (researched SO outlier)
+## POST 002 — YouTube frozen at 301 (on-screen outlier)
 
-Not invented. Pulled from a mystery that already exploded on Stack Overflow.
+The glitch is on the YouTube screen. Not in a hidden file.
 
-- Source: [Why does Google prepend while(1); to their JSON responses?](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses) — **4,510 votes, 611,442 views**, 8 answers.
-- Twin on Facebook: `for(;;);` in front of the same kind of private data. Same lock.
-- Twitter-side outlier parked as 003: YouTube view counter freeze at 301 (`@YTCreators` tweet, Numberphile, The Verge).
+- Twitter: `@YTCreators` said goodbye to **301+**. Numberphile + [The Verge](https://www.theverge.com/2012/6/26/3118510/youtube-view-count-301) ran the mystery. People saw the number die on the watch page.
+- Stack Overflow family: view count on the page ≠ API / comments still climb ([SO/3657255](https://stackoverflow.com/questions/3657255/the-views-displayed-on-youtube-do-not-correlate-with-the-views-indicated-in-the), [SO/11789772](https://stackoverflow.com/questions/11789772/how-does-youtube-count-its-views)).
+- **Killed for this feed:** Gmail `while(1);` — Ashok: after Gmail opens you only see emails. The freeze is in a hidden network file. Frame was a lie. Park that topic for a DevTools intern lane, not this audience.
 - Killed as LLM-default: last Swiggy biryani, Maps 3AM, Tatkal, WhatsApp grey bubble, PAY twice.
 
-Pulse: %BUG = they left a debug loop. %LOCK = they hung a thief.
-
-Killed draft: `You peek at Gmail’s own data` — Ashok: no context, beginners cannot picture the scene.
+Pulse: %BROKEN = the counter crashed. %CHECK = they are auditing fake plays.
 
 | Field | Value |
 | --- | --- |
-| Topic lane | product / Gmail |
-| Pattern | N4 — expected clean data still “fails” |
+| Topic lane | product / YouTube |
+| Pattern | N3 — worked, then froze, you changed nothing |
 | Caption shape | C1 |
 | Label | `Interviewer:` |
-| Body words | 28 |
-| Caption words | 280 |
+| Body words | 23 |
+| Caption words | 277 |
 | Helper / CTA | `Answer in caption ⬇️` |
-| Comment keyword | BUG or LOCK |
-| Status | ready to post — beginner scene + gloss |
-| Sources | SO/2669690 (4,510 / 611k). Facebook freeze twin. |
+| Comment keyword | BROKEN or CHECK |
+| Status | ready to post — on-screen glitch |
+| Sources | @YTCreators; Numberphile; The Verge 2012/2015; SO view-count mismatch |
 
 ### COPY — FRAME
 
@@ -174,10 +172,10 @@ Paste this on the Reel.
 ```
 Interviewer:
 
-You open Gmail. The browser gets your inbox from Google.
-It starts with while(1); which means loop forever.
-Mail still opens.
-Is that a bug, or a lock?
+Your new YouTube video hits 301 views.
+Comments keep coming in.
+The view number is frozen.
+Is YouTube broken, or is it checking?
 
 Answer in caption ⬇️
 ```
@@ -189,85 +187,86 @@ Paste this in the Instagram caption box.
 ```
 Read it 👇
 
-🔒 You opened Gmail. Google sent a freeze first.
+🔒 The views did not die. YouTube hid the next ones.
 
-💡 Answer: A lock. Gmail throws the freeze away. A thief cannot.
+💡 Answer: Checking. They freeze the public number to catch fake plays.
 
 A lot of people reach for:
-Someone left a debug loop.
+YouTube is down. The counter crashed.
 That’s incomplete. Not dumb.
 
 ____
 
 What they actually built 🤔
 
-You open Gmail. The browser asks Google for your inbox.
+Early views go on the screen live.
 
-Google sends a text file back.
+Around 300, a hot video can be a bot farm.
 
-A bad site can ask for that file while you are logged in.
+So they freeze the number you see.
 
-A clean file lets them steal your inbox.
+Comments and likes still move.
 
-So Google writes while(1); at the top.
+Behind the freeze they score each play: human or script.
 
-That means loop forever. The bad site gets stuck.
+Why 301, not 300?
 
-Gmail deletes that first line.
+The stop rule was written as “less than or equal to 300.”
+
+One extra view slipped through. Then the door shut.
 
 ____
 
 Real Flow ⚡
 
-you open Gmail
+video goes up
 ↓
-browser asks Google for your inbox
+first 300 plays update live
 ↓
-a bad site tries the same trick
+hit the freeze line
 ↓
-while(1); hangs the thief
+screen holds at 301
 ↓
-Gmail deletes the first line
+bots get filtered
+↓
+real views get added back
 
 ____
 
 ✅ 1. Not a crash
-Mail opening is the tell.
+Comments climbing is the tell.
 
-✅ 2. The freeze is the lock
-A clean file was the hole.
-
-✅ 3. Only Gmail has the scissors
-The thief gets the loop.
+✅ 2. 301 is an off-by-one
+They meant to stop at 300.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "Google left a random loop."
+❌ Instead of saying: "The view API is slow."
 
 Say:
-"Google sends my inbox with while(1); on top. A bad site that runs that file gets stuck. Gmail deletes the first line and shows my mail."
+"YouTube pauses the public counter once a video is hot enough to fake. 301 is a freeze-for-audit, plus an off-by-one in the stop rule."
 
 That's a stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "The freeze is a lock. Gmail has the key."
+👉 "301 is a lock on the scoreboard, not on the game."
 
 🧠 Mental model
-Inbox = diary. while(1); = jammed lock.
+Views = goals. Counter = stadium screen.
 
 ____
 
-In short: while(1); stops a thief. It does not break Gmail.
+In short: frozen 301 = checking bots, not a dead server.
 
 🔖 Save this for your next interview.
 
-💬 Comment BUG or LOCK before you scroll.
+💬 Comment BROKEN or CHECK before you scroll.
 
-(gmail, while(1), lock, inbox, browser, interview, placement)
+(youtube, 301, view count, bots, audit, interview, placement)
 
-#Gmail #SystemDesign #BackendDevelopment #InterviewPrep #Placement
+#YouTube #SystemDesign #BackendDevelopment #InterviewPrep #Placement
 ```

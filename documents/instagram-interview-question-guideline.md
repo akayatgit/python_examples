@@ -22,6 +22,8 @@ From 002, write an **outlier that already worked on Twitter or Stack Overflow**.
 
 **LLM-default / do not invent:** last Swiggy biryani, Maps 3AM cameras, Tatkal 2M vs 500, WhatsApp “Waiting for this message”, PAY twice, JWT logout. Those taught Pattern N only.
 
+**Hidden-file / do not ship on this feed:** Gmail `while(1);`. After the app opens, the user only sees emails. The freeze is in DevTools. Wrong audience.
+
 The viewer should feel:
 
 1. I know this… wait, do I?
@@ -305,7 +307,7 @@ The 13 reference Reels are a **formation** source, not a topic-difficulty source
 
 | # | Gate | Pass | Fail |
 | --- | --- | --- | --- |
-| 1 | **Noun test** | A campus student / 0–2 YoE can picture the scene and read every word without Googling. First-year code gets a spoken gloss on the frame (`while(1)` = loop forever) | Insider setup with no scene (`peek at Gmail’s own data`). Frame uses `RAG`, `embeddings`, `LLM-as-Judge`, `vector index`, `CAP`, `CRDT`, `p99`, `Raft` |
+| 1 | **Noun + on-screen test** | A campus student can picture the **product screen** they have used. The glitch is on that screen (frozen 301, grey bubble, wrong green square) | Hidden file / DevTools / “Gmail starts with while(1)” when Gmail shows emails. If a beginner would say “but I only see my emails,” the frame is a lie. Also: `RAG`, `embeddings`, `LLM-as-Judge`, `CAP`, `CRDT`, `p99`, `Raft` |
 | 2 | **Careless-mistake test** | People do this wrong in real work this month | Only specialists hit this; no everyday decision |
 | 3 | **Wrong-first-answer test** | The first comment most people type is wrong or incomplete | 90% would get it right in one word |
 | 4 | **Two-camp test** | Comments can split (A vs B, “just gitignore”, `[1,2,3]` vs `[1,2,3,4]`) | No argument, no poll energy |
@@ -317,7 +319,7 @@ Difficulty band: **first-year to SDE-1 fundamentals with a trap**. One level abo
 
 Ashok lock (2026-08-30): an LLM cannot invent a new outlier. **Search first.** Next post = a mystery that already landed on Twitter or Stack Overflow, rewritten in our frame. Never a common system-design prompt.
 
-Ashok lock (2026-08-30): researched is not enough. If a beginner cannot **picture what they are looking at**, the frame has no context. Kill `You peek at Gmail’s own data`. Setup must be a scene they have lived (`You open Gmail. The browser gets your inbox.`). Gloss first-year code in the same breath.
+Ashok lock (2026-08-30): researched is not enough. The glitch must be **on the product screen**. Kill Gmail `while(1);` on this feed — after Gmail opens, the user only sees emails. A hidden network prefix is not a beginner scene. Setup must be a moment they have watched with their own eyes (`Your video hits 301. The number freezes. Comments still come.`).
 
 ### 8.2 Prefer these nouns (everyday, high confusion)
 
@@ -357,9 +359,11 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 ### 8.5 Picker examples
 
-**Ship from 002 (researched, already worked)**  
-- Gmail / Calendar `while(1);` prefix — [SO/2669690](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses), 4,510 votes, 611k views. Facebook twin: `for(;;);`.  
-- YouTube view counter freeze at 301 — Twitter (`@YTCreators`), Numberphile, The Verge. Parked as 003.
+**Ship from 002 (researched + on the product screen)**  
+- YouTube view counter freeze at 301 — Twitter (`@YTCreators`), Numberphile, The Verge. SO view-count mismatch threads.
+
+**Do not ship on this feed (hidden file, not the screen)**  
+- Gmail / Calendar `while(1);` — [SO/2669690](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses) already worked on Stack Overflow. Park for a DevTools intern lane. After Gmail opens you only see emails.
 
 **Do not ship (textbook / dead pulse)**  
 - `reset vs revert`, `merge vs rebase`, `10GB zip → 3GB where did 7GB go`, `COUNT(*)` vs `COUNT(email)`, `= NULL`, `.gitignore` as the hook.
@@ -649,6 +653,7 @@ Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-
 - Two topics: CORS and JWT in one frame
 - Clone of a training Reel or guideline example (`y = x` append, CORS :3000/:8080, DELETE vs TRUNCATE, …)
 - LLM-invented last-item / last-seat / grey-bubble / PAY-twice scene with no Twitter or Stack Overflow proof
+- Hidden-file frame: the glitch is only in DevTools / a network prefix (`while(1);`) while the app screen shows something else (emails). If a beginner would say “but I only see my emails,” kill it.
 - Pen-and-paper frame: nested subquery, `NOT IN` + NULL, anything that needs a truth table to parse
 - God-level topic: RAG, embeddings, LLM-as-Judge, Raft, CRDT — audience cannot parse the question
 - Specialist-only: true, but only 5% of the feed has heard the noun
