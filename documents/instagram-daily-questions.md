@@ -6,7 +6,7 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 Every post must include a **COPY — FRAME** block and a **COPY — CAPTION** block so Ashok can paste while creating the Reel.
 
-From 002, use Pattern **N1–N6** (Maps-denial, Tatkal-fight, worked-then-broke, expected-fix-fails, 1-vs-N writes, two-taps-one-resource). Clone the shape. Never clone the guidance body.
+From 002, use a **researched outlier** that already worked on Twitter or Stack Overflow. Cite the URL. Pattern N1–N6 is the shape only. Never invent a last-item / last-seat / grey-bubble riddle.
 
 ---
 
@@ -141,23 +141,29 @@ In short: already on main → revert. reset only if you are alone.
 
 ---
 
-## POST 002 — last biryani on Swiggy (real product)
+## POST 002 — Gmail `while(1);` (researched SO outlier)
 
-001 died as a textbook FAQ. 002 is a lived product moment. How the team actually stops two orders for one plate.
+Not invented. Pulled from a mystery that already exploded on Stack Overflow.
 
-Pulse: %CHECK = if stock > 0 then order. %HOLD = they reserve the last plate.
+- Source: [Why does Google prepend while(1); to their JSON responses?](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses) — **4,510 votes, 611,442 views**, 8 answers.
+- Twin on Facebook: `for(;;);` in front of the same kind of private data. Same lock.
+- Twitter-side outlier parked as 003: YouTube view counter freeze at 301 (`@YTCreators` tweet, Numberphile, The Verge).
+- Killed as LLM-default: last Swiggy biryani, Maps 3AM, Tatkal, WhatsApp grey bubble, PAY twice.
+
+Pulse: %BUG = they left a debug loop. %LOCK = they hung a thief.
 
 | Field | Value |
 | --- | --- |
-| Topic lane | product / inventory |
-| Pattern | N6 — two taps, one resource |
-| Caption shape | C1 — expected-fix-fails |
+| Topic lane | product / Gmail |
+| Pattern | N4 — expected clean data still “fails” |
+| Caption shape | C1 |
 | Label | `Interviewer:` |
-| Body words | 28 |
-| Caption words | 273 |
+| Body words | 20 |
+| Caption words | 280 |
 | Helper / CTA | `Answer in caption ⬇️` |
-| Comment keyword | CHECK or HOLD |
+| Comment keyword | BUG or LOCK |
 | Status | ready to post — copy-paste below |
+| Sources | SO/2669690 (4,510 / 611k). Facebook `for(;;);`. |
 
 ### COPY — FRAME
 
@@ -166,13 +172,10 @@ Paste this on the Reel.
 ```
 Interviewer:
 
-You're ordering the last biryani on Swiggy.
-It's in your roommate's cart too.
-You both tap Place Order.
-
-💀 One plate. Two orders.
-
-How do they stop this?
+You peek at Gmail’s own data.
+It starts with while(1);
+Mail still loads.
+Is that a bug, or a lock?
 
 Answer in caption ⬇️
 ```
@@ -184,92 +187,85 @@ Paste this in the Instagram caption box.
 ```
 Read it 👇
 
-🍛 The last plate cannot go to two homes.
+🔒 Gmail hung its own data. On purpose.
 
-Interviewer:
-
-You're ordering the last biryani on Swiggy.
-It's in your roommate's cart too.
-You both tap Place Order.
-
-💀 One plate. Two orders.
-
-How do they stop this?
-
-💡 Answer: They hold the plate at Place Order. They do not check, then cook.
+💡 Answer: A lock. Gmail cuts the freeze. A thief’s page cannot.
 
 A lot of people reach for:
-if stock is 1, let both orders through
+Someone left a debug loop.
 That’s incomplete. Not dumb.
 
 ____
 
 What they actually built 🤔
 
-The cart is not a booking.
+A stranger’s site can ride your Gmail login.
 
-Both of you can stare at that last biryani.
+It tries to run Gmail’s data as a program.
 
-The fight starts at Place Order.
+A clean list lets them steal your inbox.
 
-One tap wins the hold.
+So Google puts while(1); in front.
 
-The other tap gets “item unavailable”.
+The thief’s page freezes.
+
+Gmail deletes those first characters, then reads the mail.
+
+Facebook did the same with for(;;);
 
 ____
 
 Real Flow ⚡
 
-stock = 1 biryani
+you are logged into Gmail
 ↓
-two Place Order taps
+a bad site asks for your inbox
 ↓
-first tap locks the plate
+browser sends it with your login
 ↓
-second tap sees 0
+while(1); hangs the thief
 ↓
-one order lives
+Gmail strips the freeze and reads
 
 ____
 
-✅ 1. Reserve on Place Order
-Not when it lands in the cart.
+✅ 1. This is not a crash
+Mail still loading is the tell.
 
-✅ 2. One lock. One plate.
-The second request loses.
+✅ 2. The freeze is the lock
+Clean data was the hole.
 
-✅ 3. If payment fails
-The hold drops. The plate comes back.
+✅ 3. Only Gmail has the scissors
+The thief gets the loop.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "I would check stock, then place the order."
+❌ Instead of saying: "Google left a random loop."
 
 Say:
-"Two checkouts can pass a stock check together. I reserve the last plate at Place Order, so only one order holds it."
+"Gmail prefixes a freeze so a stranger’s page cannot run my inbox as a script. Their client strips while(1); first. The lock is for the thief, not for me."
 
-That's a much stronger interview answer.
+That's a stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "The cart is a window. Place Order is the lock."
+👉 "The freeze is a lock. Gmail has the key."
 
 🧠 Mental model
-Cart = looking at the last shirt in the shop
-Place Order = the staff putting it behind the counter
+Inbox = diary. while(1); = jammed lock.
 
 ____
 
-In short: hold the last plate at checkout. Don’t trust the cart.
+In short: while(1); stops a thief. It does not break Gmail.
 
-🔖 Save this for your next product / backend interview.
+🔖 Save this for your next web interview.
 
-💬 Comment CHECK or HOLD before you scroll.
+💬 Comment BUG or LOCK before you scroll.
 
-(swiggy, inventory, checkout, race, stock lock, backend, product, coding interview, placement)
+(gmail, while(1), json, lock, inbox, interview, placement)
 
-#Swiggy #SystemDesign #BackendDevelopment #InterviewPrep #Placement
+#Gmail #SystemDesign #BackendDevelopment #InterviewPrep #Placement
 ```

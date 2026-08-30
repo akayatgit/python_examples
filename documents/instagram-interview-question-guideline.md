@@ -16,9 +16,11 @@ A winning post is a **real product moment, not a textbook FAQ**.
 
 Ashok pulse (001): `git reset` vs `git revert` died. People can search that.
 
-From 002, write an **outlier product scene**: Maps with no cameras, Tatkal at 10:00:00, WhatsApp 1 vs 1,024 writes, last biryani, PAY twice. Then how the team actually built it.
+From 002, write an **outlier that already worked on Twitter or Stack Overflow**. Cite the URL and the votes / views / official tweet. Do not invent a Swiggy / Maps / last-item riddle — an LLM will always pick those.
 
 **Textbook / dead pulse (do not write this):** `How does 10GB become 3GB when zipped? Where did the 7GB go?` Same family as reset vs revert — a FAQ puzzle, not a product.
+
+**LLM-default / do not invent:** last Swiggy biryani, Maps 3AM cameras, Tatkal 2M vs 500, WhatsApp “Waiting for this message”, PAY twice, JWT logout. Those taught Pattern N only.
 
 The viewer should feel:
 
@@ -299,7 +301,7 @@ Ashok lock (2026-08-29): pick topics where developers and job-seekers get **care
 
 The 13 reference Reels are a **formation** source, not a topic-difficulty source. Their AI-heavy posts (RAG drift, LLM-as-Judge, semantic cache) are style only. We do not copy that altitude.
 
-### 8.1 Five gates (all must pass)
+### 8.1 Seven gates (all must pass)
 
 | # | Gate | Pass | Fail |
 | --- | --- | --- | --- |
@@ -309,8 +311,11 @@ The 13 reference Reels are a **formation** source, not a topic-difficulty source
 | 4 | **Two-camp test** | Comments can split (A vs B, “just gitignore”, `[1,2,3]` vs `[1,2,3,4]`) | No argument, no poll energy |
 | 5 | **Teach-in-three-sentences test** | A senior spoken answer fits in 3 sentences in the `Say:` line | The real answer needs a paper or a 40-minute design |
 | 6 | **Mind-game test** | Readable in 2 seconds. Solvable in your head while scrolling | Nested query, truth table, pen-and-paper (`NOT IN` + NULL) |
+| 7 | **Researched-traction test** | A live Twitter/X or Stack Overflow URL already proved this mystery. Cite votes, views, or the official tweet in the post header | Invented product riddle (last biryani, last seat, grey bubble, PAY twice). “I thought of a scene” is a fail |
 
 Difficulty band: **first-year to SDE-1 fundamentals with a trap**. One level above the fact everyone already recites (`IS NULL`). **Mind game, not homework.** If the viewer needs a pen, a nested query, or a truth table to even *read* the frame, it is too hard for the feed. Not trivia. Not staff-engineer.
+
+Ashok lock (2026-08-30): an LLM cannot invent a new outlier. **Search first.** Next post = a mystery that already landed on Twitter or Stack Overflow, rewritten in our frame. Never a common system-design prompt.
 
 ### 8.2 Prefer these nouns (everyday, high confusion)
 
@@ -350,13 +355,15 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 ### 8.5 Picker examples
 
-**Ship from 002 (cousin of N1–N6, new body)**  
-- Last biryani, two Swiggy carts — N6.  
-- Ola pin drops on the wrong terminal — N1 cousin.  
-- Instagram broadcast: 1 write or 1 million writes — N5 cousin, not WhatsApp 1,024.
+**Ship from 002 (researched, already worked)**  
+- Gmail / Calendar `while(1);` prefix — [SO/2669690](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses), 4,510 votes, 611k views. Facebook twin: `for(;;);`.  
+- YouTube view counter freeze at 301 — Twitter (`@YTCreators`), Numberphile, The Verge. Parked as 003.
 
 **Do not ship (textbook / dead pulse)**  
 - `reset vs revert`, `merge vs rebase`, `10GB zip → 3GB where did 7GB go`, `COUNT(*)` vs `COUNT(email)`, `= NULL`, `.gitignore` as the hook.
+
+**Do not ship (LLM-default product riddle)**  
+- Last Swiggy biryani, Maps 3AM / no cameras, IRCTC Tatkal, WhatsApp grey bubble, PAY twice, JWT logout still works. Shape only. Never the body.
 
 **Do not ship (reference clones)**  
 The 13 training Reels and the guideline’s worked copies (`y = x` append, HTTP vs HTTPS, CORS ports, DELETE vs TRUNCATE, JWT logout, cache vs DB, Maps, RAG, LLM-as-Judge, IRCTC, Orders API latency) are **style only**. Recreating them is a reject.
@@ -570,7 +577,7 @@ A question is ready to post only if all of these are true:
 - [ ] Body is complete sentences and ends in a decision (`Will you use X or Y?`)
 - [ ] Exactly one pattern from section 6
 - [ ] Exactly one interviewer label style
-- [ ] All six section-8 picker gates pass (including mind-game / no pen-and-paper)
+- [ ] All seven section-8 picker gates pass (including mind-game and researched-traction)
 - [ ] A number, a real system, or a concrete port/value is present
 - [ ] The obvious one-word answer is either wrong or blocked by helper text
 - [ ] No answer text on the frame
@@ -639,6 +646,7 @@ Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-
 - Answer leak: `Hint: think semantic similarity` on the frame
 - Two topics: CORS and JWT in one frame
 - Clone of a training Reel or guideline example (`y = x` append, CORS :3000/:8080, DELETE vs TRUNCATE, …)
+- LLM-invented last-item / last-seat / grey-bubble / PAY-twice scene with no Twitter or Stack Overflow proof
 - Pen-and-paper frame: nested subquery, `NOT IN` + NULL, anything that needs a truth table to parse
 - God-level topic: RAG, embeddings, LLM-as-Judge, Raft, CRDT — audience cannot parse the question
 - Specialist-only: true, but only 5% of the feed has heard the noun
@@ -656,7 +664,7 @@ This file is the style contract. It is not the generator.
 When we decide how to ship one question per day, the generator must:
 
 1. Read this guideline
-2. Pick a topic that passes all six section-8 gates (mind-game included), then a pattern (no repeat of yesterday’s lane)
+2. Pick a topic that passes all seven section-8 gates (mind-game and researched-traction included), then a pattern (no repeat of yesterday’s lane)
 3. Fill the template in section 9
 4. Count words and fail closed if outside 10–28
 5. Write the caption using section 10 (shape C1–C6, 140–280 words)
