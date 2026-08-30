@@ -6,7 +6,7 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 Every post must include a **COPY — FRAME** block and a **COPY — CAPTION** block so Ashok can paste while creating the Reel.
 
-From 002, use a **researched outlier** that already worked on Twitter or Stack Overflow. Cite the URL. Pattern N1–N6 is the shape only. Never invent a last-item / last-seat / grey-bubble riddle.
+From 002: researched + **on the product screen** + mental **RCA**. Frame: easy scene, then `How do you find the root cause?` / `What do you do?` Not a consumer poll. Not a hidden file.
 
 ---
 
@@ -141,29 +141,30 @@ In short: already on main → revert. reset only if you are alone.
 
 ---
 
-## POST 002 — YouTube frozen at 301 (on-screen outlier)
+## POST 002 — YouTube 301 (mental RCA)
 
-The glitch is on the YouTube screen. Not in a hidden file.
+Easy on-screen scene. Then: how do you find the root cause. Not a consumer poll.
 
-- Twitter: `@YTCreators` said goodbye to **301+**. Numberphile + [The Verge](https://www.theverge.com/2012/6/26/3118510/youtube-view-count-301) ran the mystery. People saw the number die on the watch page.
-- Stack Overflow family: view count on the page ≠ API / comments still climb ([SO/3657255](https://stackoverflow.com/questions/3657255/the-views-displayed-on-youtube-do-not-correlate-with-the-views-indicated-in-the), [SO/11789772](https://stackoverflow.com/questions/11789772/how-does-youtube-count-its-views)).
-- **Killed for this feed:** Gmail `while(1);` — Ashok: after Gmail opens you only see emails. The freeze is in a hidden network file. Frame was a lie. Park that topic for a DevTools intern lane, not this audience.
-- Killed as LLM-default: last Swiggy biryani, Maps 3AM, Tatkal, WhatsApp grey bubble, PAY twice.
+- Twitter: `@YTCreators` / Numberphile / [The Verge](https://www.theverge.com/2012/6/26/3118510/youtube-view-count-301). People saw 301 die on the watch page.
+- SO family: page count ≠ comments / API ([SO/3657255](https://stackoverflow.com/questions/3657255/the-views-displayed-on-youtube-do-not-correlate-with-the-views-indicated-in-the)).
+- **Killed:** `Is YouTube broken, or is it checking?` — Ashok: that is not a developer question. Niche is mental RCA.
+- **Killed:** Gmail `while(1);` — hidden file, not the screen.
+- Killed as LLM-default: last Swiggy biryani, Maps 3AM, Tatkal, WhatsApp grey bubble.
 
-Pulse: %BROKEN = the counter crashed. %CHECK = they are auditing fake plays.
+Pulse: %COUNTER = I debug the number. %PLAYS = I follow one view first.
 
 | Field | Value |
 | --- | --- |
 | Topic lane | product / YouTube |
 | Pattern | N3 — worked, then froze, you changed nothing |
-| Caption shape | C1 |
+| Caption shape | C7 — mental RCA |
 | Label | `Interviewer:` |
-| Body words | 23 |
-| Caption words | 277 |
+| Body words | 21 |
+| Caption words | 280 |
 | Helper / CTA | `Answer in caption ⬇️` |
-| Comment keyword | BROKEN or CHECK |
-| Status | ready to post — on-screen glitch |
-| Sources | @YTCreators; Numberphile; The Verge 2012/2015; SO view-count mismatch |
+| Comment keyword | COUNTER or PLAYS |
+| Status | ready to post — RCA niche |
+| Sources | @YTCreators; Numberphile; The Verge; SO view-count mismatch |
 
 ### COPY — FRAME
 
@@ -173,9 +174,8 @@ Paste this on the Reel.
 Interviewer:
 
 Your new YouTube video hits 301 views.
-Comments keep coming in.
-The view number is frozen.
-Is YouTube broken, or is it checking?
+Comments keep coming. The number is frozen.
+How do you find the root cause?
 
 Answer in caption ⬇️
 ```
@@ -187,86 +187,82 @@ Paste this in the Instagram caption box.
 ```
 Read it 👇
 
-🔒 The views did not die. YouTube hid the next ones.
+🔒 The number froze. The product did not.
 
-💡 Answer: Checking. They freeze the public number to catch fake plays.
+💡 Answer: Follow one play. Do not debug the number first.
 
 A lot of people reach for:
-YouTube is down. The counter crashed.
+I will fix the counter.
 That’s incomplete. Not dumb.
 
 ____
 
-What they actually built 🤔
+How you find the root cause 🤔
 
-Early views go on the screen live.
+First: is anything still moving?
 
-Around 300, a hot video can be a bot farm.
+Comments are climbing. Plays are still happening.
 
-So they freeze the number you see.
+Second: is the number the truth, or just a screen?
 
-Comments and likes still move.
+The screen can pause on purpose.
 
-Behind the freeze they score each play: human or script.
+Third: why pause at 301?
 
-Why 301, not 300?
+They hold the public number to catch fake plays.
 
-The stop rule was written as “less than or equal to 300.”
+The stop rule was “less than or equal to 300.”
 
-One extra view slipped through. Then the door shut.
+One extra view slipped.
 
 ____
 
 Real Flow ⚡
 
-video goes up
+you check comments. they still move
 ↓
-first 300 plays update live
+you follow one play, not the widget
 ↓
-hit the freeze line
+public number is on hold for an audit
 ↓
-screen holds at 301
-↓
-bots get filtered
-↓
-real views get added back
+301 is an off-by-one in the stop rule
 
 ____
 
-✅ 1. Not a crash
-Comments climbing is the tell.
+✅ 1. Start with what still works
+Comments climbing kills “the app is down.”
 
-✅ 2. 301 is an off-by-one
-They meant to stop at 300.
+✅ 2. Separate the screen from the truth
+The number can freeze. The views can still count.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "The view API is slow."
+❌ Instead of saying: "I would restart the view service."
 
 Say:
-"YouTube pauses the public counter once a video is hot enough to fake. 301 is a freeze-for-audit, plus an off-by-one in the stop rule."
+"I would not debug the counter first. Comments still moving means plays are alive. I follow one play. 301 is an audit hold plus an off-by-one."
 
 That's a stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "301 is a lock on the scoreboard, not on the game."
+👉 "If the comments move, do not start at the number."
 
 🧠 Mental model
-Views = goals. Counter = stadium screen.
+Number = scoreboard. Play = the match.
 
 ____
 
-In short: frozen 301 = checking bots, not a dead server.
+In short: find what still works. Then follow one play.
 
 🔖 Save this for your next interview.
 
-💬 Comment BROKEN or CHECK before you scroll.
+💬 Comment COUNTER or PLAYS before you scroll.
 
-(youtube, 301, view count, bots, audit, interview, placement)
+(youtube, 301, root cause, debug, view count, interview, placement)
 
 #YouTube #SystemDesign #BackendDevelopment #InterviewPrep #Placement
 ```

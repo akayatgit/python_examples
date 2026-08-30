@@ -12,7 +12,9 @@ This guideline covers question formation, helper text, word counts, **topic pick
 
 ## 1. What a winning post is
 
-A winning post is a **real product moment, not a textbook FAQ**.
+**Niche (Ashok, 2026-08-30):** mental **root cause analysis**. Easy scene on the product screen. Then: how do you find the root cause, or what do you do in this situation. Not a consumer poll (`Is YouTube broken?`). Not a hidden-file riddle. Not a textbook FAQ.
+
+A winning post is a **real product moment + an RCA decision**, not trivia.
 
 Ashok pulse (001): `git reset` vs `git revert` died. People can search that.
 
@@ -45,7 +47,7 @@ Measured on the **on-screen question body** only. Do not count the interviewer l
 | On-screen question body | **10–28** | Sweet spot **18–26**. Hard cap **28**. Not a one-liner. |
 | Situation sentence | **8–14** | What happened. |
 | Pressure sentence | **5–10** | Who else is in the story. Why it is not easy. |
-| Decision sentence | **6–10** | `Will you use X or Y?` |
+| Decision sentence | **6–10** | `How do you find the root cause?` / `What do you check first?` / `What do you do?` |
 | Helper / constraint line | **4–9** | Optional. Used when the obvious answer must be blocked. |
 | Stakes hook | **7–11** | Optional. Salary / offer / “this one question” line. |
 | Category chip | **1–3** | Optional. Example: `AI INTERVIEW`. |
@@ -246,7 +248,9 @@ Options: A / B / C. One trap, one correct, one crash/error.
 
 ### Pattern N — Real product outlier (default from POST 002)
 
-Named product the viewer uses. A number or a denial. A glitch they have felt. Then a decision or `How do they stop this?`
+Named product the viewer uses. A number or a denial. A glitch they have felt **on the screen**. Then an RCA ask: `How do you find the root cause?` / `What do you check first?` / `What do you do?`
+
+Do not end on a consumer poll (`Is YouTube broken, or is it checking?` / `Is that a bug, or a lock?`).
 
 Do not name the CS term on the frame (`idempotency`, `fanout`, `embedding drift`). Caption can.
 
@@ -272,7 +276,7 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 **Do**
 
 - Spoken English a 0–2 YoE can hear once. Three beats: situation, constraint, decision. Interviewers do not ask one line.
-- End with a **decision**: `Will you use X or Y?` / `Still why…?` / `How do you…?`
+- End with an **RCA decision**: `How do you find the root cause?` / `What do you check first?` / `What do you do?` Two camps are two first moves (`COUNTER` vs `PLAYS`), not two product opinions.
 - Confuse them. Do not make them look dumb. Two real tools. A real tradeoff. No quiz-gotcha.
 - Second person: `Your API`, `You need to`, `You immediately click Logout`
 - Concrete nouns: `Orders API`, `JWT token`, `IRCTC Tatkal`, `localhost:3000`
@@ -359,8 +363,8 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 ### 8.5 Picker examples
 
-**Ship from 002 (researched + on the product screen)**  
-- YouTube view counter freeze at 301 — Twitter (`@YTCreators`), Numberphile, The Verge. SO view-count mismatch threads.
+**Ship from 002 (researched + on the product screen + RCA)**  
+- YouTube view counter freeze at 301 — Twitter (`@YTCreators`), Numberphile, The Verge. Frame ask: `How do you find the root cause?` Not `Is YouTube broken?`
 
 **Do not ship on this feed (hidden file, not the screen)**  
 - Gmail / Calendar `while(1);` — [SO/2669690](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses) already worked on Stack Overflow. Park for a DevTools intern lane. After Gmail opens you only see emails.
@@ -532,6 +536,13 @@ In short: [rotate / choose / do this → then that]
 4. `What actually causes this:` `→` concept — definition
 5. `The production pattern:` `Monitor → detect → fix → swap`
 
+**C7 — Mental RCA** (default from POST 002)
+
+1. `How you find the root cause` — First / Second / Third checks. Spoken. No jargon stack.
+2. `Real Flow` — the investigation, not the product internals first
+3. What a junior touches first vs what still works
+4. Only then the real root cause (one number, one sentence)
+
 ### 10.4 Caption voice laws
 
 **Do**
@@ -558,7 +569,7 @@ In short: [rotate / choose / do this → then that]
 headline: [5-10 words]
 answer_line: [max 12 words]
 myth: [the cheap answer]
-teaching_shape: C1-C6
+teaching_shape: C1-C7
 steps_or_points: [3-8]
 interview_tip_dont: "[junior]"
 interview_tip_say: "[senior 1-3 sentences]"
@@ -580,7 +591,8 @@ Publish rule: if the caption is under 140 words or has fewer than 6 sections, re
 A question is ready to post only if all of these are true:
 
 - [ ] Body is 10–28 words
-- [ ] Body is complete sentences and ends in a decision (`Will you use X or Y?`)
+- [ ] Body is complete sentences, easy to picture, and ends in an RCA ask (`How do you find the root cause?` / `What do you check first?`)
+- [ ] Not a consumer poll (`broken or checking`, `bug or lock`)
 - [ ] Exactly one pattern from section 6
 - [ ] Exactly one interviewer label style
 - [ ] All seven section-8 picker gates pass (including mind-game and researched-traction)
@@ -588,7 +600,7 @@ A question is ready to post only if all of these are true:
 - [ ] The obvious one-word answer is either wrong or blocked by helper text
 - [ ] No answer text on the frame
 - [ ] Caption is 140–280 words, 6–10 sections, heavy line breaks
-- [ ] Caption has hook, 💡 Answer, first-tool-is-incomplete (no dunking), teaching block (C1–C6), Interview Tip, one-liner, In short, Save, comment keyword, keywords, hashtags
+- [ ] Caption has hook, 💡 Answer, first-tool-is-incomplete (no dunking), teaching block (C1–C7), Interview Tip, one-liner, In short, Save, comment keyword, keywords, hashtags
 - [ ] Interview Tip has an ❌ line and a spoken `Say:` script
 - [ ] Pattern and topic lane differ from yesterday
 - [ ] Code (if any) is 3–5 lines and has one surprising print/output
@@ -674,7 +686,7 @@ When we decide how to ship one question per day, the generator must:
 2. Pick a topic that passes all seven section-8 gates (mind-game and researched-traction included), then a pattern (no repeat of yesterday’s lane)
 3. Fill the template in section 9
 4. Count words and fail closed if outside 10–28
-5. Write the caption using section 10 (shape C1–C6, 140–280 words)
+5. Write the caption using section 10 (shape C1–C7, 140–280 words)
 6. Store the pair so we never repeat a body
 
 Candidate approaches (do not build until we pick one):

@@ -11,12 +11,13 @@ alwaysApply: true
 - On-screen question body is 10–28 words (sweet spot 18–26). Three spoken beats: situation, constraint, decision. Interviewers do not ask one line. Helper 4–9. Stakes hook 7–11. CTA 2–8.
 - Frame is a fork in the road. Caption teaches. Never put the answer on the frame.
 - Confuse them. Do not make them look dumb. No quiz-gotchas, no 😏 dunking, no “haha you forgot NULL.” Two real options. Spoken English a 0–2 YoE can hear once.
-- Caption is 140–280 words, 6–10 sections, heavy line breaks. Required: hook, 💡 Answer, first-tool-is-incomplete (no dunking), teaching block (C1–C6), Interview Tip with ❌ / Say:, one-liner, In short, Save, comment keyword, keywords, hashtags. A 4-bullet stub is not a caption.
+- Caption is 140–280 words, 6–10 sections, heavy line breaks. Required: hook, 💡 Answer, first-tool-is-incomplete (no dunking), teaching block (C1–C7; C7 = mental RCA), Interview Tip with ❌ / Say:, one-liner, In short, Save, comment keyword, keywords, hashtags. A 4-bullet stub is not a caption.
 - This caption density is the only bar. Do not add a shorter Stories variant. Every post uses the same full teaching caption. Calibration: the git / `.gitignore` caption in `documents/instagram-daily-questions.md`.
 - Topic picker (all seven gates): noun a 0–2 YoE can **picture the scene** and read every word; everyday careless mistake; wrong first answer; two comment camps; teach in three spoken sentences; mind-game; **researched traction** (live Twitter/X or Stack Overflow URL with votes/views). Fundamentals with a trap. One level above the fact everyone already recites (`IS NULL`). Not god-level. An LLM cannot invent a new outlier — search first.
 - Ashok (2026-08-30): the glitch must be **on the product screen**. If a beginner would say “but I only see my emails,” the frame is a lie. Kill Gmail `while(1);` on this feed (hidden network file). Ship moments they have watched with their own eyes (YouTube stuck at 301).
 - Frame must be a **mind game**: readable in 2 seconds on a phone, solvable in your head. Reject pen-and-paper frames (nested subqueries, truth tables, `NOT IN` + NULL). No specialist nouns (RAG, embeddings, LLM-as-Judge, Raft, CRDT).
-- Frame is a short interview scene: situation, pressure, then `Will you use X or Y?` Not a one-liner. No stacked labels.
+- **Niche:** mental root cause analysis. Easy on-screen scene. Then `How do you find the root cause?` / `What do you check first?` / `What do you do?` Two comment camps are two first moves, not a consumer poll (`Is YouTube broken?`). Always frame so a first-year can picture the screen.
+- Frame is a short interview scene: situation, pressure, then the RCA ask. Not a one-liner. No stacked labels.
 - Use one Pattern N code per post (N1–N6). Do not repeat yesterday’s N code. Textbook A–M FAQ pairs are not the feed.
 - Voice: second person, one painful number or real system, one failure mode. No textbook “explain in detail”.
 - Code gotchas: 3–5 lines, A/B/C only.
