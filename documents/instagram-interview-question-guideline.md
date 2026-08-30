@@ -6,6 +6,8 @@ Audience: Instagram Reels / Stories (9:16). Viewers are software engineers and j
 
 This guideline covers question formation, helper text, word counts, **topic picking**, and captions. Daily generation and posting are a later decision.
 
+**Delivery law (Ashok, 2026-08-30):** every approved post is handed over as two copy-paste blocks — FRAME (on-screen) and CAPTION. No missing caption. No lecture between the blocks.
+
 ---
 
 ## 1. What a winning post is

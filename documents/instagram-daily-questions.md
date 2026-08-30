@@ -4,6 +4,8 @@ Append each shipped question here. Do not fork copies. Style contract: `document
 
 Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, functional emojis.
 
+Every post must include a **COPY — FRAME** block and a **COPY — CAPTION** block so Ashok can paste while creating the Reel.
+
 ---
 
 ## POST 001 — git reset vs git revert (pulse check)
@@ -23,10 +25,12 @@ Pulse: %RESET = undo it now. %REVERT = they protect teammates.
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | RESET or REVERT |
 | Picker gates | pass — situation + teammates pulled + decision; both answers feel right |
-| Status | ready to post — pulse instrument |
+| Status | LOCKED as POST 001 — Ashok approved |
 | Killed drafts | `= NULL` too easy. `NOT IN` too hard. COUNT quiz made people look dumb. Awkward “filled their email” wording |
 
-### On-screen (the frame)
+### COPY — FRAME
+
+Paste this on the Reel.
 
 🚨 Interviewer asked:
 
@@ -36,7 +40,9 @@ Will you use git reset or git revert?
 
 📍 Read Caption
 
-### Caption (paste into Instagram)
+### COPY — CAPTION
+
+Paste this in the Instagram caption box.
 
 ```
 Read it 👇
