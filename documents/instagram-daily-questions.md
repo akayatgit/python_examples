@@ -32,6 +32,7 @@ Pulse: %RESET = undo it now. %REVERT = they protect teammates.
 
 Paste this on the Reel.
 
+```
 🚨 Interviewer asked:
 
 You pushed a broken commit to main this morning.
@@ -39,6 +40,7 @@ Two teammates already pulled it.
 Will you use git reset or git revert?
 
 📍 Read Caption
+```
 
 ### COPY — CAPTION
 
