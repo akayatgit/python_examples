@@ -10,7 +10,7 @@ This guideline covers question formation, helper text, word counts, **topic pick
 
 ## 1. What a winning post is
 
-A winning post is a **riddle, not a lecture**.
+A winning post is a **fork in the road, not a lecture and not a quiz**.
 
 The viewer should feel:
 
