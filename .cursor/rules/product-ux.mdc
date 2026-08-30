@@ -8,7 +8,7 @@ alwaysApply: true
 ## Instagram daily interview questions
 
 - Source of truth: `documents/instagram-interview-question-guideline.md`. Update that file in place. Do not fork copies.
-- On-screen question body is 10–28 words (sweet spot 15–22). Helper/constraint 4–9 words. Stakes hook 7–11 words. CTA 2–8 words.
+- On-screen question body is 10–28 words (sweet spot 18–26). Three spoken beats: situation, constraint, decision. Interviewers do not ask one line. Helper 4–9. Stakes hook 7–11. CTA 2–8.
 - Frame is a fork in the road. Caption teaches. Never put the answer on the frame.
 - Confuse them. Do not make them look dumb. No quiz-gotchas, no 😏 dunking, no “haha you forgot NULL.” Two real options. Spoken English a 0–2 YoE can hear once.
 - Caption is 140–280 words, 6–10 sections, heavy line breaks. Required: hook, 💡 Answer, first-tool-is-incomplete (no dunking), teaching block (C1–C6), Interview Tip with ❌ / Say:, one-liner, In short, Save, comment keyword, keywords, hashtags. A 4-bullet stub is not a caption.

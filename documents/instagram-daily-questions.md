@@ -18,11 +18,11 @@ Pulse: %RESET = undo it now. %REVERT = they protect teammates.
 | Pattern | B — this or that |
 | Caption shape | C2 — this-or-that |
 | Label | `🚨 Interviewer asked:` |
-| Body words | 16 |
+| Body words | 22 |
 | Caption words | 238 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | RESET or REVERT |
-| Picker gates | pass — one-read spoken sentence; both answers feel right |
+| Picker gates | pass — situation + teammates pulled + decision; both answers feel right |
 | Status | ready to post — pulse instrument |
 | Killed drafts | `= NULL` too easy. `NOT IN` too hard. COUNT quiz made people look dumb. Awkward “filled their email” wording |
 
@@ -30,7 +30,8 @@ Pulse: %RESET = undo it now. %REVERT = they protect teammates.
 
 🚨 Interviewer asked:
 
-You already pushed a bad commit to main.
+You pushed a broken commit to main this morning.
+Two teammates already pulled it.
 Will you use git reset or git revert?
 
 📍 Read Caption
@@ -44,7 +45,8 @@ Read it 👇
 
 🚨 Interviewer asked:
 
-You already pushed a bad commit to main.
+You pushed a broken commit to main this morning.
+Two teammates already pulled it.
 Will you use git reset or git revert?
 
 💡 Answer: git revert
@@ -61,7 +63,7 @@ reset moves the branch back.
 
 The bad commit disappears from main.
 
-Anyone who already pulled still has it.
+Those two teammates still have the bad commit.
 
 Their next push fights your history.
 
@@ -75,7 +77,7 @@ Real Flow ⚡
 
 bad commit is on main
 ↓
-teammates may have pulled it
+two teammates already pulled it
 ↓
 reset → you rewrite their past
 ↓
@@ -101,7 +103,7 @@ ____
 ❌ Instead of saying: "I would reset it."
 
 Say:
-"The commit is already on main, so I revert. Reset rewrites history other people may have pulled."
+"Two teammates already pulled it, so I revert. Reset would rewrite history they already have."
 
 That's a much stronger interview answer.
 

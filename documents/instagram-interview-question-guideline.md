@@ -30,9 +30,10 @@ Measured on the **on-screen question body** only. Do not count the interviewer l
 
 | Layer | Words | Notes |
 | --- | --- | --- |
-| On-screen question body | **10–28** | Sweet spot **15–22**. Hard cap **28**. |
-| Scenario sentence | **8–14** | One concrete situation. |
-| Challenge sentence | **4–10** | One ask. |
+| On-screen question body | **10–28** | Sweet spot **18–26**. Hard cap **28**. Not a one-liner. |
+| Situation sentence | **8–14** | What happened. |
+| Pressure sentence | **5–10** | Who else is in the story. Why it is not easy. |
+| Decision sentence | **6–10** | `Will you use X or Y?` |
 | Helper / constraint line | **4–9** | Optional. Used when the obvious answer must be blocked. |
 | Stakes hook | **7–11** | Optional. Salary / offer / “this one question” line. |
 | Category chip | **1–3** | Optional. Example: `AI INTERVIEW`. |
@@ -233,9 +234,11 @@ Options: A / B / C. One trap, one correct, one crash/error.
 
 Prefer Pattern B for the feed. If you use Pattern M, the decision sentence still sits above the code.
 
-Decisional example (spoken, one read, two real tools):
+Decisional example (spoken scene, not a one-liner):
 
-You already pushed a bad commit to main. Will you use git reset or git revert?
+You pushed a broken commit to main this morning.
+Two teammates already pulled it.
+Will you use git reset or git revert?
 
 ---
 
@@ -245,7 +248,7 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 
 **Do**
 
-- Spoken English a 0–2 YoE can hear once. `You already pushed a bad commit to main.` Not `You need how many users filled their email.`
+- Spoken English a 0–2 YoE can hear once. Three beats: situation, constraint, decision. Interviewers do not ask one line.
 - End with a **decision**: `Will you use X or Y?` / `Still why…?` / `How do you…?`
 - Confuse them. Do not make them look dumb. Two real tools. A real tradeoff. No quiz-gotcha.
 - Second person: `Your API`, `You need to`, `You immediately click Logout`
@@ -327,7 +330,7 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 **Ship (broad + trap)**  
 - `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
-- `You already pushed a bad commit to main. Will you use git reset or git revert?` — confuse, don’t dunk.  
+- Broken commit on main + two teammates already pulled + reset or revert — confuse, don’t dunk. Interviewer sets the scene.  
 - Quiz-gotchas (`COUNT` + NULL, `= NULL`) — too easy or they make the viewer look dumb. Do not ship.  
 - `NOT IN` + NULL subquery — too hard to read on a feed. Do not ship.
 
