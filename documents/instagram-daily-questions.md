@@ -150,7 +150,7 @@ Pulse: %CHECK = if stock > 0 then order. %HOLD = they reserve the last plate.
 | Field | Value |
 | --- | --- |
 | Topic lane | product / inventory |
-| Pattern | N — real product glitch |
+| Pattern | N6 — two taps, one resource |
 | Caption shape | C1 — expected-fix-fails |
 | Label | `Interviewer:` |
 | Body words | 28 |
