@@ -233,9 +233,9 @@ Options: A / B / C. One trap, one correct, one crash/error.
 
 Prefer Pattern B for the feed. If you use Pattern M, the decision sentence still sits above the code.
 
-Decisional example (one read):
+Decisional example (spoken, one read, two real tools):
 
-You need how many users filled their email. 10 emails are NULL. Will you use COUNT(*) or COUNT(email)?
+You already pushed a bad commit to main. Will you use git reset or git revert?
 
 ---
 
@@ -245,8 +245,9 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 
 **Do**
 
-- Full sentences. One read on a phone. No stacked labels (`COUNT(*)` then `COUNT(email)` then “what do these return?”)
+- Spoken English a 0–2 YoE can hear once. `You already pushed a bad commit to main.` Not `You need how many users filled their email.`
 - End with a **decision**: `Will you use X or Y?` / `Still why…?` / `How do you…?`
+- Confuse them. Do not make them look dumb. Two real tools. A real tradeoff. No quiz-gotcha.
 - Second person: `Your API`, `You need to`, `You immediately click Logout`
 - Concrete nouns: `Orders API`, `JWT token`, `IRCTC Tatkal`, `localhost:3000`
 - One number that hurts: `100 million`, `2 Million`, `200 ms` → `6-8 seconds`, `3 months`, `3AM`, `₹22LPA`
@@ -264,6 +265,7 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 - Pad to sound senior (`in a production-grade scalable microservice architecture`)
 - Repeat the same pattern two days in a row
 - Fragment frames: function names, numbers, then “what do you get?” with no decision sentence
+- Quiz-gotchas that dunk on the viewer (`COUNT(*)` vs `COUNT(email)` with a NULL count, 😏 “most developers think”)
 
 ---
 
@@ -325,10 +327,9 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 **Ship (broad + trap)**  
 - `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
-- `Will you use COUNT(*) or COUNT(email)?` when you need filled emails — decision sentence, one notch above `IS NULL`.  
-- `= NULL` / `IS NULL` — too easy. `NOT IN` + NULL subquery — too hard to read on a feed. Do not ship.  
-- `list.sort()` prints `None` — not the training `y = x` reel.  
-- `git reset` vs `revert` on `main` — two camps, both think they are sure.
+- `You already pushed a bad commit to main. Will you use git reset or git revert?` — confuse, don’t dunk.  
+- Quiz-gotchas (`COUNT` + NULL, `= NULL`) — too easy or they make the viewer look dumb. Do not ship.  
+- `NOT IN` + NULL subquery — too hard to read on a feed. Do not ship.
 
 **Do not ship (reference clones)**  
 The 13 training Reels and the guideline’s worked copies (`y = x` append, HTTP vs HTTPS, CORS ports, DELETE vs TRUNCATE, JWT logout, cache vs DB, Maps, RAG, LLM-as-Judge, IRCTC, Orders API latency) are **style only**. Recreating them is a reject.
@@ -406,9 +407,9 @@ Read it 👇
 
 💡 Answer: [punchy verdict. max 12 words]
 
-Most developers think:
-👈 [the cheap answer] 😏
-❌ Wrong
+A lot of people reach for:
+[the first tool]
+That’s incomplete. Not dumb.
 
 ____
 
@@ -470,7 +471,7 @@ In short: [rotate / choose / do this → then that]
 
 **C4 — If-advantage / myth** (question E / L / H, cache vs DB, CORS, HTTP)
 
-1. Myth → ❌ Wrong
+1. First tool people reach for → why it’s incomplete (no dunking)
 2. `What is [X]?` + formula or definition
 3. Numbered 1️⃣–4️⃣ `Keyword — one sentence`
 4. `🧠` wallet/bank-style metaphor
@@ -547,7 +548,7 @@ A question is ready to post only if all of these are true:
 - [ ] The obvious one-word answer is either wrong or blocked by helper text
 - [ ] No answer text on the frame
 - [ ] Caption is 140–280 words, 6–10 sections, heavy line breaks
-- [ ] Caption has hook, 💡 Answer, myth ❌, teaching block (C1–C6), Interview Tip, one-liner, In short, Save, comment keyword, keywords, hashtags
+- [ ] Caption has hook, 💡 Answer, first-tool-is-incomplete (no dunking), teaching block (C1–C6), Interview Tip, one-liner, In short, Save, comment keyword, keywords, hashtags
 - [ ] Interview Tip has an ❌ line and a spoken `Say:` script
 - [ ] Pattern and topic lane differ from yesterday
 - [ ] Code (if any) is 3–5 lines and has one surprising print/output

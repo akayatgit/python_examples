@@ -6,33 +6,32 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 ---
 
-## POST 001 — SQL `COUNT(*)` vs `COUNT(email)` (pulse check)
+## POST 001 — git reset vs git revert (pulse check)
 
-Decisional mind game. One sentence. Will you use X or Y. One notch above `IS NULL`.
+Spoken decision. Two real tools. Confuse, don’t dunk.
 
-Pulse: %COUNT(*) = they count rows when they need filled emails. %COUNT(email) = they know the skip.
+Pulse: %RESET = undo it now. %REVERT = they protect teammates.
 
 | Field | Value |
 | --- | --- |
-| Topic lane | backend / SQL |
-| Pattern | B — scale + this or that |
+| Topic lane | git |
+| Pattern | B — this or that |
 | Caption shape | C2 — this-or-that |
 | Label | `🚨 Interviewer asked:` |
-| Body words | 18 |
-| Caption words | 201 |
+| Body words | 16 |
+| Caption words | 238 |
 | Helper / CTA | `📍 Read Caption` |
-| Comment keyword | STAR or EMAIL |
-| Picker gates | pass — one-read decision; trap COUNT(*) |
+| Comment keyword | RESET or REVERT |
+| Picker gates | pass — one-read spoken sentence; both answers feel right |
 | Status | ready to post — pulse instrument |
-| Killed drafts | `= NULL` too easy. `NOT IN` too hard. Stacked COUNT labels not a sentence |
+| Killed drafts | `= NULL` too easy. `NOT IN` too hard. COUNT quiz made people look dumb. Awkward “filled their email” wording |
 
 ### On-screen (the frame)
 
 🚨 Interviewer asked:
 
-You need how many users filled their email.
-10 emails are NULL.
-Will you use COUNT(*) or COUNT(email) ?
+You already pushed a bad commit to main.
+Will you use git reset or git revert?
 
 📍 Read Caption
 
@@ -41,90 +40,91 @@ Will you use COUNT(*) or COUNT(email) ?
 ```
 Read it 👇
 
-🧠 COUNT(*) is the wrong call here
+🔀 Both undo a commit. They are not the same.
 
 🚨 Interviewer asked:
 
-You need how many users filled their email.
-10 emails are NULL.
-Will you use COUNT(*) or COUNT(email) ?
+You already pushed a bad commit to main.
+Will you use git reset or git revert?
 
-💡 Answer: COUNT(email)
+💡 Answer: git revert
 
-Most developers think:
-👈 COUNT(*) just means count them 😏
-❌ Wrong
+A lot of people reach for:
+git reset --hard
+That’s incomplete. Not dumb.
 
 ____
 
 What actually happens? 🤔
 
-You asked for filled emails.
+reset moves the branch back.
 
-COUNT(*) counts every user.
+The bad commit disappears from main.
 
-It does not care if email is empty.
+Anyone who already pulled still has it.
 
-COUNT(email) counts only real values.
+Their next push fights your history.
 
-NULL is not a value, so those 10 are skipped.
+revert adds a new commit that undoes the bad one.
+
+main stays honest for the whole team.
 
 ____
 
 Real Flow ⚡
 
-Goal: how many filled an email
+bad commit is on main
 ↓
-COUNT(*) → every row, including NULL
+teammates may have pulled it
 ↓
-wrong number
+reset → you rewrite their past
 ↓
-COUNT(email) → skips the 10 NULLs
+revert → you add a fix on top
 ↓
-right number
+team can pull without a war
 
 ____
 
-✅ 1. Need filled emails?
-Use COUNT(email)
+✅ 1. Shared main?
+Use git revert
 
-✅ 2. Need every user?
-Use COUNT(*)
+✅ 2. Only you have this commit?
+reset is fine
 
-✅ 3. Same trap for SUM and AVG
-They skip NULL too.
+✅ 3. Already pushed + others exist
+revert. Always.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "I would just use COUNT(*)."
+❌ Instead of saying: "I would reset it."
 
 Say:
-"I need filled emails, so I use COUNT(email). COUNT(*) would also count the 10 NULLs."
+"The commit is already on main, so I revert. Reset rewrites history other people may have pulled."
 
 That's a much stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "COUNT(*) counts people. COUNT(email) counts inboxes."
+👉 "reset hides the commit. revert undoes it in public."
 
 🧠 Mental model
-COUNT(*) = how many chairs
-COUNT(email) = how many chairs have a bag
+reset = rip the page out
+revert = write a new page that says ignore that one
 
 ____
 
-In short: filled email → COUNT(email). Not COUNT(*).
+In short: already on main → revert. reset only if you are alone.
 
-🔖 Save this for your next SQL interview.
+🔖 Save this for your next git interview.
 
-💬 Comment STAR or EMAIL before you scroll.
+💬 Comment RESET or REVERT before you scroll.
 
-(sql, count, null, aggregate, mysql, postgres, backend, coding interview, placement)
+(git, reset, revert, main branch, force push, history, backend, coding interview, placement)
 
-#SQL #InterviewPrep #BackendDevelopment #Database #Placement
+#Git #InterviewPrep #BackendDevelopment #SoftwareEngineering #Placement
 ```
 
 ---
