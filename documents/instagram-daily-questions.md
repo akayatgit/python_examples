@@ -152,7 +152,7 @@ Pulse: %CHECK = if stock > 0 then order. %HOLD = they reserve the last plate.
 | Caption shape | C1 — expected-fix-fails |
 | Label | `Interviewer:` |
 | Body words | 28 |
-| Caption words | 275 |
+| Caption words | 273 |
 | Helper / CTA | `Answer in caption ⬇️` |
 | Comment keyword | CHECK or HOLD |
 | Status | ready to post — copy-paste below |
