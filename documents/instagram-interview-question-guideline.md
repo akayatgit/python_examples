@@ -12,7 +12,9 @@ This guideline covers question formation, helper text, word counts, **topic pick
 
 ## 1. What a winning post is
 
-A winning post is a **fork in the road, not a lecture and not a quiz**.
+A winning post is a **real product moment, not a textbook FAQ**.
+
+Ashok pulse (001): `git reset` vs `git revert` died. People can search that. From 002, write the thing that happened on Swiggy / BookMyShow / UPI — then how the team stopped it.
 
 The viewer should feel:
 
@@ -234,13 +236,15 @@ Code: 3–5 lines. One mutation / reference / scope / default-arg surprise.
 
 Options: A / B / C. One trap, one correct, one crash/error.
 
-Prefer Pattern B for the feed. If you use Pattern M, the decision sentence still sits above the code.
+### Pattern N — Real product glitch (default from POST 002)
 
-Decisional example (spoken scene, not a one-liner):
+Named Indian app. Short cinematic beats. A glitch the viewer has felt. Then `How do they stop this?`
 
-You pushed a broken commit to main this morning.
-Two teammates already pulled it.
-Will you use git reset or git revert?
+Do not name the CS term on the frame (`idempotency`, `race condition`). Caption can.
+
+Example (do **not** clone): last biryani, two Swiggy carts, both tap Place Order.
+
+Prefer Pattern N for the feed.
 
 ---
 
@@ -271,6 +275,8 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 - Repeat the same pattern two days in a row
 - Fragment frames: function names, numbers, then “what do you get?” with no decision sentence
 - Quiz-gotchas that dunk on the viewer (`COUNT(*)` vs `COUNT(email)` with a NULL count, 😏 “most developers think”)
+- Textbook FAQ as the whole post (`reset vs revert`, `merge vs rebase`, `what is idempotency`) — 001 proved this gets a dead pulse
+- Clone of the ₹79,999 double-tap PAY reel — shape only, not the story
 
 ---
 
@@ -330,11 +336,13 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 ### 8.5 Picker examples
 
-**Ship (broad + trap)**  
-- `.gitignore` after `.env` hit `main` — our git post. Gate 1–5 pass.  
-- Broken commit on main + two teammates already pulled + reset or revert — confuse, don’t dunk. Interviewer sets the scene.  
-- Quiz-gotchas (`COUNT` + NULL, `= NULL`) — too easy or they make the viewer look dumb. Do not ship.  
-- `NOT IN` + NULL subquery — too hard to read on a feed. Do not ship.
+**Ship from 002 (real product, how they solved it)**  
+- Last biryani in two Swiggy carts, both tap Place Order — inventory reserve.  
+- Two phones, one BookMyShow seat — hold + TTL.  
+- Shape only: ₹79,999 PAY twice. Do not rewrite that story.
+
+**Do not ship (textbook / dead pulse)**  
+- `reset vs revert`, `merge vs rebase`, `COUNT(*)` vs `COUNT(email)`, `= NULL`, `NOT IN` + NULL, `.gitignore` as the hook.
 
 **Do not ship (reference clones)**  
 The 13 training Reels and the guideline’s worked copies (`y = x` append, HTTP vs HTTPS, CORS ports, DELETE vs TRUNCATE, JWT logout, cache vs DB, Maps, RAG, LLM-as-Judge, IRCTC, Orders API latency) are **style only**. Recreating them is a reject.

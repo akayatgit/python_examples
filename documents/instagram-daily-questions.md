@@ -139,117 +139,135 @@ In short: already on main → revert. reset only if you are alone.
 
 ---
 
-## POST 002 — Git history vs `.gitignore`
+## POST 002 — last biryani on Swiggy (real product)
+
+001 died as a textbook FAQ. 002 is a lived product moment. How the team actually stops two orders for one plate.
+
+Pulse: %CHECK = if stock > 0 then order. %HOLD = they reserve the last plate.
 
 | Field | Value |
 | --- | --- |
-| Topic lane | git / auth |
-| Pattern | G — expected fix fails |
+| Topic lane | product / inventory |
+| Pattern | N — real product glitch |
 | Caption shape | C1 — expected-fix-fails |
-| Label | `interviewer asked :` |
-| Body words | 23 |
-| Caption words | 238 |
-| Helper / CTA | `📍 Read Caption` |
-| Comment keyword | GIT |
-| Picker gates | pass — noun git/.env/.gitignore; trap “just gitignore”; camps ignore vs rewrite history |
-| Status | caption density approved — question still draft |
+| Label | `Interviewer:` |
+| Body words | 28 |
+| Caption words | 275 |
+| Helper / CTA | `Answer in caption ⬇️` |
+| Comment keyword | CHECK or HOLD |
+| Status | ready to post — copy-paste below |
 
-### On-screen (the frame)
+### COPY — FRAME
 
-interviewer asked :
+Paste this on the Reel.
 
-A teammate pushed your `.env` to main.
-You immediately added `.env` to `.gitignore`.
-But GitHub still shows the secret.
-How to solve this ?
+```
+Interviewer:
 
-📍 Read Caption
+You're ordering the last biryani on Swiggy.
+It's in your roommate's cart too.
+You both tap Place Order.
 
-### Caption (paste into Instagram)
+💀 One plate. Two orders.
+
+How do they stop this?
+
+Answer in caption ⬇️
+```
+
+### COPY — CAPTION
+
+Paste this in the Instagram caption box.
 
 ```
 Read it 👇
 
-🔐 .gitignore does NOT delete a leaked secret
+🍛 The last plate cannot go to two homes.
 
-interviewer asked :
-A teammate pushed your .env to main.
-You immediately added .env to .gitignore.
-But GitHub still shows the secret.
-How to solve this ?
+Interviewer:
 
-💡 Answer: Rotate first. Then purge history.
+You're ordering the last biryani on Swiggy.
+It's in your roommate's cart too.
+You both tap Place Order.
 
-Most developers think:
-👈 Add it to .gitignore and it's gone 😏
-❌ Wrong
+💀 One plate. Two orders.
+
+How do they stop this?
+
+💡 Answer: They hold the plate at Place Order. They do not check, then cook.
+
+A lot of people reach for:
+if stock is 1, let both orders through
+That’s incomplete. Not dumb.
 
 ____
 
-What actually happens? 🤔
+What they actually built 🤔
 
-.gitignore only ignores future adds.
+The cart is not a booking.
 
-Git still keeps the file in old commits.
+Both of you can stare at that last biryani.
+
+The fight starts at Place Order.
+
+One tap wins the hold.
+
+The other tap gets “item unavailable”.
 
 ____
 
 Real Flow ⚡
 
-.env committed to main
+stock = 1 biryani
 ↓
-You add .env to .gitignore
+two Place Order taps
 ↓
-Next commits skip .env
+first tap locks the plate
 ↓
-Old commits still have .env
+second tap sees 0
 ↓
-GitHub still shows the secret
+one order lives
 
 ____
 
-✅ 1. Rotate the secret
-Revoke the key immediately.
-Forks and CI logs may already have it.
+✅ 1. Reserve on Place Order
+Not when it lands in the cart.
 
-✅ 2. Untrack it going forward
-git rm --cached .env
-This only drops it from the NEXT commit.
+✅ 2. One lock. One plate.
+The second request loses.
 
-✅ 3. Purge it from history
-Use git filter-repo or BFG.
-Force-push every branch and tag.
-Tell the team to re-clone.
+✅ 3. If payment fails
+The hold drops. The plate comes back.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "Just add it to .gitignore."
+❌ Instead of saying: "I would check stock, then place the order."
 
 Say:
-".gitignore only affects future commits. I rotate the key first, then rewrite history with filter-repo and force-push."
+"Two checkouts can pass a stock check together. I reserve the last plate at Place Order, so only one order holds it."
 
 That's a much stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 ".gitignore is not a delete button. History still has the file."
+👉 "The cart is a window. Place Order is the lock."
 
 🧠 Mental model
-.gitignore = lock on the front door
-git history = the thief already copied the key
+Cart = looking at the last shirt in the shop
+Place Order = the staff putting it behind the counter
 
 ____
 
-In short: Rotate → untrack → purge history → re-clone.
+In short: hold the last plate at checkout. Don’t trust the cart.
 
-🔖 Save this for your next git / secrets interview.
+🔖 Save this for your next product / backend interview.
 
-💬 Comment GIT if you want the exact commands.
+💬 Comment CHECK or HOLD before you scroll.
 
-(gitignore, git history, secrets, .env, filter-repo, BFG, force push, devops, backend, coding interview, placement preparation)
+(swiggy, inventory, checkout, race, stock lock, backend, product, coding interview, placement)
 
-#Git #InterviewPrep #BackendDevelopment #DevOps #SoftwareEngineering
+#Swiggy #SystemDesign #BackendDevelopment #InterviewPrep #Placement
 ```

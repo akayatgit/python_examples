@@ -19,6 +19,8 @@ alwaysApply: true
 - Use one formation pattern per post (A–M in the guideline). Do not repeat yesterday’s pattern or topic lane.
 - Voice: second person, one painful number or real system, one failure mode. No textbook “explain in detail”.
 - Code gotchas: 3–5 lines, A/B/C only.
+- From POST 002: **real-life product stories**. Named app. A moment the viewer has lived. How the product team actually stopped the glitch. Not a textbook FAQ (`reset vs revert`, `merge vs rebase`, `HTTP vs HTTPS`).
+- Do not clone the ₹79,999 double-tap PAY reel. That taught the outlier shape only.
 - Never ship a question body from the reference Reels or guideline examples. Those taught formation only. New noun, new trap, every post.
 - Every time we hand Ashok a post: give **FRAME** and **CAPTION** as two copy-paste blocks. No extra lecture in between. He pastes them while creating the Reel.
 - Do not build the daily generator until Ashok picks the ship path in the guideline (manual / CLI / scheduled agent).
