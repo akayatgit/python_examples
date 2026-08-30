@@ -12,9 +12,9 @@ This guideline covers question formation, helper text, word counts, **topic pick
 
 ## 1. What a winning post is
 
-**Niche (Ashok, 2026-08-30):** mental **root cause analysis**. Easy scene on the product screen. Then: how do you find the root cause, or what do you do in this situation. Not a consumer poll (`Is YouTube broken?`). Not a hidden-file riddle. Not a textbook FAQ.
+**Niche (Ashok, 2026-08-30):** mental **root cause analysis** on a **developer desk bug**. The scene is a support ticket, an ops incident, a maintenance fail, or a new-feature edge case. Edge cases create the bug. Then: how do you find the root cause, or what do you do. Easy to understand. Not a user-product mystery. Not a consumer poll. Not a hidden-file riddle. Not a textbook FAQ.
 
-A winning post is a **real product moment + an RCA decision**, not trivia.
+A winning post is a **desk bug + an RCA decision**, not trivia a user would tweet.
 
 Ashok pulse (001): `git reset` vs `git revert` died. People can search that.
 
@@ -25,6 +25,8 @@ From 002, write an **outlier that already worked on Twitter or Stack Overflow**.
 **LLM-default / do not invent:** last Swiggy biryani, Maps 3AM cameras, Tatkal 2M vs 500, WhatsApp “Waiting for this message”, PAY twice, JWT logout. Those taught Pattern N only.
 
 **Hidden-file / do not ship on this feed:** Gmail `while(1);`. After the app opens, the user only sees emails. The freeze is in DevTools. Wrong audience.
+
+**User-issue / do not ship:** YouTube frozen at 301, grey bubbles, view-count trivia. That is a user watching an app, not a developer in support / ops / maintenance / new work. Ashok killed 301 for this reason.
 
 The viewer should feel:
 
@@ -311,7 +313,7 @@ The 13 reference Reels are a **formation** source, not a topic-difficulty source
 
 | # | Gate | Pass | Fail |
 | --- | --- | --- | --- |
-| 1 | **Noun + on-screen test** | A campus student can picture the **product screen** they have used. The glitch is on that screen (frozen 301, grey bubble, wrong green square) | Hidden file / DevTools / “Gmail starts with while(1)” when Gmail shows emails. If a beginner would say “but I only see my emails,” the frame is a lie. Also: `RAG`, `embeddings`, `LLM-as-Judge`, `CAP`, `CRDT`, `p99`, `Raft` |
+| 1 | **Noun + desk test** | A campus student can picture the **ticket on their desk**. Support / ops / maintenance / new feature. The edge case is visible (OTP 012388 → 12388) | User-product trivia (YouTube 301, grey bubble). Hidden file / DevTools (`while(1);`). If a beginner would say “but I only see my emails,” the frame is a lie. Also: `RAG`, `embeddings`, `LLM-as-Judge`, `CAP`, `CRDT`, `p99`, `Raft` |
 | 2 | **Careless-mistake test** | People do this wrong in real work this month | Only specialists hit this; no everyday decision |
 | 3 | **Wrong-first-answer test** | The first comment most people type is wrong or incomplete | 90% would get it right in one word |
 | 4 | **Two-camp test** | Comments can split (A vs B, “just gitignore”, `[1,2,3]` vs `[1,2,3,4]`) | No argument, no poll energy |
@@ -323,7 +325,7 @@ Difficulty band: **first-year to SDE-1 fundamentals with a trap**. One level abo
 
 Ashok lock (2026-08-30): an LLM cannot invent a new outlier. **Search first.** Next post = a mystery that already landed on Twitter or Stack Overflow, rewritten in our frame. Never a common system-design prompt.
 
-Ashok lock (2026-08-30): researched is not enough. The glitch must be **on the product screen**. Kill Gmail `while(1);` on this feed — after Gmail opens, the user only sees emails. A hidden network prefix is not a beginner scene. Setup must be a moment they have watched with their own eyes (`Your video hits 301. The number freezes. Comments still come.`).
+Ashok lock (2026-08-30): researched is not enough. The scene must be a **developer desk bug** caused by an **edge case**. Kill Gmail `while(1);` (hidden file). Kill YouTube 301 (user issue, not support/ops/maintenance/new work). Setup: a ticket they would own (`OTP 012388 arrives as 12388`). Always easy to understand.
 
 ### 8.2 Prefer these nouns (everyday, high confusion)
 
@@ -336,6 +338,7 @@ Ashok lock (2026-08-30): researched is not enough. The glitch must be **on the p
 | Cache | why not put all data in cache, cache with no invalidation | “cache is faster so use only cache” |
 | Auth | JWT logout, password change but session lives, `.env` on GitHub | “click Logout” / “add gitignore” |
 | Simple design | how Maps knows traffic, why one server dies at 10:00 AM bookings | “cameras / cops” / “just add servers” |
+| Support / ops / edge | leading zero stored as a number, day cut at the wrong midnight, Excel eats a phone number | “SMS ate a digit” / “the query is wrong” |
 
 ### 8.3 Ban on the frame (god-level / narrow)
 
@@ -363,11 +366,14 @@ Watch Tower fit: train **interview judgment on things people already think they 
 
 ### 8.5 Picker examples
 
-**Ship from 002 (researched + on the product screen + RCA)**  
-- YouTube view counter freeze at 301 — Twitter (`@YTCreators`), Numberphile, The Verge. Frame ask: `How do you find the root cause?` Not `Is YouTube broken?`
+**Ship from 002 (desk bug + edge case + RCA)**  
+- OTP `012388` arrives as `12388` because it was stored as a number. Support + new feature. Leading-zero family already exploded on SO ([SO/2261787](https://stackoverflow.com/questions/2261787/how-to-prevent-automatic-truncation-of-leading-zeros-in-excel-cell)). Frame ask: `How do you find the root cause?`
 
 **Do not ship on this feed (hidden file, not the screen)**  
-- Gmail / Calendar `while(1);` — [SO/2669690](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses) already worked on Stack Overflow. Park for a DevTools intern lane. After Gmail opens you only see emails.
+- Gmail / Calendar `while(1);` — [SO/2669690](https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses). Park for a DevTools intern lane.
+
+**Do not ship (user issue, not a desk bug)**  
+- YouTube frozen at 301. A viewer mystery. Not support / ops / maintenance / new development.
 
 **Do not ship (textbook / dead pulse)**  
 - `reset vs revert`, `merge vs rebase`, `10GB zip → 3GB where did 7GB go`, `COUNT(*)` vs `COUNT(email)`, `= NULL`, `.gitignore` as the hook.
@@ -666,6 +672,7 @@ Full caption calibration (C1, git / `.gitignore`) lives in `documents/instagram-
 - Clone of a training Reel or guideline example (`y = x` append, CORS :3000/:8080, DELETE vs TRUNCATE, …)
 - LLM-invented last-item / last-seat / grey-bubble / PAY-twice scene with no Twitter or Stack Overflow proof
 - Hidden-file frame: the glitch is only in DevTools / a network prefix (`while(1);`) while the app screen shows something else (emails). If a beginner would say “but I only see my emails,” kill it.
+- User-issue frame: YouTube 301, grey bubble, any mystery a user tweets that support never files as a bug on your desk
 - Pen-and-paper frame: nested subquery, `NOT IN` + NULL, anything that needs a truth table to parse
 - God-level topic: RAG, embeddings, LLM-as-Judge, Raft, CRDT — audience cannot parse the question
 - Specialist-only: true, but only 5% of the feed has heard the noun

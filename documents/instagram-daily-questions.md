@@ -6,7 +6,7 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 Every post must include a **COPY — FRAME** block and a **COPY — CAPTION** block so Ashok can paste while creating the Reel.
 
-From 002: researched + **on the product screen** + mental **RCA**. Frame: easy scene, then `How do you find the root cause?` / `What do you do?` Not a consumer poll. Not a hidden file.
+From 002: **desk bug** + **edge case** + mental **RCA**. Support / ops / maintenance / new feature. Easy to understand. Then `How do you find the root cause?` Not a user-product mystery. Not a consumer poll. Not a hidden file.
 
 ---
 
@@ -141,30 +141,29 @@ In short: already on main → revert. reset only if you are alone.
 
 ---
 
-## POST 002 — YouTube 301 (mental RCA)
+## POST 002 — OTP 012388 arrives as 12388 (desk edge case)
 
-Easy on-screen scene. Then: how do you find the root cause. Not a consumer poll.
+Support ticket. New feature. Edge case created the bug. Then RCA.
 
-- Twitter: `@YTCreators` / Numberphile / [The Verge](https://www.theverge.com/2012/6/26/3118510/youtube-view-count-301). People saw 301 die on the watch page.
-- SO family: page count ≠ comments / API ([SO/3657255](https://stackoverflow.com/questions/3657255/the-views-displayed-on-youtube-do-not-correlate-with-the-views-indicated-in-the)).
-- **Killed:** `Is YouTube broken, or is it checking?` — Ashok: that is not a developer question. Niche is mental RCA.
-- **Killed:** Gmail `while(1);` — hidden file, not the screen.
+- Leading-zero-as-number already exploded on SO: [SO/2261787](https://stackoverflow.com/questions/2261787/how-to-prevent-automatic-truncation-of-leading-zeros-in-excel-cell). Same fail in Python `int()`, Java, SQL, Excel exports.
+- **Killed:** YouTube 301 — Ashok: user issue, not support / ops / maintenance / new work.
+- **Killed:** Gmail `while(1);` — hidden file.
 - Killed as LLM-default: last Swiggy biryani, Maps 3AM, Tatkal, WhatsApp grey bubble.
 
-Pulse: %COUNTER = I debug the number. %PLAYS = I follow one view first.
+Pulse: %SMS = I blame the gateway. %TYPE = I look at how we saved the code.
 
 | Field | Value |
 | --- | --- |
-| Topic lane | product / YouTube |
-| Pattern | N3 — worked, then froze, you changed nothing |
+| Topic lane | support / OTP |
+| Pattern | N3 — most codes work, this edge fails |
 | Caption shape | C7 — mental RCA |
 | Label | `Interviewer:` |
-| Body words | 21 |
-| Caption words | 280 |
+| Body words | 28 |
+| Caption words | 275 |
 | Helper / CTA | `Answer in caption ⬇️` |
-| Comment keyword | COUNTER or PLAYS |
-| Status | ready to post — RCA niche |
-| Sources | @YTCreators; Numberphile; The Verge; SO view-count mismatch |
+| Comment keyword | SMS or TYPE |
+| Status | ready to post — desk edge case |
+| Sources | SO/2261787 leading-zero family |
 
 ### COPY — FRAME
 
@@ -173,8 +172,9 @@ Paste this on the Reel.
 ```
 Interviewer:
 
-Your new YouTube video hits 301 views.
-Comments keep coming. The number is frozen.
+Support: OTP 012388 arrives as 12388.
+You generated 6 digits. The user got 5.
+You stored the OTP as a number.
 How do you find the root cause?
 
 Answer in caption ⬇️
@@ -187,82 +187,80 @@ Paste this in the Instagram caption box.
 ```
 Read it 👇
 
-🔒 The number froze. The product did not.
+🔒 The SMS is fine. The zero never left your database.
 
-💡 Answer: Follow one play. Do not debug the number first.
+💡 Answer: Look at the type you saved. Do not start at the SMS vendor.
 
 A lot of people reach for:
-I will fix the counter.
+The SMS gateway ate a digit.
 That’s incomplete. Not dumb.
 
 ____
 
 How you find the root cause 🤔
 
-First: is anything still moving?
+First: do all OTPs lose a digit?
 
-Comments are climbing. Plays are still happening.
+No. Only the ones that start with 0.
 
-Second: is the number the truth, or just a screen?
+Second: what did we save?
 
-The screen can pause on purpose.
+A number. Numbers do not keep a leading zero.
 
-Third: why pause at 301?
+Third: what is 012388 as a number?
 
-They hold the public number to catch fake plays.
-
-The stop rule was “less than or equal to 300.”
-
-One extra view slipped.
+12388. Five digits. That is the ticket.
 
 ____
 
 Real Flow ⚡
 
-you check comments. they still move
+you generate 012388
 ↓
-you follow one play, not the widget
+you store it as a number
 ↓
-public number is on hold for an audit
+the zero is gone before SMS
 ↓
-301 is an off-by-one in the stop rule
+user gets 12388
+↓
+support files “OTP is short”
 
 ____
 
-✅ 1. Start with what still works
-Comments climbing kills “the app is down.”
+✅ 1. Split the cases
+Codes with no leading zero still work.
 
-✅ 2. Separate the screen from the truth
-The number can freeze. The views can still count.
+✅ 2. Check the store, not the vendor
+The edge case is the type you picked.
 
 ____
 
 💡 Interview Tip
 
-❌ Instead of saying: "I would restart the view service."
+❌ Instead of saying: "The SMS API is dropping digits."
 
 Say:
-"I would not debug the counter first. Comments still moving means plays are alive. I follow one play. 301 is an audit hold plus an off-by-one."
+"I would not start at the gateway. Only codes that start with 0 break. We stored OTP as a number, so 012388 became 12388 before send."
 
 That's a stronger interview answer.
 
 ____
 
 🔥 Interview One-Liner
-👉 "If the comments move, do not start at the number."
+👉 "If only leading zeros die, check the type, not the SMS."
 
 🧠 Mental model
-Number = scoreboard. Play = the match.
+OTP = a code. A number = a count. Counts drop the zero.
 
 ____
 
-In short: find what still works. Then follow one play.
+In short: edge case first. Then the type you stored.
 
 🔖 Save this for your next interview.
 
-💬 Comment COUNTER or PLAYS before you scroll.
+💬 Comment SMS or TYPE before you scroll.
 
-(youtube, 301, root cause, debug, view count, interview, placement)
+(otp, leading zero, support, edge case, root cause, interview, placement)
 
-#YouTube #SystemDesign #BackendDevelopment #InterviewPrep #Placement
+#BackendDevelopment #Debugging #InterviewPrep #Placement #Support
 ```
