@@ -19,7 +19,7 @@ Pulse: %RESET = undo it now. %REVERT = they protect teammates.
 | Caption shape | C2 — this-or-that |
 | Label | `🚨 Interviewer asked:` |
 | Body words | 22 |
-| Caption words | 238 |
+| Caption words | 243 |
 | Helper / CTA | `📍 Read Caption` |
 | Comment keyword | RESET or REVERT |
 | Picker gates | pass — situation + teammates pulled + decision; both answers feel right |
