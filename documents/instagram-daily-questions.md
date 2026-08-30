@@ -152,18 +152,20 @@ Not invented. Pulled from a mystery that already exploded on Stack Overflow.
 
 Pulse: %BUG = they left a debug loop. %LOCK = they hung a thief.
 
+Killed draft: `You peek at Gmail’s own data` — Ashok: no context, beginners cannot picture the scene.
+
 | Field | Value |
 | --- | --- |
 | Topic lane | product / Gmail |
 | Pattern | N4 — expected clean data still “fails” |
 | Caption shape | C1 |
 | Label | `Interviewer:` |
-| Body words | 20 |
+| Body words | 28 |
 | Caption words | 280 |
 | Helper / CTA | `Answer in caption ⬇️` |
 | Comment keyword | BUG or LOCK |
-| Status | ready to post — copy-paste below |
-| Sources | SO/2669690 (4,510 / 611k). Facebook `for(;;);`. |
+| Status | ready to post — beginner scene + gloss |
+| Sources | SO/2669690 (4,510 / 611k). Facebook freeze twin. |
 
 ### COPY — FRAME
 
@@ -172,9 +174,9 @@ Paste this on the Reel.
 ```
 Interviewer:
 
-You peek at Gmail’s own data.
-It starts with while(1);
-Mail still loads.
+You open Gmail. The browser gets your inbox from Google.
+It starts with while(1); which means loop forever.
+Mail still opens.
 Is that a bug, or a lock?
 
 Answer in caption ⬇️
@@ -187,9 +189,9 @@ Paste this in the Instagram caption box.
 ```
 Read it 👇
 
-🔒 Gmail hung its own data. On purpose.
+🔒 You opened Gmail. Google sent a freeze first.
 
-💡 Answer: A lock. Gmail cuts the freeze. A thief’s page cannot.
+💡 Answer: A lock. Gmail throws the freeze away. A thief cannot.
 
 A lot of people reach for:
 Someone left a debug loop.
@@ -199,41 +201,41 @@ ____
 
 What they actually built 🤔
 
-A stranger’s site can ride your Gmail login.
+You open Gmail. The browser asks Google for your inbox.
 
-It tries to run Gmail’s data as a program.
+Google sends a text file back.
 
-A clean list lets them steal your inbox.
+A bad site can ask for that file while you are logged in.
 
-So Google puts while(1); in front.
+A clean file lets them steal your inbox.
 
-The thief’s page freezes.
+So Google writes while(1); at the top.
 
-Gmail deletes those first characters, then reads the mail.
+That means loop forever. The bad site gets stuck.
 
-Facebook did the same with for(;;);
+Gmail deletes that first line.
 
 ____
 
 Real Flow ⚡
 
-you are logged into Gmail
+you open Gmail
 ↓
-a bad site asks for your inbox
+browser asks Google for your inbox
 ↓
-browser sends it with your login
+a bad site tries the same trick
 ↓
 while(1); hangs the thief
 ↓
-Gmail strips the freeze and reads
+Gmail deletes the first line
 
 ____
 
-✅ 1. This is not a crash
-Mail still loading is the tell.
+✅ 1. Not a crash
+Mail opening is the tell.
 
 ✅ 2. The freeze is the lock
-Clean data was the hole.
+A clean file was the hole.
 
 ✅ 3. Only Gmail has the scissors
 The thief gets the loop.
@@ -245,7 +247,7 @@ ____
 ❌ Instead of saying: "Google left a random loop."
 
 Say:
-"Gmail prefixes a freeze so a stranger’s page cannot run my inbox as a script. Their client strips while(1); first. The lock is for the thief, not for me."
+"Google sends my inbox with while(1); on top. A bad site that runs that file gets stuck. Gmail deletes the first line and shows my mail."
 
 That's a stronger interview answer.
 
@@ -261,11 +263,11 @@ ____
 
 In short: while(1); stops a thief. It does not break Gmail.
 
-🔖 Save this for your next web interview.
+🔖 Save this for your next interview.
 
 💬 Comment BUG or LOCK before you scroll.
 
-(gmail, while(1), json, lock, inbox, interview, placement)
+(gmail, while(1), lock, inbox, browser, interview, placement)
 
 #Gmail #SystemDesign #BackendDevelopment #InterviewPrep #Placement
 ```

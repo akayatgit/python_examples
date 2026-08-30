@@ -305,7 +305,7 @@ The 13 reference Reels are a **formation** source, not a topic-difficulty source
 
 | # | Gate | Pass | Fail |
 | --- | --- | --- | --- |
-| 1 | **Noun test** | A campus student / 0–2 YoE can read every word on the frame without Googling | Frame uses `RAG`, `embeddings`, `LLM-as-Judge`, `vector index`, `CAP`, `CRDT`, `p99`, `Raft` |
+| 1 | **Noun test** | A campus student / 0–2 YoE can picture the scene and read every word without Googling. First-year code gets a spoken gloss on the frame (`while(1)` = loop forever) | Insider setup with no scene (`peek at Gmail’s own data`). Frame uses `RAG`, `embeddings`, `LLM-as-Judge`, `vector index`, `CAP`, `CRDT`, `p99`, `Raft` |
 | 2 | **Careless-mistake test** | People do this wrong in real work this month | Only specialists hit this; no everyday decision |
 | 3 | **Wrong-first-answer test** | The first comment most people type is wrong or incomplete | 90% would get it right in one word |
 | 4 | **Two-camp test** | Comments can split (A vs B, “just gitignore”, `[1,2,3]` vs `[1,2,3,4]`) | No argument, no poll energy |
@@ -316,6 +316,8 @@ The 13 reference Reels are a **formation** source, not a topic-difficulty source
 Difficulty band: **first-year to SDE-1 fundamentals with a trap**. One level above the fact everyone already recites (`IS NULL`). **Mind game, not homework.** If the viewer needs a pen, a nested query, or a truth table to even *read* the frame, it is too hard for the feed. Not trivia. Not staff-engineer.
 
 Ashok lock (2026-08-30): an LLM cannot invent a new outlier. **Search first.** Next post = a mystery that already landed on Twitter or Stack Overflow, rewritten in our frame. Never a common system-design prompt.
+
+Ashok lock (2026-08-30): researched is not enough. If a beginner cannot **picture what they are looking at**, the frame has no context. Kill `You peek at Gmail’s own data`. Setup must be a scene they have lived (`You open Gmail. The browser gets your inbox.`). Gloss first-year code in the same breath.
 
 ### 8.2 Prefer these nouns (everyday, high confusion)
 
