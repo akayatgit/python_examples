@@ -6,6 +6,8 @@ Caption is paste-ready for Instagram: no markdown bold, heavy line breaks, funct
 
 Every post must include a **COPY — FRAME** block and a **COPY — CAPTION** block so Ashok can paste while creating the Reel.
 
+From 002, use Pattern **N1–N6** (Maps-denial, Tatkal-fight, worked-then-broke, expected-fix-fails, 1-vs-N writes, two-taps-one-resource). Clone the shape. Never clone the guidance body.
+
 ---
 
 ## POST 001 — git reset vs git revert (pulse check)

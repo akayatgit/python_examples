@@ -14,7 +14,11 @@ This guideline covers question formation, helper text, word counts, **topic pick
 
 A winning post is a **real product moment, not a textbook FAQ**.
 
-Ashok pulse (001): `git reset` vs `git revert` died. People can search that. From 002, write the thing that happened on Swiggy / BookMyShow / UPI — then how the team stopped it.
+Ashok pulse (001): `git reset` vs `git revert` died. People can search that.
+
+From 002, write an **outlier product scene**: Maps with no cameras, Tatkal at 10:00:00, WhatsApp 1 vs 1,024 writes, last biryani, PAY twice. Then how the team actually built it.
+
+**Textbook / dead pulse (do not write this):** `How does 10GB become 3GB when zipped? Where did the 7GB go?` Same family as reset vs revert — a FAQ puzzle, not a product.
 
 The viewer should feel:
 
@@ -236,15 +240,24 @@ Code: 3–5 lines. One mutation / reference / scope / default-arg surprise.
 
 Options: A / B / C. One trap, one correct, one crash/error.
 
-### Pattern N — Real product glitch (default from POST 002)
+### Pattern N — Real product outlier (default from POST 002)
 
-Named Indian app. Short cinematic beats. A glitch the viewer has felt. Then `How do they stop this?`
+Named product the viewer uses. A number or a denial. A glitch they have felt. Then a decision or `How do they stop this?`
 
-Do not name the CS term on the frame (`idempotency`, `race condition`). Caption can.
+Do not name the CS term on the frame (`idempotency`, `fanout`, `embedding drift`). Caption can.
 
-Example (do **not** clone): last biryani, two Swiggy carts, both tap Place Order.
+Ashok set these shapes (2026-08-30). **Clone the shape. Never clone the body.**
 
-Prefer Pattern N for the feed.
+| Code | Shape | What must be on the frame | Guidance example (do not ship) |
+| --- | --- | --- | --- |
+| N1 | No X, no Y. How does Product know? | Three denials + a surprise time | Maps: no cameras, no sensors, no cops, traffic at 3AM |
+| N2 | Fight for scarce seats | Huge N vs tiny K + exact clock + no double-book | IRCTC Tatkal: 2 million vs 500 at 10:00:00 AM |
+| N3 | Worked. Later broke. You changed nothing. | Time gap + “you didn’t change the code” | RAG-in-prod shape. On *this* feed use Gmail / WhatsApp / Maps — not the word RAG |
+| N4 | You did the safe action. It still failed. | Expected fix + still broken | JWT: steal token, click Logout, hacker still in |
+| N5 | 1 vs N (product number) | Real product limit + two camps | WhatsApp: 1,024 members, 1 write or 1,024 writes? |
+| N6 | Two taps, one resource | Money or last item + double action | ₹79,999 PAY twice / last Swiggy biryani |
+
+Prefer N1–N6 for the feed. Rotate the code. Do not repeat yesterday’s code.
 
 ---
 
@@ -275,8 +288,8 @@ Write like a sharp interviewer talking across the table. Not like a blog.
 - Repeat the same pattern two days in a row
 - Fragment frames: function names, numbers, then “what do you get?” with no decision sentence
 - Quiz-gotchas that dunk on the viewer (`COUNT(*)` vs `COUNT(email)` with a NULL count, 😏 “most developers think”)
-- Textbook FAQ as the whole post (`reset vs revert`, `merge vs rebase`, `what is idempotency`) — 001 proved this gets a dead pulse
-- Clone of the ₹79,999 double-tap PAY reel — shape only, not the story
+- Textbook FAQ / physics puzzle as the whole post (`reset vs revert`, `where did the 7GB go after zip`, `what is idempotency`) — dead pulse
+- Clone of a guidance body (Maps 3AM, IRCTC 2M/500, WhatsApp 1,024 writes, JWT logout, RAG 3 months, ₹79,999 PAY). Shape only.
 
 ---
 
@@ -329,20 +342,21 @@ Do not put these on the frame. Caption may mention a tool name once if the *ques
 | Git | B, G, L | Everyday mistakes |
 | Web | H, L | Ports, cookies, HTTP |
 | Backend / DB | B, E | DELETE vs TRUNCATE, cache vs DB |
-| Simple design | C, D, E | Maps, cache-not-all, booking rush — only if nouns stay common |
+| Product outlier | N1–N6 | Default from 002. Named app. Number or denial. Felt glitch. |
+| Simple design | C, D, E | Only if it is also Pattern N (real product, not a definition) |
 | Auth | G | Logout, leaked token, leaked `.env` |
 
 Watch Tower fit: train **interview judgment on things people already think they know**.
 
 ### 8.5 Picker examples
 
-**Ship from 002 (real product, how they solved it)**  
-- Last biryani in two Swiggy carts, both tap Place Order — inventory reserve.  
-- Two phones, one BookMyShow seat — hold + TTL.  
-- Shape only: ₹79,999 PAY twice. Do not rewrite that story.
+**Ship from 002 (cousin of N1–N6, new body)**  
+- Last biryani, two Swiggy carts — N6.  
+- Ola pin drops on the wrong terminal — N1 cousin.  
+- Instagram broadcast: 1 write or 1 million writes — N5 cousin, not WhatsApp 1,024.
 
 **Do not ship (textbook / dead pulse)**  
-- `reset vs revert`, `merge vs rebase`, `COUNT(*)` vs `COUNT(email)`, `= NULL`, `NOT IN` + NULL, `.gitignore` as the hook.
+- `reset vs revert`, `merge vs rebase`, `10GB zip → 3GB where did 7GB go`, `COUNT(*)` vs `COUNT(email)`, `= NULL`, `.gitignore` as the hook.
 
 **Do not ship (reference clones)**  
 The 13 training Reels and the guideline’s worked copies (`y = x` append, HTTP vs HTTPS, CORS ports, DELETE vs TRUNCATE, JWT logout, cache vs DB, Maps, RAG, LLM-as-Judge, IRCTC, Orders API latency) are **style only**. Recreating them is a reject.
