@@ -152,4 +152,4 @@ Quotes below are verbatim from those pipes. Do not invent extra comments. Do not
 
 Zero Reels from a single hot listing. Three X, two Reddit, five handles/rooms.
 
-**Format for all five:** Hook → Screens. No talking. Shot lists: `documents/reel-scripts-batch-1.md`.
+**Format for all five:** Hook (number + promise on working b-roll) → 5 screenshares. No talking. **No Reddit/X UI on camera.** Shot lists: `documents/reel-scripts-batch-1.md`.

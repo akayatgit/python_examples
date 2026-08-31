@@ -1,202 +1,196 @@
-# Reel shot lists — Batch 1 (Hook → Screens, no talking)
+# Reel shot lists — Batch 1 (Hook → 5 screens, no talking, no Reddit/X on camera)
 
-Sources: `documents/harvest-live.md`. Format lock: 2s working b-roll → source screen → proof screen. Text is the script. You do not talk.
+Harvest (off-camera only): `documents/harvest-live.md`.  
+On camera: you working + five screenshares. Never open reddit.com or x.com in the recording.
 
-**Sunday once:** record 15s of you typing (side/over-shoulder, silent). That tape is the hook for all five. Then record the ten laptop files below.
+**Sunday once:** 15s typing tape (silent). That is every hook.  
+**Then per Reel:** one file `rN-screens.mp4` — do the five steps in order, 1s pause between. CapCut splits.
+
+Hook grammar is number + promise. The Google-90% line was an *example of shape*. We do not ship fake stats.
 
 ---
 
-## R1 · Tue · T1 Bounce · “They can paste Claude themselves”
+## R1 · Tue · T1 Bounce
 
-**Source:** r/cscareerquestions · u/MaximumFlow7491  
-https://www.reddit.com/r/cscareerquestions/comments/1w0rj6v/serious_question_why_bother_hiring_juniors_anymore/
-
-**Cover:** `Why hire you?`  
+**Harvest (do not film):** r/cscareerquestions — juniors paste Claude; seniors bounce it.  
+**Cover / hook overlay:** `4 checks before you send an AI PR`  
 **Length:** 30–36s  
-**Files:** `hook.mp4` (shared) · `r1-source.mp4` · `r1-proof.mp4`
+**File:** `hook.mp4` + `r1-screens.mp4`
 
-| t | Picture | Text card (middle third) |
+| Clip | Picture (screenshare) | Overlay |
 |---|---|---|
-| 0–2s | Hook tape | `113 COMMENTS. WHY HIRE YOU?` |
-| 2–10s | Browser: that thread. Pause on the title, scroll the “plug it into LLM” paragraph, then the gitblamed_ reply (“believed that Gemini knew more”) | `Plug into LLM → slop` then `Interns trusted Gemini` |
-| 10–28s | VS Code / Cursor: open any AI-made file. Set a breakpoint. Change one value so it fails. Type one comment: `saw: ___` | `Open a debugger` then `Break it. Write what you saw.` |
-| 28–34s | Hold the comment line | `Comment slop if that PR was a paste` |
+| Hook 0–2s | Working tape | `4 checks before you send an AI PR` |
+| 1/5 | VS Code: open an AI-made file. Cursor on the first function. | `1/5  Open the file they wrote` |
+| 2/5 | Set a breakpoint. Run. | `2/5  Stop it in a debugger` |
+| 3/5 | Change one number so it fails. Leave the error up. | `3/5  Break one value on purpose` |
+| 4/5 | Type a one-line comment: `saw: ___` | `4/5  Write what you actually saw` |
+| 5/5 | Hold that comment | `5/5  Comment slop if you skipped this` |
 
-**How to record proof (4 min, once):** pick a small function you already have. Run it. Flip a number. Let it error. Leave the error on screen. Type the one-line comment. Stop. Ugly is fine.
+**Record (4 min):** any small function you already have. Run → flip a value → error → one comment. Pause 1s between those four moves, then hold for clip 5.
 
 **Caption:**
 
 ```
-Live on r/cscareerquestions: “why bother hiring juniors anymore?” 113 comments.
+4 checks before you send an AI PR.
 
-His words: they plug the task into an LLM and submit the slop. A senior said interns trusted Gemini more than the person who owns the system. Those teams moved junior posts to 3 YOE.
+Open it. Stop it in a debugger. Break one value. Write what you saw.
 
-The hire is the person who opens a debugger.
+If you cannot do 3 and 4, they can paste Claude themselves.
 
-Comment slop if your last PR was a paste.
+Comment slop if your last PR skipped this.
 
 #freshers #aitools #claudecode #offcampus #engineeringstudents
 ```
 
 ---
 
-## R2 · Wed · T2 Workflow · “Watch it like a hawk”
+## R2 · Wed · T2 Workflow
 
-**Source:** @karpathy  
-https://x.com/karpathy/status/2015883857489522876  
-Fallback if x.com blocks: https://www.unrollnow.com/status/2015883857489522876
+**Harvest (do not film):** @karpathy — watch the agent; mistakes are junior-shaped.  
+**Cover / hook overlay:** `4 rules when the agent writes the code`  
+**Length:** 32–38s  
+**File:** `r2-screens.mp4`
 
-**Cover:** `Watch the agent`  
-**Length:** 34–40s  
-**Files:** `hook.mp4` · `r2-source.mp4` · `r2-proof.mp4`
-
-| t | Picture | Text card |
+| Clip | Picture | Overlay |
 |---|---|---|
-| 0–2s | Hook tape | `40K LIKES. WATCH THE AGENT.` |
-| 2–10s | Browser: the tweet / unroll. Highlight “watch them like a hawk” and “sloppy, hasty junior” | `Assumes. Never asks.` |
-| 10–32s | Cursor/Claude or a prepared before/after: a fat function on the left, you delete half of it (or accept a shorter rewrite). Cursor on the deleted block. | `1000 lines → 100` then `Give criteria. Then catch.` |
-| 32–38s | Hold the short file | `Comment hawk or paste` |
+| Hook | Working tape | `4 rules when the agent writes the code` |
+| 1/5 | Fat function on screen (or a dump you paste in). Do not accept yet. | `1/5  Do not accept the first dump` |
+| 2/5 | Highlight one wrong assumption (a magic number, a guessed name). | `2/5  Find the assumption it never asked` |
+| 3/5 | Delete half the file / keep the short version. | `3/5  Cut 1000 lines to 100` |
+| 4/5 | Type 3 lines at the top: success criteria / test names. | `4/5  Criteria first. Then let it loop.` |
+| 5/5 | Hold the short file | `5/5  Comment hawk or paste` |
 
-**How to record proof (5 min):** you do **not** need a live agent. Open a file that is too long. Delete a chunk that is obviously duplicate. Save. That *is* the job Karpathy named. If Cursor is open, prompt `cut this to 1/10th, keep tests` and record the shrink — only if it is already installed.
+**Record (5 min):** a long file you already have. Highlight → delete → type 3 criteria lines. Cursor optional. Do not open a tweet.
 
 **Caption:**
 
 ```
-@karpathy on X (40k likes): 80% agent coding. Watch it like a hawk.
+4 rules when the agent writes the code.
 
-The mistakes are “subtle conceptual errors that a slightly sloppy, hasty junior dev might do.” It assumes and runs. You cut 1000 lines to 100.
+Do not accept the first dump. Find the assumption it never asked. Cut 1000 to 100. Write success criteria before you let it loop.
 
-Give success criteria. Sit in the IDE. Catch the lie.
-
-Comment hawk or paste.
+Comment hawk if you caught an assumption this week. Comment paste if you shipped blind.
 
 #freshers #claudecode #cursorai #aitools #engineeringstudents
 ```
 
 ---
 
-## R3 · Thu · T3 Interview · “Explain it after is cheap”
+## R3 · Thu · T3 Interview
 
-**Source:** r/ExperiencedDevs · u/ClaudeyClerb  
-https://www.reddit.com/r/ExperiencedDevs/comments/1vmhqib/would_you_approve_this_change_without_reading_the/
-
-**Cover:** `Predict it first.`  
+**Harvest (do not film):** r/ExperiencedDevs — explain-after is cheap.  
+**Cover / hook overlay:** `4 steps instead of “explain this PR”`  
 **Length:** 32–38s  
-**Files:** `hook.mp4` · `r3-source.mp4` · `r3-proof.mp4`
+**File:** `r3-screens.mp4`
 
-| t | Picture | Text card |
+| Clip | Picture | Overlay |
 |---|---|---|
-| 0–2s | Hook tape | `EXPLAIN AFTER = CHEAP` |
-| 2–10s | Browser: the thread. Scroll “explanation after the fact is cheap” and the 4-step list | `Ask the agent → fake explain` |
-| 10–30s | Notes + terminal side by side. First type 5 lines of *what should happen* (before you run). Then run the script. Then type `happened:`. | `1. Predict` `2. Run` `3. Write what happened` |
-| 30–36s | Hold the notes | `Comment predict or after` |
+| Hook | Working tape | `4 steps instead of “explain this PR”` |
+| 1/5 | Notes app. Type 5 lines of what *should* happen. Terminal is empty. | `1/5  Predict before you run` |
+| 2/5 | Run `python test.py` (or any script you have). | `2/5  Run it` |
+| 3/5 | Back in Notes: `happened: ___` | `3/5  Write what actually happened` |
+| 4/5 | Break the script on purpose. Show the failure. | `4/5  Break it on purpose` |
+| 5/5 | Hold Notes + error | `5/5  Comment predict or after` |
 
-**How to record proof (5 min):** any script you already run (`python test.py` is enough). In Notes, write 5 lines *first*. Then run. Then one line of what you saw. Do not open a take-home you do not have.
+**Record (5 min):** Notes first, then run, then one line, then one break. `test.py` in this repo is enough.
 
 **Caption:**
 
 ```
-r/ExperiencedDevs: a 12 YOE said “make them explain the AI code” is cheap — they just ask the agent.
+4 steps instead of “explain this PR.”
 
-His un-fakeable check: write what you expect *before* you run. Then what happened. Then a test you authored. Then a failure you induced.
+Predict before you run. Run. Write what happened. Break it on purpose.
 
-Five lines of prediction before the next take-home.
+A model can explain code after. It cannot write what *you* expected first.
 
-Comment predict or after.
+Comment predict if you have done this. Comment after if you only explained when it was green.
 
 #freshers #aitools #interviewprep #engineeringstudents #claudecode
 ```
 
 ---
 
-## R4 · Fri · T4 Project · “50 interviews. Almost nobody was concrete.”
+## R4 · Fri · T4 Project
 
-**Source:** @gabriel1  
-https://x.com/gabriel1/status/2075022929260089501
+**Harvest (do not film):** @gabriel1 — 50 interviews, nobody was concrete.  
+**Cover / hook overlay:** `4 things that beat “I led X”`  
+**Length:** 32–38s  
+**File:** `r4-screens.mp4`
 
-**Cover:** `50 interviews. No specifics.`  
-**Length:** 34–40s  
-**Files:** `hook.mp4` · `r4-source.mp4` · `r4-proof.mp4`
-
-| t | Picture | Text card |
+| Clip | Picture | Overlay |
 |---|---|---|
-| 0–2s | Hook tape | `“I LED X” MEANS NOTHING` |
-| 2–10s | Browser: the tweet. Pause on “concrete terms” and “made X better” | `Vague = nothing` |
-| 10–32s | Browser: a local HTML or a live page you already have. Click the one flow. Highlight one number in the README or on the page (`12 orders`, `1 cafe`, `3s load`). | `One shop. One number.` then `20 seconds of clicking` |
-| 32–38s | Hold the number | `Comment 1 number from your last project` |
+| Hook | Working tape | `4 things that beat “I led X”` |
+| 1/5 | README or Notes: one number (`12 orders` / `3s load` / `1 cafe`). | `1/5  One number a human typed` |
+| 2/5 | Next line: one constraint (`no GPU` / `₹0` / `one page`). | `2/5  One constraint` |
+| 3/5 | Next line: one break (`ag-grid died at 1M rows`). | `3/5  One thing that broke` |
+| 4/5 | Browser: click the actual page / `shop.html`. | `4/5  20 seconds of you clicking it` |
+| 5/5 | Hold the number on the page | `5/5  Comment your one number` |
 
-**How to record proof (6 min):** if you have no page, make `shop.html` with a shop name + one button + one fake number. Open it. Click it. That is the demo he named. Do not start a real client hunt this Sunday.
+**Record (6 min):** if you have no page, make `shop.html` with a name + button + fake number. Click it. Do not start a real client hunt.
 
 **Caption:**
 
 ```
-@gabriel1 on X (ex OpenAI / Midjourney): after 50+ interviews, almost nobody talks in concrete terms. “Made X better” / “led Y” means nothing.
+4 things that beat “I led X.”
 
-Same author: don’t compete on grades. Build a personalized demo. That’s how he got the OpenAI interviews.
+One number. One constraint. One thing that broke. Twenty seconds of you clicking the page.
 
-This weekend: one named shop, one page, 20 seconds of you clicking it.
+“Made it better” means nothing. A named shop + a number does.
 
-Comment one number from your last project.
+Comment one number from your last project. If you have none, that is the gap.
 
-#freshers #offcampus #aitools #engineeringstudents #openai
+#freshers #offcampus #aitools #engineeringstudents #claudecode
 ```
 
 ---
 
-## R5 · Sat · T5 Signal · “AI does what 10 juniors did”
+## R5 · Sat · T5 Signal
 
-**Source:** @aakancvedi  
-https://x.com/aakancvedi/status/1950928442427404760  
-Fallback: https://www.unrollnow.com/status/1950928442427404760
+**Harvest (do not film):** @aakancvedi — AI does what 10 juniors did.  
+**Cover / hook overlay:** `3 proofs that replace 10 juniors`  
+**Length:** 28–34s  
+**File:** `r5-screens.mp4`
 
-**Cover:** `10 juniors. Now AI.`  
-**Length:** 26–32s  
-**Files:** `hook.mp4` · `r5-source.mp4` · `r5-proof.mp4`
-
-| t | Picture | Text card |
+| Clip | Picture | Overlay |
 |---|---|---|
-| 0–2s | Hook tape | `10 JUNIORS → AI` |
-| 2–12s | Browser: the thread. Scroll tweet 5/12 and 6/12 (ten juniors / fresher pyramid) | `Fresher base = billed heads` then `You were the product` |
-| 12–26s | Notes or GitHub: type three lines only — `bug I caught:` / `prompt I rejected:` / `user who used it:`. Fill one. Leave the others blank on purpose. | `Catch what 10 would miss` |
-| 26–32s | Hold the one filled line | `0–2 YOE? Save.` |
+| Hook | Working tape | `3 proofs that replace 10 juniors` |
+| 1/5 | Notes: `bug I caught:` + fill one real line. | `1/5  A bug you caught in AI code` |
+| 2/5 | `prompt I rejected:` + fill or leave blank on purpose. | `2/5  A prompt you refused to ship` |
+| 3/5 | `user who used it:` + a name or “none yet.” | `3/5  A human who used it` |
+| 4/5 | Circle the one line that is real. Delete the empty ones if two are blank. | `4/5  Fill one before you apply again` |
+| 5/5 | Hold the filled line | `5/5  0–2 YOE? Save.` |
 
-**How to record proof (3 min):** a Notes file named `proof.txt`. Type the three labels. Fill *one* from a real thing this month. Stop. Do not decorate.
+**Record (3 min):** `proof.txt`. Three labels. Fill one from this month. Stop.
 
 **Caption:**
 
 ```
-@aakancvedi on X (8.5k likes): “AI can now do what 10 junior engineers used to do, only faster and cheaper.”
+3 proofs that replace 10 juniors.
 
-Indian IT was a pyramid. Freshers at the base. Headcount billing. Clients want fewer people + AI.
+A bug you caught in AI code. A prompt you refused to ship. A human who used it.
 
-Don’t be the 11th junior. Be the person who catches what those 10 would ship wrong.
+You do not win by being the 11th junior. You win by catching what those 10 would have shipped wrong.
 
 Save if you are 0–2 YOE.
 
-#freshers #indianit #aitools #offcampus #campusplacements
+#freshers #aitools #offcampus #campusplacements #claudecode
 ```
 
 ---
 
 ## Sunday checklist (40 min)
 
-- [ ] 15s hook tape (once). Same hoodie. No talking.
-- [ ] 5 source scrolls (`r1`–`r5-source.mp4`)
-- [ ] 5 proof screens (`r1`–`r5-proof.mp4`)
-- [ ] CapCut: duplicate `akay-h2s` five times. Hook 0–2 · source 2–10 · proof 10–end.
-- [ ] Same bed track. Same font. Hard cut only.
-- [ ] Stories: crop of the source post, then “Reel is up.”
-- [ ] No ATS. No second URL. No voice.
+- [ ] 15s hook tape. Same hoodie. No talking.
+- [ ] 5 files only: `r1-screens.mp4` … `r5-screens.mp4` (one pass each, pause between steps)
+- [ ] CapCut `akay-h2s`: hook 0–2 + five splits. Badge `1/5`…`5/5`.
+- [ ] Same bed. Same font. Hard cuts.
+- [ ] Zero frames of Reddit or X.
+- [ ] Stories = hook card + one screenshare still. No thread crop.
 
-If one proof file is missing at minute 25, post the other four. Do not invent a talking take to fill the hole.
+If one screens file is missing at minute 25, post the other four. Do not fill the hole with a tweet screenshot.
 
 ---
 
-## Week 2 titles (only if they still have heat next Monday)
+## Week 2
 
-Shot lists wait for the next harvest. Same skeleton: Hook → Source → Proof. Do not add talking to “fix” a weak week.
-
-| # | Template | Banked source | Hook card |
-|---|---|---|---|
-| R6 | T2 | @nateberkopec — “I am now a PM for an LLM” | `PM FOR A MODEL` |
-| R7–R10 | | Re-harvest. New fight only. | New card only. |
+Same skeleton. New harvest → new overlay + 5 clips. Do not remake these five with a Reddit crop “for proof.”

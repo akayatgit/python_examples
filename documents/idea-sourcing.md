@@ -74,14 +74,14 @@ One post → one Reel. Do not mash three threads.
 Shot-list header must include:
 
 ```
-Source: r/subreddit or @handle — “short quote”
-https://…permalink or x.com/…/status/…
-Files: hook.mp4 · rN-source.mp4 · rN-proof.mp4
+Harvest (off-camera): r/subreddit or @handle — “short quote”
+Hook overlay: N things that [outcome]
+File: rN-screens.mp4
 ```
 
-Every Reel is Hook → Source → Proof. If you cannot name those three files, it is not a Reel.
+Every Reel is Hook → 5 screens. If you cannot name five clips, it is not a Reel.
 
-Stories that day: one crop of the source (username blurred if you want), then “Reel is up.” That is proof we are in a live conversation, not a course.
+**Never film the thread.** Reddit/X is how we pick the fight. The overlay and the five screens *are* the Reel. Stories: hook card + one screenshare still. No subreddit crop.
 
 ---
 
