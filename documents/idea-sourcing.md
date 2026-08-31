@@ -4,35 +4,58 @@ Standing rule: if it did not start as a post people are already fighting over, i
 
 ATS / resume-tailor / keyword hacks are banned even if they trend. That lane is used up on this account.
 
+**Diversity law (standing, 31 Aug):** do not harvest one page and call it a week. A locked batch must have **≥2 platforms**, **≥3 distinct rooms or handles**, and **≥2 X posts with real `https://x.com/{handle}/status/{id}` URLs**. Two Reels from the same thread = illegal. One developersIndia hot listing is a room, not a market.
+
 ---
 
 ## Monday harvest (30 minutes, timer on)
 
-Open these, in this order. Sort by **hot** then **week**. Screenshot anything with heat.
+Open these, in this order. Sort by **hot** then **week**. Screenshot anything with heat. Write the dump into `documents/harvest-live.md` (overwrite).
 
-**Reddit**
+**Reddit — at least three rooms, not one listing**
 
-1. [r/developersIndia hot](https://www.reddit.com/r/developersIndia/hot/) — first. This is our room. If reddit.com 403s, use [the public hot mirror](https://reddit.synth.download/r/developersIndia/hot).
-2. [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions)
-3. [r/csMajors](https://www.reddit.com/r/csMajors)
-4. [r/ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs) — seniors saying what they actually hire
-5. Search inside those: `Claude`, `Cursor`, `junior`, `fresher`, `take-home`, `agent`
+1. [r/developersIndia](https://www.reddit.com/r/developersIndia/hot/) — our India room. One or two fights max.
+2. [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) — US juniors + seniors
+3. [r/ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs) — what seniors actually hire
+4. [r/csMajors](https://www.reddit.com/r/csMajors) — campus / intern
+5. Search inside those: `Claude`, `Cursor`, `junior`, `fresher`, `take-home`, `agent`, `slop`
 
-**Twitter / X**
+If reddit.com 403s from this environment, use the public archive API (do not ask Ashok):
 
-1. Search last 7 days: `Claude Code`, `Cursor`, `"junior developer"`, `fresher hiring`, `"I don't hire juniors"`
-2. Accounts worth a skim (not to copy — to steal the *fight*): people arguing about agents vs juniors, not “10 ChatGPT resume prompts”
+```
+https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=cscareerquestions&query=junior&limit=8
+https://arctic-shift.photon-reddit.com/api/posts/ids?ids=POST_ID
+https://arctic-shift.photon-reddit.com/api/comments/search?link_id=POST_ID&limit=15
+```
+
+Keep the official `reddit.com/r/{sub}/comments/{id}/…` permalink in the dump even if we read the body from the archive.
+
+**Twitter / X — mandatory. At least two live tweets.**
+
+Search last 7 days (or unroll / fxtwitter if x.com search 403s): `Claude Code`, `Cursor`, `"junior developer"`, `fresher`, `"I don't hire juniors"`, `slopacolypse`, `agentic`.
+
+If x.com is blocked, resolve a real status ID then pull verbatim text:
+
+```
+https://api.fxtwitter.com/{handle}/status/{id}
+https://www.unrollnow.com/status/{id}
+```
+
+Do not invent IDs. No tweet in the dump without a `status/` URL and a like/view count from the pull.
+
+Accounts worth a skim (steal the *fight*, not the wording): @karpathy, people arguing agents vs juniors, Indian-IT threads on the fresher pyramid. Skip “10 ChatGPT resume prompts.”
 
 **Heat test (must pass one)**
 
 - Reddit: ≥ 80 comments **or** a thread the comments keep quoting
-- X: quote-tweet pile, or replies that say “this is me”
+- X: ≥ ~2k likes **or** a quote-tweet pile / replies that say “this is me”
 
 **Kill test**
 
-- The post is about ATS, resume keywords, Naukri parse, “use this ChatGPT prompt on your PDF”
-- The post is a tool list
+- ATS, resume keywords, Naukri parse, “use this ChatGPT prompt on your PDF”
+- Tool list / listicle with no lived scene
 - You cannot say the take in one sentence without the source
+- Same fight as another Reel already locked this week
 
 ---
 
@@ -42,39 +65,42 @@ One post → one Reel. Do not mash three threads.
 
 | You found | It becomes |
 |---|---|
-| “They bounced my GitHub / this is a tutorial clone” | T1 Bounce |
+| “They bounced my GitHub / this is a tutorial clone / juniors paste slop” | T1 Bounce |
 | “How I actually use Cursor / Claude at work” | T2 Workflow |
-| “They asked if I used AI” / take-home drama | T3 Interview |
-| “Stop building Titanic / another ChatGPT wrapper” | T4 Project |
-| A number or a CEO quote people are yelling about | T5 Signal |
+| “They asked if I used AI” / take-home / “explain this PR” | T3 Interview |
+| “Stop building Titanic / demo or it didn’t happen” | T4 Project |
+| A number or a CEO/X quote people are yelling about | T5 Signal |
 
 Script header must include:
 
 ```
 Source: r/subreddit or @handle — “short quote”
+https://…permalink or x.com/…/status/…
 ```
 
 Stories that day: one crop of the source (username blurred if you want), then “my take is the Reel.” That is proof we are in a live conversation, not a course.
 
 ---
 
-## Harvest log — 31 Aug 2026 (live)
+## Harvest log — 31 Aug 2026 (diversified)
 
 Full quotes: `documents/harvest-live.md`.  
-Pulled from r/developersIndia **hot right now**. Official reddit.com JSON and x.com search returned 403. Nitter died 25 Aug 2026. No fake tweet IDs.
+**Not** the r/developersIndia hot page. Mix: 2 Reddit rooms + 3 X threads.
 
 | # | Live post | Heat | Fight | Reel |
 |---|---|---|---|---|
-| P4 | u/HolyCow999 — 100+ apps, Claude Code, ATS 80, 1 callback, “AI slop vibes?” | 7h, on hot | Claude-polished apps still bounce | R1 |
-| P2 | u/FewWoodpeckerIn — interview loop vs coding agents | 4h, on hot | Test: bug in 300 lines of agent code | R2 |
-| P1 | u/Audaticreddit — intern system design | **190↑ · 11h** | Intern SD to catch people riding AI | R3 |
-| P5 | u/Dry-Bee-7232 — 2nd years, cafe paid them | 8h, on hot | Real client > internship grind | R4 |
-| P3 | u/Rare-Assignment-8474 — how are juniors hired | 15h, on hot | “Just hire seniors with AI” | R5 |
+| P1 | r/cscareerquestions · u/MaximumFlow7491 — why hire juniors | **113 comments** | Juniors plug the task into Claude; seniors get the same slop | R1 |
+| P2 | @karpathy — Claude coding notes | **40.7k likes · 7.8M views** | Watch the agent like a hawk; errors are junior-shaped | R2 |
+| P3 | r/ExperiencedDevs · u/ClaudeyClerb — explain-after is cheap | **33 comments** | Predict *before* you run; that is the un-fakeable check | R3 |
+| P4 | @gabriel1 — interviewed 50+ people | **2.0k likes · 376k views** | Vague “I led X” dies; concrete demo lives | R4 |
+| P5 | @aakancvedi — Indian IT dying? | **8.5k likes · 888k views** | AI does what 10 juniors did; pyramid is the product | R5 |
 
-**Not used:** ATS how-tos. CleanSlate promo (mods just cracked down). “Will AI take our jobs?” (mods listed it as a banned FAQ today).
+**Not used:** ATS how-tos. csMajors resume-prompt. @aibytekat ATS audit. Last week’s single-page developersIndia five (do not remake).
 
 ---
 
 ## Next Monday
 
-Re-pull https://www.reddit.com/r/developersIndia/hot/ (or the public mirror). If these five are gone, they do not get a second Reel. New fight or remake last week’s best template with a new source. Do not ask Ashok to paste links.
+Re-pull **three Reddit rooms + X**. If these five are gone or colder, they do not get a second Reel. New fight or remake last week’s best *template* with a new source. Bank: @nateberkopec “PM for an LLM” if it is still circulating.
+
+Do not ask Ashok to paste links.

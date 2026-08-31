@@ -6,6 +6,8 @@
 
 **Idea law (standing):** Every Reel starts as a post on **Reddit or Twitter/X**. We do not invent tips from career-blog muscle memory. Harvest → pick a fight people are already in → film our take. SOP: `documents/idea-sourcing.md`. Latest pull: `documents/harvest-live.md`.
 
+**Diversity law:** do not lock a week from one page. A batch needs ≥2 platforms, ≥3 rooms/handles, and ≥2 X posts with real status IDs.
+
 **Killed topics:** ATS, “tailor your resume to the JD,” keyword stuffing, Naukri parse tricks. Saturated. Ashok has run them. They do not ship.
 
 **North star for this phase:** 10,000 Insights *views* on a Reel, **4 out of the last 5 posts**. Until that is true, we do not mention selling.
