@@ -1,235 +1,197 @@
-# Reel scripts — Batch 1 (value only)
+# Reel scripts — Batch 1 (locked to 31 Aug diversified harvest)
 
-Film these in order. Each block is one Reel. Read the **Spoken** column out loud. Put **On-screen** text in the middle third. No product, no keyword-for-file, no link.
-
-Cover text = the line in **Cover**. Caption = copy-paste the **Caption** block.
+Sources: `documents/harvest-live.md`. Five fights, five rooms: r/cscareerquestions, @karpathy, r/ExperiencedDevs, @gabriel1, @aakancvedi. No ATS how-to. No invented tips. Not one Reddit hot page.
 
 ---
 
-## Week 1
+## R1 · Tue · T1 Bounce · “They can paste Claude themselves”
 
-### R1 · Tue · T1 Reject · “ATS never saw you”
+**Source:** r/cscareerquestions · u/MaximumFlow7491 — *why bother hiring juniors anymore?*  
+https://www.reddit.com/r/cscareerquestions/comments/1w0rj6v/serious_question_why_bother_hiring_juniors_anymore/
 
-**Cover:** `Your resume failed ATS`  
+**Cover:** `Why hire you?`  
 **Length:** 32–38s  
-**First frame:** Your face, serious. Big text: `0 CALLS`.
+**First frame:** Face. Text: `113 COMMENTS.`
 
 | t | Spoken | On-screen |
 |---|---|---|
-| 0–2s | “If you sent fifty resumes and got zero calls, it is not bad luck.” | `50 resumes. 0 calls.` |
-| 2–8s | “Naukri and company portals do not read your PDF like a human. They search for the exact words from the job description.” | `ATS = search box` |
-| 8–16s | “You wrote ‘built college projects.’ The JD said ‘REST APIs’ and ‘Python.’ The bot saw zero match. Human never opened it.” | ❌ `college projects` → ✅ `REST APIs, Python` |
-| 16–24s | “Fix: paste the JD into ChatGPT. Prompt: ‘List the exact skills in this JD I am allowed to claim from this resume. Rewrite only the bullets I can prove.’” | Show the prompt on screen (screen record 6s) |
-| 24–30s | “If you cannot prove it, do not add it. That is the line. Fake skills get you the call and a brutal interview.” | `Prove it or drop it` |
-| 30–36s | “Save this before you apply tonight. Then do one JD, one rewrite, send.” | `Save. Then apply once.` |
+| 0–2s | “One hundred thirteen comments on r/cscareerquestions. The title is: why bother hiring juniors anymore.” | `113 comments` |
+| 2–10s | “His line: you give a junior a task in twenty twenty-six, they treat it like a school assignment, plug it into an LLM, and send the slop back. He said he can paste the same thing into Claude and skip the salary.” | `Plug into LLM → slop` |
+| 10–20s | “A defense-contractor senior replied: his interns failed tasks that last year’s interns finished in two weeks. Because they believed Gemini knew the codebase better than he did. Those shops just moved junior posts to three years experience.” | `Interns trusted Gemini` |
+| 20–28s | “The instinct they still hire for: open a debugger. Ask a question. If your last PR is a paste you cannot step through, you are the slop in that thread.” | `Debugger. Then ask.` |
+| 28–34s | “Tonight: take one AI commit. Break it on purpose. Watch it fail. Write one sentence of what you saw. That sentence is why they pay you.” | `Break it. Write what you saw.` |
+| 34–38s | “Comment slop if your last PR was a paste you did not run.” | `Comment: slop?` |
 
 **Caption:**
 
 ```
-Zero calls is usually an ATS miss, not a talent miss.
+Live on r/cscareerquestions: “why bother hiring juniors anymore?” 113 comments.
 
-Paste the JD. Extract exact skill words you can prove. Rewrite only those bullets. Send.
+His words: they plug the task into an LLM and submit the slop. A senior said interns trusted Gemini more than the person who owns the system. Those teams moved junior posts to 3 YOE.
 
-Save this before you apply tonight.
+The hire is the person who opens a debugger.
 
-#freshers #resume #campusplacements #aitools #offcampus
+Comment slop if your last PR was a paste.
+
+#freshers #aitools #claudecode #offcampus #engineeringstudents
 ```
-
-**First comment (you):** Example pair: JD wants `SQL, dashboards` → change `did analysis in Excel` to `Wrote SQL queries and built Excel dashboards for 200-row sales data`.
 
 ---
 
-### R2 · Wed · T2 Workflow · “12 applications in 20 minutes”
+## R2 · Wed · T2 Workflow · “Watch it like a hawk”
 
-**Cover:** `12 applies in 20 min`  
-**Length:** 38–44s  
-**First frame:** Face + phone timer starting at `20:00`.
+**Source:** @karpathy — *random notes from claude coding*  
+https://x.com/karpathy/status/2015883857489522876
+
+**Cover:** `Karpathy: watch the agent`  
+**Length:** 36–42s  
+**First frame:** Face. Text: `40K LIKES ON X`
 
 | t | Spoken | On-screen |
 |---|---|---|
-| 0–2s | “Stop applying one tab at a time like it is 2019.” | `Stop. 1-tab apply.` |
-| 2–10s | “Open three windows: LinkedIn jobs. Your master resume. ChatGPT.” | `1 Jobs  2 Resume  3 ChatGPT` |
-| 10–20s | “For each role: copy JD. Prompt: ‘Tailor this resume to this JD. Keep it true. 6 bullets max. Output only the new Experience section.’” | Screen: paste + prompt |
-| 20–30s | “Paste the new section. Export PDF named `Name_Role_Company.pdf`. Apply. Next.” | `Name_SDE_Freshworks.pdf` |
-| 30–36s | “Twenty minutes. Ten to twelve roles. Same quality you fake-spend two hours on.” | `20 min · 12 roles` |
-| 36–42s | “Comment which step you skip — search, rewrite, or send. Be honest.” | `Which step do you skip?` |
+| 0–2s | “Karpathy, forty thousand likes. He is mostly programming in English now. Then he told you how the agent actually fails.” | `80% agent. 20% edits.` |
+| 2–10s | “Watch it like a hawk. The bugs are not syntax. They are the mistakes a sloppy junior makes: it assumes, and it runs, and it never asks.” | `Assumes. Never asks.` |
+| 10–20s | “His example: it writes a thousand brittle lines. You say, couldn’t this be a hundred? It says of course — and deletes eight hundred. That delete is the job.” | `1000 lines → 100` |
+| 20–28s | “Do not tell it what to do. Give it success criteria. Tests first. Then let it loop. You sit in the IDE on the side and catch the lie.” | `Criteria. Then loop.` |
+| 28–36s | “He named twenty twenty-six the slopacolypse. If you cannot point at one wrong assumption in yesterday’s agent output, you are not supervising. You are pasting.” | `Slopacolypse` |
+| 36–42s | “Comment hawk if you caught an agent assumption this week. Comment paste if you shipped it blind.” | `hawk / paste` |
 
 **Caption:**
 
 ```
-The 20-minute apply loop:
+@karpathy on X (40k likes): 80% agent coding. Watch it like a hawk.
 
-1. JD tab
-2. Master resume
-3. ChatGPT: tailor, keep it true, 6 bullets, Experience only
-4. PDF named Name_Role_Company
-5. Send. Next.
+The mistakes are “subtle conceptual errors that a slightly sloppy, hasty junior dev might do.” It assumes and runs. You cut 1000 lines to 100.
 
-Comment which step you skip.
+Give success criteria. Sit in the IDE. Catch the lie.
 
-#freshers #offcampus #resume #aitools #campusplacements
+Comment hawk or paste.
+
+#freshers #claudecode #cursorai #aitools #engineeringstudents
 ```
-
-**First comment:** Full prompt in one block they can copy. No “DM me.”
 
 ---
 
-### R3 · Thu · T3 Interview · “Claude failed me”
+## R3 · Thu · T3 Interview · “Explain it after is cheap”
 
-**Cover:** `AI interviewed me. I failed.`  
+**Source:** r/ExperiencedDevs · u/ClaudeyClerb — *Would you approve this change without reading the diff?*  
+https://www.reddit.com/r/ExperiencedDevs/comments/1vmhqib/would_you_approve_this_change_without_reading_the/
+
+**Cover:** `Predict it first.`  
 **Length:** 34–40s  
-**First frame:** Face, slight grimace. Text: `I FAILED`.
+**First frame:** Face. Text: `EXPLAIN AFTER = CHEAP`
 
 | t | Spoken | On-screen |
 |---|---|---|
-| 0–2s | “I asked Claude to interview me for a fresher SDE role. I failed in two minutes.” | `Fresher SDE · 2 min` |
-| 2–10s | “Question: tell me about a time you debuged something hard.” | Question card |
-| 10–18s | “My real first answer: ‘I… used print statements and then it worked.’ That is not a story. That is a shrug.” | ❌ `used prints, it worked` |
-| 18–28s | “Rebuild with STAR. Situation: login API 500. Task: find why. Action: read logs, saw null user id, wrote the check. Result: error rate dropped, PR merged.” | `S → T → A → R` with those words |
-| 28–34s | “Prompt: ‘Interview me as a strict hiring manager. One question at a time. Score my STAR.’” | Show prompt |
-| 34–40s | “Comment your answer to that debug question in one line. I will reply if it is STAR or shrug.” | `1 line. STAR or shrug?` |
+| 0–2s | “A twelve-year engineer posted this on Experienced Devs. Seniors are tired of ‘explain this PR.’” | `12 YOE. ExperiencedDevs` |
+| 2–10s | “His line: explanation after the fact is cheap now. You just ask the agent. The diff is no longer proof you thought.” | `Ask the agent → fake explain` |
+| 10–20s | “The check he wants, locked in order: one, predict what the code will do *before* you run it. Two, what actually happened. Three, a test you wrote. Four, a failure you caused on purpose.” | `Predict → run → test → break` |
+| 20–28s | “Only the first one is hard to fake. A model can tell you what the code does. It cannot tell you what *you* expected before you saw it.” | `Expectation is the proof` |
+| 28–34s | “Before your next take-home: write five lines of what should happen. Then run. If you cannot write those five lines, you are not ready to submit.” | `5 lines before you run` |
+| 34–40s | “Comment predict if you have done this. Comment after if you only explained once it was green.” | `predict / after` |
 
 **Caption:**
 
 ```
-“I used print statements and it worked” is why freshers die in round 1.
+r/ExperiencedDevs: a 12 YOE said “make them explain the AI code” is cheap — they just ask the agent.
 
-STAR: Situation, Task, Action, Result. One debug story is enough.
+His un-fakeable check: write what you expect *before* you run. Then what happened. Then a test you authored. Then a failure you induced.
 
-Prompt: Interview me as a strict hiring manager. One question at a time. Score my STAR.
+Five lines of prediction before the next take-home.
 
-Comment your one-line debug story.
+Comment predict or after.
 
-#interviewprep #freshers #aitools #campusplacements #engineeringstudents
+#freshers #aitools #interviewprep #engineeringstudents #claudecode
 ```
 
 ---
 
-### R4 · Fri · T4 Project · “Weekend project that looks like work”
+## R4 · Fri · T4 Project · “He interviewed 50 people. Almost nobody was concrete.”
 
-**Cover:** `This is not a college project`  
-**Length:** 38–44s  
-**First frame:** 1s of a simple live demo (form + table), then your face.
+**Source:** @gabriel1 — *interviewed 50+ people*  
+https://x.com/gabriel1/status/2075022929260089501  
+(quotes his demo tweet: https://x.com/gabriel1/status/1898566138352820561)
+
+**Cover:** `50 interviews. No specifics.`  
+**Length:** 36–42s  
+**First frame:** Face. Text: `“I LED X” MEANS NOTHING`
 
 | t | Spoken | On-screen |
 |---|---|---|
-| 0–1s | (silent or “Watch.”) | Demo: submit form → row appears |
-| 1–3s | “Recruiters can smell a college mini-project in one second.” | `I can smell mini-project` |
-| 3–12s | “College: student result portal, nobody uses it, README is empty.” | ❌ `result portal.zip` |
-| 12–24s | “Weekend instead: a helpdesk ticket app. User submits a bug. You assign status: open, doing, done. Store it. One login. Deploy it free on Render or Vercel.” | `Submit → status → done` |
-| 24–32s | “README in four lines: problem, who uses it, how to run, one screenshot. That is the job.” | `README = 4 lines` |
-| 32–38s | “ChatGPT prompt: ‘Turn this idea into a 48-hour build plan for a fresher. Stack: whatever I already know.’” | Prompt card |
-| 38–44s | “Comment your branch — CSE, ECE, Mech. I will reply a project that does not look like college.” | `Comment your branch` |
+| 0–2s | “Ex-OpenAI, ex-Midjourney. Two thousand likes in July. He interviewed fifty plus people.” | `50+ interviews` |
+| 2–10s | “His line: it is crazy how rare it is to talk about what you did in concrete terms. ‘I made X better’ means nothing. ‘I led Y’ means nothing.” | `Vague = nothing` |
+| 10–20s | “He wants: what you did, and why no one else could. One number. One constraint. One thing that broke.” | `Number. Constraint. Break.` |
+| 20–28s | “Same person, older tweet, nine thousand likes: do not compete on grades. Hundreds have a better college. None of them will build a demo for *that* company.” | `Personalized demo` |
+| 28–36s | “This weekend: one page that solves one problem at one shop you can name. Record twenty seconds of you clicking it. That is the project. Not another GitHub clone.” | `One shop. 20s click.` |
+| 36–42s | “Comment the one sentence of your last project that has a number in it. If you have none, that is the gap.” | `Comment 1 number` |
 
 **Caption:**
 
 ```
-College project: result portal, empty README.
-Work project: someone submits a thing, you change its status, it lives on the internet.
+@gabriel1 on X (ex OpenAI / Midjourney): after 50+ interviews, almost nobody talks in concrete terms. “Made X better” / “led Y” means nothing.
 
-48-hour helpdesk. Four-line README. Deploy it.
+Same author: don’t compete on grades. Build a personalized demo. That’s how he got the OpenAI interviews.
 
-Comment your branch. I will reply a project idea.
+This weekend: one named shop, one page, 20 seconds of you clicking it.
 
-#freshers #engineeringstudents #aitools #campusplacements #offcampus
+Comment one number from your last project.
+
+#freshers #offcampus #aitools #engineeringstudents #openai
 ```
 
 ---
 
-### R5 · Sat · T5 Signal · “They cut freshers. Here is this week.”
+## R5 · Sat · T5 Signal · “AI does what 10 juniors did”
 
-**Cover:** `IT cut freshers. Do this.`  
+**Source:** @aakancvedi — *So, is Indian IT dying?*  
+https://x.com/aakancvedi/status/1950928442427404760
+
+**Cover:** `10 juniors. Now AI.`  
 **Length:** 28–34s  
-**First frame:** Big number `55%` then your face.
+**First frame:** Face. Text: `THE PYRAMID BROKE`
 
 | t | Spoken | On-screen |
 |---|---|---|
-| 0–3s | “Fifty-five percent of Indian IT firms said they hired fewer freshers. That is not a vibe. That is a 2026 survey.” | `55% firms · fewer freshers` |
-| 3–10s | “Companies are not firing seniors. They are closing the entry gate and asking AI to do the grunt work you used to learn on.” | `Entry gate closing` |
-| 10–20s | “So the old plan — 8 CGPA, wait for campus — is a weaker plan. The new plan: proof you already do the grunt with AI, plus one public project.” | `Proof > CGPA wait` |
-| 20–26s | “This week only: one tailored resume, one STAR story, one deployed link. Not a course. Three artifacts.” | `Resume · Story · Link` |
-| 26–32s | “Save this if you are a 2025 or 2026 passout. Then do the three things before Sunday.” | `2025 / 2026? Save.` |
+| 0–3s | “Eight thousand likes on X. Aakanksha’s thread on Indian IT. One line: AI can now do what ten junior engineers used to do. Faster. Cheaper.” | `10 juniors → AI` |
+| 3–12s | “She said the industry was a pyramid. Thousands of freshers at the base. Grunt work billed by headcount. Clients now want fewer people plus AI.” | `Fresher base = billed heads` |
+| 12–20s | “TCS freeze. Infosys deferred campus. That is not a vibe. That is the product they used to sell — you — getting cheaper than a model.” | `You were the product` |
+| 20–26s | “You do not win by being the eleventh junior. You win by being the person who catches what those ten would have shipped wrong.” | `Catch what 10 would miss` |
+| 26–32s | “Save this if your plan was campus + service company + wait. Then ship one proof you supervised a model this week.” | `0–2 YOE? Save.` |
 
 **Caption:**
 
 ```
-IT is not “no jobs.” It is fewer first jobs.
+@aakancvedi on X (8.5k likes): “AI can now do what 10 junior engineers used to do, only faster and cheaper.”
 
-This week: 1 tailored resume. 1 STAR story. 1 deployed link.
+Indian IT was a pyramid. Freshers at the base. Headcount billing. Clients want fewer people + AI.
 
-Save if you are a 2025 or 2026 passout.
+Don’t be the 11th junior. Be the person who catches what those 10 would ship wrong.
 
-#freshers #campusplacements #aitools #offcampus #engineeringstudents
+Save if you are 0–2 YOE.
+
+#freshers #indianit #aitools #offcampus #campusplacements
 ```
 
-**Do not** cite fake numbers on camera beyond this: ICRIER/ET reporting that 55% of surveyed IT firms cut entry-level hiring (2026). If you cannot say “survey of firms” cleanly, say “firms are hiring fewer freshers — the entry gate is tighter” and drop the 55%.
+---
+
+## Week 2 titles (only if they still have heat next Monday)
+
+| # | Template | Source already in this harvest | Hook |
+|---|---|---|---|
+| R6 | T2 | @nateberkopec — “I am now a PM for an LLM” / junior who never sleeps, $1000/month | “Seniors hired a junior who does not sleep. That junior is the model.” |
+| R7 | T4 | r/developersIndia cafe (old harvest) **only if a *new* client/agency post appears** | Do not remake the 31 Aug cafe post from memory. |
+| R8 | T1 | r/cscareerquestions u/bahn-bahn — only if comments appear | “My boss can prompt Claude and get the same result.” |
+| R9 | T5 | Re-harvest X. New number only. | New fight only. |
+| R10 | T3 | Re-harvest. If P1–P5 are cold, do not remake them. | New fight only. |
+
+Spoken scripts for week 2 wait for the next live pull across **three Reddit rooms + X**. Do not film from memory. Do not refill from one hot page.
 
 ---
 
-## Week 2 (write-lock Sunday after week 1 review)
+## Batch filming
 
-Hooks may change after scoreboard. Bodies stay.
-
-### R6 · Tue · T1 · “LinkedIn is a resume that never sleeps”
-
-**Cover:** `Your LinkedIn is empty`  
-**Hook spoken:** “Your Naukri is on. Your LinkedIn About is three words. Recruiters search LinkedIn.”  
-**Value:** Show a 5-line About generated from their resume with prompt: “Write a LinkedIn About for a fresher. 5 lines. Skills from this resume only. No ‘passionate’.”  
-**CTA:** Save and rewrite About today.
-
-### R7 · Wed · T2 · “One JD → one resume in 90 seconds”
-
-**Cover:** `JD to resume in 90s`  
-**Hook spoken:** “Stop rewriting the whole PDF. Change seven words.”  
-**Value:** Highlight-JD-skills → find them in your bullets → swap synonyms only. Screen record.  
-**CTA:** Comment how many JDs you applied this week with the *same* PDF (shame is the engagement).
-
-### R8 · Thu · T3 · “HR: tell me about yourself”
-
-**Cover:** `Tell me about yourself`  
-**Hook spoken:** “If your answer starts with your father and your 10th mark, you already lost.”  
-**Value:** 40-second formula: present (what you build) → proof (one project number) → past (one relevant course) → pause. Demo your version.  
-**CTA:** Comment the first sentence you would say.
-
-### R9 · Fri · T4 · “GitHub that does not look 19”
-
-**Cover:** `Your GitHub looks 19`  
-**Hook spoken:** “Three repos named `final_final_project` is why they bounce.”  
-**Value:** One pinned repo, live link, README screenshot, commit messages that are sentences. 10-minute cleanup.  
-**CTA:** Comment `done` when you pin one repo. You reply a README template in-thread (public, not DM file).
-
-### R10 · Sat · T5 · “Off-campus is a funnel, not a prayer”
-
-**Cover:** `Off-campus is a funnel`  
-**Hook spoken:** “Applying more is not a strategy. A funnel is.”  
-**Value:** 20 saved jobs → 10 tailored → 5 follow-up mails on day 4 → 2 mock interviews. Draw it.  
-**CTA:** Save the funnel. Use it next week.
-
-Week 2 spoken word-for-word scripts get written **Sunday night** after the scoreboard, in this file, under this heading. Do not film week 2 from titles only if week 1 skip rate stays above 50% — rewrite R1/R2 hooks first.
-
----
-
-## Hook bank (if a first frame dies)
-
-Use these to replace only the first 2 seconds. Do not change the body.
-
-- “This is why your resume is invisible.”
-- “Recruiters are not ignoring you. The bot is.”
-- “Do this before you send one more PDF.”
-- “I would reject this resume in four seconds.”
-- “Campus is late. This is the off-campus version.”
-- “If you are a 2026 passout, watch till the end.”
-- “Your project is why they think you are still in third year.”
-- “Steal this prompt. Then close ChatGPT and apply.”
-
----
-
-## Batch filming checklist (Sunday)
-
-- [ ] 5 covers typed in Notes
-- [ ] 5 hooks recorded (2 takes each)
-- [ ] Screen bits for R1, R2, R4
-- [ ] CTAs recorded
-- [ ] Edits exported 1080x1920
-- [ ] Captions pasted in drafts
-- [ ] First comments saved in Notes
+- [ ] Open `documents/harvest-live.md` on the phone
+- [ ] Each Reel names the **room or handle** in the first two seconds
+- [ ] Stories: crop of the actual Reddit thread or X post (usernames public)
+- [ ] Do not add ATS advice
+- [ ] Do not film two Reels from the same URL

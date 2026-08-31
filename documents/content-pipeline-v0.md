@@ -4,6 +4,12 @@
 
 **Phase:** Value only. No products. No “comment X I send the kit.” No UPI. No Drive-for-sale. Prove the machine first.
 
+**Idea law (standing):** Every Reel starts as a post on **Reddit or Twitter/X**. We do not invent tips from career-blog muscle memory. Harvest → pick a fight people are already in → film our take. SOP: `documents/idea-sourcing.md`. Latest pull: `documents/harvest-live.md`.
+
+**Diversity law:** do not lock a week from one page. A batch needs ≥2 platforms, ≥3 rooms/handles, and ≥2 X posts with real status IDs.
+
+**Killed topics:** ATS, “tailor your resume to the JD,” keyword stuffing, Naukri parse tricks. Saturated. Ashok has run them. They do not ship.
+
 **North star for this phase:** 10,000 Insights *views* on a Reel, **4 out of the last 5 posts**. Until that is true, we do not mention selling.
 
 ---
@@ -39,8 +45,8 @@ Save the ones that hurt.
 
 **Link:** remove the scholarship Drive until we have a product. Empty link is better than a dead file. If Instagram requires a link, use your LinkedIn or a free Notion page of *public* tips — not a checkout.
 
-**Highlights (create empty, fill as Reels exist):** `Resume` · `Interview` · `Projects`  
-No “Shop”, no “Kit”, no “Paid”.
+**Highlights (create empty, fill as Reels exist):** `Market` · `Agents` · `Proof`  
+No “Shop”, no “Kit”, no “Paid”, no “ATS”.
 
 **Profile photo:** your face, well-lit, same crop for 90 days. People must recognize frame 1.
 
@@ -54,11 +60,11 @@ Every Reel is one of these. If an idea does not fit, it does not ship.
 
 | ID | Name | Promise | First frame | Length | End CTA (value only) |
 |---|---|---|---|---|---|
-| T1 | **Reject** | Why you got 0 calls | Face + one brutal line, or a red-X resume | 28–40s | “Save this before you apply tonight.” |
-| T2 | **Workflow** | Do the task in N minutes | Face + timer or 1-2-3 on screen | 35–45s | “Comment which step you skip.” |
-| T3 | **Interview** | One question, bad vs AI-rebuilt | Face reacting, then the question huge | 30–40s | “Comment your answer in one line.” |
-| T4 | **Project** | A weekend build that looks like work | Demo/screen first 1s, then face | 35–45s | “Comment your branch. I’ll reply a project idea.” |
-| T5 | **Signal** | One hiring-news fact → one action this week | Number or headline huge | 25–35s | “Save if you’re a 2025/26 passout.” |
+| T1 | **Bounce** | A thing they open and leave (GitHub, project, take-home) | Face + the artifact, not a PDF | 28–40s | “Comment if this is your repo.” |
+| T2 | **Workflow** | How people on Reddit/X actually use agents | Face + 1-2-3 or a terminal | 35–45s | “Comment which step you skip.” |
+| T3 | **Interview** | A question the thread is fighting about | Face + the question huge | 30–40s | “Comment your answer in one line.” |
+| T4 | **Project** | What the thread says *not* to build — and the replacement | Demo 1s, then face | 35–45s | “Comment your branch.” |
+| T5 | **Signal** | A post that is on fire this week → one action | Screenshot crop or a number | 25–35s | “Save if this is your batch.” |
 
 **Hard rules**
 
@@ -77,7 +83,7 @@ Every Reel is one of these. If an idea does not fit, it does not ship.
 
 - **5 Reels / week.** Slots: Tue, Wed, Thu, Fri, Sat. Local evening 7–9pm IST (when your student graph is awake) or 12–1pm. Pick one window and keep it for 14 days.
 - **Batch film Sunday.** All 5 in one sitting (60–90 min). Edit same day. Schedule or dump to drafts.
-- **Monday = script lock.** You do not film unscripted. Scripts live in `documents/reel-scripts-batch-1.md`.
+- **Monday = harvest + script lock.** 30 min Reddit/X (`documents/idea-sourcing.md`), then lock 5 scripts. You do not film unscripted. Scripts live in `documents/reel-scripts-batch-1.md`.
 - **No carousels** until 4/5 Reels have cleared 10k. Carousels trained this account to 13 likes.
 - **Stories:** 3 frames the same day — hook screenshot, one tip, “Reel is up.” Not a second product.
 
@@ -85,7 +91,7 @@ Weekly mix (do not skip a template for two weeks):
 
 | Day | Template |
 |---|---|
-| Tue | T1 Reject |
+| Tue | T1 Bounce |
 | Wed | T2 Workflow |
 | Thu | T3 Interview |
 | Fri | T4 Project |
@@ -105,7 +111,7 @@ Weekly mix (do not skip a template for two weeks):
 **Shoot order per Reel**
 
 1. Record the **hook line** to camera, 2 takes, pick the one with energy.
-2. Record the **screen bit** (ChatGPT / LinkedIn / ATS / terminal).
+2. Record the **screen bit** (Cursor / Claude / GitHub / the source post crop).
 3. Record the **close** (CTA + pause so the edit can loop).
 4. Do not restart the whole video for a small flub. Cut.
 
@@ -131,7 +137,9 @@ Weekly mix (do not skip a template for two weeks):
 6. Hour 3: glance skip rate + retention. Do not delete. Do not repost.
 
 **Hashtag pool (pick 4):**  
-`#freshers` `#campusplacements` `#aitools` `#resume` `#interviewprep` `#offcampus` `#chennai` `#tamilnadu` `#engineeringstudents`
+`#freshers` `#campusplacements` `#aitools` `#claudecode` `#cursorai` `#offcampus` `#chennai` `#tamilnadu` `#engineeringstudents`
+
+**Monday lock:** no script without a `Source` line (subreddit or X handle + one-line quote). If harvest is empty, remake last week’s best template with a new hook from a *new* thread. Never invent.
 
 ---
 
@@ -156,8 +164,10 @@ One variable per week. Week 1 we test the five templates. Week 2 we only change 
 - TNEA / cutoff / counselling
 - Interview riddles with the answer in the caption
 - “10 AI tools you need”
+- ATS / resume-keyword / “paste the JD into ChatGPT”
 - Other people’s audio
 - Anything that requires a file in DM to be useful
+- A tip that does not exist as a Reddit or X post this month
 
 ---
 
@@ -176,6 +186,6 @@ Then — and only then — we ship the ₹499 kit behind a keyword. Not before.
 
 ## 10. Owner rules
 
-- Ashok films. Akay writes scripts, scoreboard, and the next batch.
+- Ashok films. Akay harvests Reddit/X, writes scripts, scoreboard, and the next batch.
 - If a script is not on the phone the night before, the slot is a reshoot of the best template, not a new idea.
 - This file is the source of truth. Update it in place. Do not fork a v1 until 10k is proven.

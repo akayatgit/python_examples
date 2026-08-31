@@ -10,16 +10,16 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 
 | # | Date | Template | Title | Views | Skip % | Avg watch (s) | Length (s) | Likes | Comments | Saves | Shares | Profile taps | Hook note (5 words) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| R1 | | T1 | ATS never saw you | | | | | | | | | | |
-| R2 | | T2 | 12 applies / 20 min | | | | | | | | | | |
-| R3 | | T3 | Claude failed me | | | | | | | | | | |
-| R4 | | T4 | Not a college project | | | | | | | | | | |
-| R5 | | T5 | They cut freshers | | | | | | | | | | |
-| R6 | | T1 | LinkedIn empty | | | | | | | | | | |
-| R7 | | T2 | JD → resume 90s | | | | | | | | | | |
-| R8 | | T3 | Tell me about yourself | | | | | | | | | | |
-| R9 | | T4 | GitHub looks 19 | | | | | | | | | | |
-| R10 | | T5 | Off-campus funnel | | | | | | | | | | |
+| R1 | | T1 | Why hire you? (cscareerquestions) | | | | | | | | | | |
+| R2 | | T2 | Karpathy: watch the agent | | | | | | | | | | |
+| R3 | | T3 | Predict it first (ExperiencedDevs) | | | | | | | | | | |
+| R4 | | T4 | 50 interviews. No specifics. | | | | | | | | | | |
+| R5 | | T5 | AI does what 10 juniors did | | | | | | | | | | |
+| R6 | | T1 | (re-harvest) | | | | | | | | | | |
+| R7 | | T2 | (re-harvest) | | | | | | | | | | |
+| R8 | | T3 | (re-harvest) | | | | | | | | | | |
+| R9 | | T4 | (re-harvest) | | | | | | | | | | |
+| R10 | | T5 | (re-harvest) | | | | | | | | | | |
 
 ## Sunday review (copy each week)
 
