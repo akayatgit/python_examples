@@ -4,7 +4,7 @@
 
 **Phase:** Value only. No products. No “comment X I send the kit.” No UPI. No Drive-for-sale. Prove the machine first.
 
-**Idea law (standing):** Every Reel starts as a post on **Reddit or Twitter/X**. We do not invent tips from career-blog muscle memory. Harvest → pick a fight people are already in → film our take. SOP: `documents/idea-sourcing.md`.
+**Idea law (standing):** Every Reel starts as a post on **Reddit or Twitter/X**. We do not invent tips from career-blog muscle memory. Harvest → pick a fight people are already in → film our take. SOP: `documents/idea-sourcing.md`. Latest pull: `documents/harvest-live.md`.
 
 **Killed topics:** ATS, “tailor your resume to the JD,” keyword stuffing, Naukri parse tricks. Saturated. Ashok has run them. They do not ship.
 

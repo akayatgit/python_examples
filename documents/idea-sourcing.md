@@ -12,7 +12,7 @@ Open these, in this order. Sort by **hot** then **week**. Screenshot anything wi
 
 **Reddit**
 
-1. [r/developersIndia](https://www.reddit.com/r/developersIndia) — first. This is our room.
+1. [r/developersIndia hot](https://www.reddit.com/r/developersIndia/hot/) — first. This is our room. If reddit.com 403s, use [the public hot mirror](https://reddit.synth.download/r/developersIndia/hot).
 2. [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions)
 3. [r/csMajors](https://www.reddit.com/r/csMajors)
 4. [r/ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs) — seniors saying what they actually hire
@@ -58,24 +58,23 @@ Stories that day: one crop of the source (username blurred if you want), then �
 
 ---
 
-## Harvest log — week of 31 Aug 2026
+## Harvest log — 31 Aug 2026 (live)
 
-Pulled 31 Aug. Used for Batch 1 scripts. Reddit JSON was blocked from this environment; heat confirmed via indexed copies of the threads and the X/LinkedIn posts the same fights escaped to. Next Monday, paste live URLs in this table.
+Full quotes: `documents/harvest-live.md`.  
+Pulled from r/developersIndia **hot right now**. Official reddit.com JSON and x.com search returned 403. Nitter died 25 Aug 2026. No fake tweet IDs.
 
-| # | Source | Heat | The fight (one line) | Template | Reel |
-|---|---|---|---|---|---|
-| H1 | r/developersIndia — senior at a US-startup Bengaluru office (May 2026 thread, widely recapped) | Viral in-community | “If your standup is still ‘I wrote code,’ a peer directing AI is lapping you. CRUD and unit tests are commodity.” | T2 | R2 |
-| H2 | Same India-dev discourse + portfolio threads (Iris / Titanic / YouTube clones) | Recurring, high comment | Recruiters recognize tutorial repos in seconds. ChatGPT-wrapper “AI projects” count as the new Titanic. | T1 + T4 | R1, R4 |
-| H3 | Take-home / agent-IDE talk (Cursor ~280k India users; product take-homes now assume the tool) | Growing | The assignment allows AI. They are scoring whether you can reject bad output, not whether you typed. | T3 | R3 |
-| H4 | X / LinkedIn pile-on: entry-level hiring collapse vs AWS CEO Matt Garman calling “AI replaces juniors” dumb | Recurring pile-on | Both lines are circulating. Freshers need the *and*: gate is tighter *and* teams still want people who can run the tools. | T5 | R5 |
-| H5 | “Scar tissue” hiring-manager line vs “AI ate the fires juniors used to sit in” | Quote-recycled | They want proof of pain. The old pain (grunt tickets) is gone. New proof = a public prompt log + a deployed thing you can defend. | T1/T2 | R6 (week 2) |
-| H6 | r/developersIndia monthly Who’s Hiring vs Naukri ghost jobs | Megathread, hundreds of entries | Real roles show up in the thread and referrals. The job board is a museum. | T5 | R10 |
-| H7 | X/dev: “write me a web app” ≠ engineer; CLAUDE.md / explain-before-generate | High agreement among seniors | Vibe-coding is the joke. The workflow is: spec → generate → make it explain → you reject. | T2 | R7 |
+| # | Live post | Heat | Fight | Reel |
+|---|---|---|---|---|
+| P4 | u/HolyCow999 — 100+ apps, Claude Code, ATS 80, 1 callback, “AI slop vibes?” | 7h, on hot | Claude-polished apps still bounce | R1 |
+| P2 | u/FewWoodpeckerIn — interview loop vs coding agents | 4h, on hot | Test: bug in 300 lines of agent code | R2 |
+| P1 | u/Audaticreddit — intern system design | **190↑ · 11h** | Intern SD to catch people riding AI | R3 |
+| P5 | u/Dry-Bee-7232 — 2nd years, cafe paid them | 8h, on hot | Real client > internship grind | R4 |
+| P3 | u/Rare-Assignment-8474 — how are juniors hired | 15h, on hot | “Just hire seniors with AI” | R5 |
 
-**Not used (banned or dead):** any ATS / resume-keyword post, even if it is hot.
+**Not used:** ATS how-tos. CleanSlate promo (mods just cracked down). “Will AI take our jobs?” (mods listed it as a banned FAQ today).
 
 ---
 
 ## Next Monday
 
-Duplicate the table. Fresh URLs. If H1–H7 are stale, they do not get a second Reel. New fight or skip the slot and remake the best template from last week with a new source.
+Re-pull https://www.reddit.com/r/developersIndia/hot/ (or the public mirror). If these five are gone, they do not get a second Reel. New fight or remake last week’s best template with a new source. Do not ask Ashok to paste links.

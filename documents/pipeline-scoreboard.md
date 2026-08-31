@@ -10,16 +10,16 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 
 | # | Date | Template | Title | Views | Skip % | Avg watch (s) | Length (s) | Likes | Comments | Saves | Shares | Profile taps | Hook note (5 words) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| R1 | | T1 | They bounced your GitHub | | | | | | | | | | |
-| R2 | | T2 | Your standup is the tell | | | | | | | | | | |
-| R3 | | T3 | Take-home allows AI | | | | | | | | | | |
-| R4 | | T4 | Stop the ChatGPT box | | | | | | | | | | |
-| R5 | | T5 | AWS said dumb. India cut. | | | | | | | | | | |
-| R6 | | T1 | Scar tissue / fire is gone | | | | | | | | | | |
-| R7 | | T2 | Explain before generate | | | | | | | | | | |
-| R8 | | T3 | Walk me through this line | | | | | | | | | | |
-| R9 | | T4 | Prompt log > certificate | | | | | | | | | | |
-| R10 | | T5 | Naukri is a museum | | | | | | | | | | |
+| R1 | | T1 | 100 apps. Claude. 1 call. | | | | | | | | | | |
+| R2 | | T2 | Bug in 300 agent lines | | | | | | | | | | |
+| R3 | | T3 | Intern system design | | | | | | | | | | |
+| R4 | | T4 | 2nd year. Paid cafe. | | | | | | | | | | |
+| R5 | | T5 | Senior + AI. Not you. | | | | | | | | | | |
+| R6 | | T1 | (re-harvest) | | | | | | | | | | |
+| R7 | | T2 | (re-harvest) | | | | | | | | | | |
+| R8 | | T3 | (re-harvest) | | | | | | | | | | |
+| R9 | | T4 | (re-harvest) | | | | | | | | | | |
+| R10 | | T5 | (re-harvest) | | | | | | | | | | |
 
 ## Sunday review (copy each week)
 
