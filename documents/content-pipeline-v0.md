@@ -184,6 +184,6 @@ Then — and only then — we ship the ₹499 kit behind a keyword. Not before.
 
 ## 10. Owner rules
 
-- Ashok films. Akay writes scripts, scoreboard, and the next batch.
+- Ashok films. Akay harvests Reddit/X, writes scripts, scoreboard, and the next batch.
 - If a script is not on the phone the night before, the slot is a reshoot of the best template, not a new idea.
 - This file is the source of truth. Update it in place. Do not fork a v1 until 10k is proven.
