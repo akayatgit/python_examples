@@ -71,14 +71,17 @@ One post → one Reel. Do not mash three threads.
 | “Stop building Titanic / demo or it didn’t happen” | T4 Project |
 | A number or a CEO/X quote people are yelling about | T5 Signal |
 
-Script header must include:
+Shot-list header must include:
 
 ```
 Source: r/subreddit or @handle — “short quote”
 https://…permalink or x.com/…/status/…
+Files: hook.mp4 · rN-source.mp4 · rN-proof.mp4
 ```
 
-Stories that day: one crop of the source (username blurred if you want), then “my take is the Reel.” That is proof we are in a live conversation, not a course.
+Every Reel is Hook → Source → Proof. If you cannot name those three files, it is not a Reel.
+
+Stories that day: one crop of the source (username blurred if you want), then “Reel is up.” That is proof we are in a live conversation, not a course.
 
 ---
 

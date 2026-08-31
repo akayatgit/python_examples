@@ -151,3 +151,5 @@ Quotes below are verbatim from those pipes. Do not invent extra comments. Do not
 | R5 | X | @aakancvedi | India: pyramid + “10 juniors” is the product |
 
 Zero Reels from a single hot listing. Three X, two Reddit, five handles/rooms.
+
+**Format for all five:** Hook → Screens. No talking. Shot lists: `documents/reel-scripts-batch-1.md`.
