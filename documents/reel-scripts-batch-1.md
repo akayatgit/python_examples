@@ -18,12 +18,15 @@ You do not talk. Every line below is **text you put on the video**.
 
 ---
 
-**0–2 seconds — you at the desk, typing, silent.**  
-On-screen text (big, middle):
+**0–3 seconds — you at the desk, typing, silent.**  
+On-screen text (big, then one small line under it):
 
 ```
 This 4-step roadmap
 that gets you the interview
+
+They skip 100 PDFs.
+They click one page with their name on it.
 ```
 
 CUT.
@@ -108,9 +111,9 @@ STOP. That is the whole Reel.
 ```
 This 4-step roadmap that gets you the interview.
 
-Pick one company. Write what you would ship them. Put one number on it. Record 20 seconds of you clicking it.
+They skip 100 identical PDFs. They open one page that already has their company name and a number on it. That page is the interview.
 
-“I led X” means nothing. A named company + a number does.
+Pick one company. Write what you would ship them. Put one number on it. Click it for 20 seconds. Send that. Not another “I am a hardworking fresher” resume.
 
 Comment the company you picked.
 
