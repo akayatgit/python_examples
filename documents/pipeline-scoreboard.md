@@ -10,10 +10,10 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 
 | # | Date | Template | Title | Views | Skip % | Avg watch (s) | Length (s) | Likes | Comments | Saves | Shares | Profile taps | Hook note (5 words) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| R1 | | T1 | 4 checks before you send an AI PR | | | | | | | | | | |
+| R1 | | T4 | This 4-step roadmap that gets you the interview | | | | | | | | | | |
 | R2 | | T2 | 4 rules when the agent writes the code | | | | | | | | | | |
 | R3 | | T3 | 4 steps instead of explain this PR | | | | | | | | | | |
-| R4 | | T4 | 4 things that beat I led X | | | | | | | | | | |
+| R4 | | T4 | This 4-step roadmap that gets you a real user | | | | | | | | | | |
 | R5 | | T5 | 3 proofs that replace 10 juniors | | | | | | | | | | |
 | R6 | | T1 | (re-harvest) | | | | | | | | | | |
 | R7 | | T2 | (re-harvest) | | | | | | | | | | |

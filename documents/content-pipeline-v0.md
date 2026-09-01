@@ -37,7 +37,7 @@ Two bars. Do not mix them.
 
 | Bar | Pass condition | Fail condition |
 |---|---|---|
-| **Pipeline (process)** | 10 Reels posted in 14 days, each Hook → Screens, scoreboard filled the same day, next 5 shot lists exist before Sunday | Miss a slot, invent talking, skip the scoreboard |
+| **Pipeline (process)** | 10 Reels posted in 14 days, each Hook → 5 screens, scoreboard filled the same day, next 5 shot lists exist before Sunday | Miss a slot, invent talking, show a Reddit/X post, skip the scoreboard |
 | **Reach (proof)** | 4 of last 5 Reels ≥ 10,000 views **and** skip rate ≤ 45% on those 4 | One lucky 80k + four 400-view slides |
 
 A working pipeline can exist at 800 views. That is still a win for process. **Do not turn on selling** until the reach bar is hit. Views without a repeatable slot-fill are not a pipeline.
@@ -197,7 +197,7 @@ Every Sunday, 20 minutes, before you write the next 5:
 4. **Kill** any topic that got <20 comments and <10 saves — even if you liked it.
 5. Write next week’s 5 shot lists before you close the laptop.
 
-One variable per week. Week 1 we test the five templates *inside Hook → Screens*. Week 2 we only change hook cards on the weakest two. We do not add talking. We do not add a sixth format.
+One variable per week. Week 1 we test the five templates *inside Hook → 5 screens*. Week 2 we only change hook overlays on the weakest two. We do not add talking. We do not add a Reddit crop. We do not add a sixth format.
 
 ---
 
@@ -206,6 +206,7 @@ One variable per week. Week 1 we test the five templates *inside Hook → Screen
 - Walk-in dumps, city lists, “100 openings”
 - Company history paragraphs
 - TNEA / cutoff / counselling
+- Debugger / “AI PR hygiene” / slop-check Reels (Ashok rejected, 1 Sep)
 - Interview riddles with the answer in the caption
 - “10 AI tools you need”
 - ATS / resume-keyword / “paste the JD into ChatGPT”
