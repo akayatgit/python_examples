@@ -10,27 +10,100 @@ Hook grammar is number + promise. The Google-90% line was an *example of shape*.
 
 ---
 
-## R1 · Tue · T4 Project (slot swapped — landing, not bounce)
+## R1 · Tue · ACTUAL SCRIPT (read top to bottom)
 
-**Killed:** “4 checks before you send an AI PR.” Debugger / slop. Ashok rejected. Do not remake.
+You do not talk. Every line below is **text you put on the video**.
 
-**Harvest (do not film):** @gabriel1 — 50 interviews; “I led X” dies; personalized demo gets the call.  
-**Cover / hook overlay:** `This 4-step roadmap that gets you the interview`  
-**Length:** 30–36s  
-**File:** `hook.mp4` + `r1-screens.mp4`
+**Cover title:** `This 4-step roadmap that gets you the interview`
 
-| Clip | Picture (screenshare) | Overlay |
-|---|---|---|
-| Hook 0–2s | Working tape | `This 4-step roadmap that gets you the interview` |
-| 1/5 | Notes: one company + one role. Example: `Swiggy · intern · Chennai` | `1/5  Pick one company. One role.` |
-| 2/5 | Next line: one sentence of what you would ship *for them*. Not a tutorial clone. | `2/5  Write what you would ship them` |
-| 3/5 | Same note: one number (`1 page` / `12 orders` / `3s`). | `3/5  Put one number on it` |
-| 4/5 | Browser: click `shop.html` or any live page. 20s of clicking. | `4/5  Record 20s of you clicking it` |
-| 5/5 | Hold the company name + the number | `5/5  Comment the company you picked` |
+---
 
-**Record (6 min):** Notes app + a one-page `shop.html` (shop name, one button, one fake number) if you have no live site. Do not open Reddit. Do not start a real client hunt today.
+**0–2 seconds — you at the desk, typing, silent.**  
+On-screen text (big, middle):
 
-**Caption:**
+```
+This 4-step roadmap
+that gets you the interview
+```
+
+CUT.
+
+**2–8 seconds — Notes app, full screen.**  
+Type this exactly:
+
+```
+Swiggy
+Intern
+Chennai
+```
+
+On-screen text:
+
+```
+1/5
+Pick one company. One role.
+```
+
+CUT.
+
+**8–14 seconds — same Notes, next lines.**  
+Type this exactly:
+
+```
+A one-page tracker for late deliveries
+on one Chennai route
+```
+
+On-screen text:
+
+```
+2/5
+Write what you would ship them
+```
+
+CUT.
+
+**14–20 seconds — same Notes, last line.**  
+Type this exactly:
+
+```
+1 page · 1 route · 12 stops
+```
+
+On-screen text:
+
+```
+3/5
+Put one number on it
+```
+
+CUT.
+
+**20–28 seconds — browser.**  
+Open a simple page (or `shop.html`) that says **Swiggy** and **12 stops**. Click the button once or twice.
+
+On-screen text:
+
+```
+4/5
+20 seconds of you clicking it
+```
+
+CUT.
+
+**28–32 seconds — hold that page.**  
+On-screen text:
+
+```
+5/5
+Comment the company you picked
+```
+
+STOP. That is the whole Reel.
+
+---
+
+**Caption (paste this, do not rewrite):**
 
 ```
 This 4-step roadmap that gets you the interview.
@@ -43,6 +116,8 @@ Comment the company you picked.
 
 #freshers #offcampus #aitools #engineeringstudents #campusplacements
 ```
+
+If Swiggy feels wrong, change only the company name in Notes and on the page. Do not change the five lines.
 
 ---
 
