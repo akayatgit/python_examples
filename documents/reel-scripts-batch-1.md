@@ -51,13 +51,13 @@ is enough to manage your college expenses
 - https://x.com/Ishansharma7390/status/1665683517093601280 — graphic design, 1 Lakh/month India
 - LinkedIn: video + social + web for college earnings
 
-**The 3 videos (screenshot the YouTube page, same as yesterday):**
+**The 3 videos to screenshot (Tamil first, same as yesterday’s thumb format):**
 
 | # | Skill | Video | Link |
 |---|---|---|---|
-| 1 | Video editing | Metics Media — *CapCut Tutorial for Beginners (2026)* | https://www.youtube.com/watch?v=j5_471mO14c |
-| 2 | Canva design | Wholesale Ted — *Canva Tutorial For Beginners: A Free Masterclass 2026* | https://www.youtube.com/watch?v=Dgha6qBtAwQ |
-| 3 | Copywriting | Alex Cattoni — *How To Become A Freelance Copywriter & Get Your First Client* | https://www.youtube.com/watch?v=B4jVhgiWFBY |
+| 1 | Video editing | Prakash — *Mastering Capcut (Basic to Advanced) தமிழ் 2025 \| Full Masterclass Tamil* | https://www.youtube.com/watch?v=BSTuxpc9FU0 |
+| 2 | Canva design | BTree Systems — *The No.1 Ultimate Canva Tutorial in Tamil \| ₹20,000 Worth Canva Course FREE!* | https://www.youtube.com/watch?v=o_QIIGLeonc |
+| 3 | Copy + first client | Alex Cattoni — *How To Become A Freelance Copywriter & Get Your First Client* (English — a full Tamil copy course is rare on YouTube) | https://www.youtube.com/watch?v=B4jVhgiWFBY |
 
 Overlay on each clip: `1/3 Video editing` · `2/3 Canva` · `3/3 Copywriting`
 
@@ -65,19 +65,28 @@ Last card: `Comment LINK`
 
 **Do not write 1 Lakh on screen.** For his audience: one shop’s Reels covers mess + phone.
 
+**Playlist (send this when they comment LINK):**
+
+https://www.youtube.com/watch_videos?video_ids=BSTuxpc9FU0,C6BN3c_LMIQ,o_QIIGLeonc,zzlh4nfMCns,B4jVhgiWFBY,X2bustFv1vI
+
+Full list + time + money + 3 points + roadmap: see **Tamil playlist (2 Sep DM)** below.
+
 **Caption:**
 
 ```
 95% students dont know these 3 high paying skills
 is enough to manage your college expenses
 
-1. Video editing
-https://youtu.be/j5_471mO14c
+Playlist (Tamil first):
+https://www.youtube.com/watch_videos?video_ids=BSTuxpc9FU0,C6BN3c_LMIQ,o_QIIGLeonc,zzlh4nfMCns,B4jVhgiWFBY,X2bustFv1vI
 
-2. Canva
-https://youtu.be/Dgha6qBtAwQ
+1. Video editing (தமிழ்)
+https://youtu.be/BSTuxpc9FU0
 
-3. Copywriting
+2. Canva (தமிழ்)
+https://youtu.be/o_QIIGLeonc
+
+3. Copywriting (first client)
 https://youtu.be/B4jVhgiWFBY
 
 Comment LINK
@@ -86,6 +95,104 @@ Comment LINK
 ```
 
 You at the desk. Then 3 YouTube thumbs. No talking. No Twitter.
+
+---
+
+## Tamil playlist (2 Sep DM) — time, money, 3 points, roadmap
+
+Titles confirmed via YouTube oEmbed 1 Sep 2026. Watch times: YouTube blocked duration APIs from this VM. Times below are **approx** from transcript length (Canva ~4h 45m) plus known short-video lengths. Tell people to check the YouTube time bar.
+
+### Playlist (6 videos, one tap)
+
+https://www.youtube.com/watch_videos?video_ids=BSTuxpc9FU0,C6BN3c_LMIQ,o_QIIGLeonc,zzlh4nfMCns,B4jVhgiWFBY,X2bustFv1vI
+
+| # | Skill | Channel | Title | Lang | Watch (approx) |
+|---|---|---|---|---|---|
+| 1 | Video | Prakash | Mastering Capcut (Basic to Advanced) தமிழ் 2025 \| Full Masterclass Tamil | Tamil | ~2h (full masterclass — confirm bar) |
+| 2 | Video | Narayan R | INSTAGRAM VIRAL SONG REEL EDITING TUTORIAL IN TAMIL | Tamil | ~10–15 min |
+| 3 | Canva | BTree Systems | The No.1 Ultimate Canva Tutorial in Tamil \| ₹20,000 Worth Canva Course FREE! | Tamil | ~4h 45m |
+| 4 | Canva | Tech Gratify | How to create thumbnail in tamil \| Canva thumbnail tutorial tamil | Tamil | ~25–35 min |
+| 5 | Copy | Alex Cattoni | How To Become A Freelance Copywriter & Get Your First Client | English | ~11 min |
+| 6 | Clients | Aishwarya Vignesh | Upwork Beginner Guide Tamil \| முதல் Freelance Job பெற 7 வழிகள் | Tamil | ~8 min |
+
+**This-week cut (enough to take a first shop job):** watch #1 first 60 min + all of #2 + first 90 min of #3 + #4 + #5 + #6 ≈ **4.5–5 hours**. Pause and do the exercise on screen. Do not binge the whole Canva course in one sitting.
+
+**Full playlist watch:** ≈ **8–8.5 hours**.
+
+**Finish = you can charge:** watch + practice.
+
+| Block | Hours | What |
+|---|---|---|
+| Watch (this-week cut) | 5 | Playlist above |
+| Practice video | 6 | 8 practice Reels on your phone |
+| Practice Canva | 5 | 10 Instagram posts + 5 thumbnails |
+| Practice copy | 3 | 10 captions + 3 shop bios (Tanglish) |
+| Outreach | 3 | 20 local shop DMs / walk-ins |
+| **Total to first paid job** | **~22 hours** | 2 hours/day × 11 days, or 1 weekend + 1 week nights |
+
+### How much you can earn (honest TN student, not Ishan’s 1 Lakh)
+
+| When | Money | What that pays |
+|---|---|---|
+| Days 1–10 | ₹0 | Practice. Do not charge yet. |
+| First paid job | ₹2,000–5,000 | One shop: 4 Reels **or** 12 Canva posts + captions |
+| Month 1 (1–2 shops) | ₹5,000–12,000 | Mess + phone recharge |
+| Month 2–3 (2–3 retainers) | ₹10,000–20,000 | Mess + phone + some books / travel |
+| 1 Lakh/month | Not this playlist | Ishan’s ceiling after many months + English clients. Do not write it on the Reel. |
+
+**Starter prices (college, first 30 days):**
+
+- 1 Reel edit: ₹300–800
+- 1 Canva post: ₹150–400
+- 10 captions pack: ₹500–1,500
+- Monthly retainer (12 posts + 4 Reels + captions): ₹5,000–12,000
+
+One food shop / salon / tuition centre on a retainer is “manage college expenses.”
+
+### Three points for each skill
+
+**1. Video editing (CapCut, phone)**
+
+1. Free CapCut on your phone is enough. No laptop. No paid course.
+2. Shops and small creators pay per Reel. Four Reels a week for one shop ≈ mess money.
+3. Do 10 practice edits before you charge. Show 3 sample Reels when you DM.
+
+**2. Canva design (posts + thumbnails)**
+
+1. Free Canva is enough for Instagram posts and YouTube thumbnails.
+2. Tamil text on posters is your edge. Most “Canva guys” only do English.
+3. One shop’s monthly posts is a retainer. That is more stable than one-off gigs.
+
+**3. Copywriting (captions + ads)**
+
+1. Copy = words that make a person WhatsApp the shop. Not essays. Not blogs first.
+2. Tanglish (Tamil + English) is what TN shops actually post. That is the product.
+3. Rewrite 10 real shop bios / offer posts as your portfolio. No degree. No paid tool.
+
+### Roadmap — learn, then find clients
+
+**Week 1 — learn (playlist + samples)**
+
+- Day 1–2: CapCut Tamil (#1 first hour + #2). Export 3 Reels (your college / a friend’s shop).
+- Day 3–4: Canva Tamil (#3 first 90 min + #4). Make 5 posts + 3 thumbnails.
+- Day 5: Copy (#5) + write 10 captions for those same posts.
+- Day 6–7: Put 6 best pieces in one Google Drive / Instagram highlights. That is the portfolio.
+
+**Week 2 — first proof**
+
+- Do **one free or cheap job** for a college club, a friend’s shop, or your mess/canteen. Get a WhatsApp voice note as a testimonial.
+- Price the next one. Do not stay free.
+
+**Week 3 — find paying clients (do all four)**
+
+1. **Walk + Instagram DM (best in TN):** 20 local shops — food, salon, boutique, tuition, gym. Open with: “I can make this week’s Reels + posts. Here are 3 samples. ₹X for 4 Reels.” Send the sample, not a bio.
+2. **WhatsApp status + college groups:** post before/after. Ask friends for their family shops.
+3. **Internshala** — filter “work from home” + video editing / graphic design / content writing. Apply with the Drive link.
+4. **Upwork / Fiverr** — after you watch #6. One gig: “Instagram Reels + Canva posts for Indian local shops (Tamil + English).” Start at a low price. Get 3 reviews.
+
+**Do not:** sit only on Fiverr in week 1. Local shops close faster.
+
+**Done when:** one shop paid you once, and you have their WhatsApp testimonial. Then raise the price.
 
 ---
 

@@ -230,8 +230,18 @@ LinkedIn same 3-skill list: Video editing + Social media + Web — https://www.l
 
 Honest money (do not put “1 Lakh/month” on his overlay): one local shop’s Reels + posts is enough for mess + recharge. That is “manage college expenses.” The 1 Lakh line is Ishan’s, not ours.
 
-**Learn-each-skill videos (2 Sep Reel screenshots):**
+**Learn-each-skill videos — Tamil playlist (2 Sep Reel + comment LINK):**
 
-1. Video editing — Metics Media, CapCut beginners 2026: https://www.youtube.com/watch?v=j5_471mO14c
-2. Canva — Wholesale Ted, free masterclass 2026: https://www.youtube.com/watch?v=Dgha6qBtAwQ
-3. Copywriting — Alex Cattoni, first freelance client: https://www.youtube.com/watch?v=B4jVhgiWFBY
+Ashok asked for Tamil + one playlist + time + earnings. Full table, 3 points, roadmap: `documents/reel-scripts-batch-1.md` → **Tamil playlist (2 Sep DM)**.
+
+Playlist: https://www.youtube.com/watch_videos?video_ids=BSTuxpc9FU0,C6BN3c_LMIQ,o_QIIGLeonc,zzlh4nfMCns,B4jVhgiWFBY,X2bustFv1vI
+
+Reel screenshots (3 thumbs):
+
+1. Video — Prakash, CapCut masterclass Tamil: https://www.youtube.com/watch?v=BSTuxpc9FU0
+2. Canva — BTree Systems, Canva Tamil full: https://www.youtube.com/watch?v=o_QIIGLeonc
+3. Copy — Alex Cattoni, first freelance client (English; Tamil full copy course is rare): https://www.youtube.com/watch?v=B4jVhgiWFBY
+
+Also in the playlist (do not need extra thumbs): Narayan R Reel Tamil `C6BN3c_LMIQ` · Tech Gratify thumbnail Tamil `zzlh4nfMCns` · Aishwarya Vignesh Upwork Tamil `X2bustFv1vI`.
+
+Watch ≈ 8–8.5h full / 5h this-week cut. Practice + outreach ≈ 17h. **~22h to first paid job.** Honest money: first job ₹2–5k; month 1 with 1–2 shops ₹5–12k (mess + phone). Not 1 Lakh.
