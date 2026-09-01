@@ -144,11 +144,13 @@ Quotes below are verbatim from those pipes. Do not invent extra comments. Do not
 
 | Reel | Platform | Room / handle | Why this one |
 |---|---|---|---|
-| R1 | Reddit | r/cscareerquestions | US seniors saying juniors = Claude paste |
+| R1 | X | @gabriel1 | Landing roadmap. Debugger/PR post killed (Ashok, 1 Sep). |
 | R2 | X | @karpathy | How agents actually fail (junior-shaped bugs) |
 | R3 | Reddit | r/ExperiencedDevs | New interview check: predict *before* you run |
-| R4 | X | @gabriel1 | 50 interviews: vague “I led X” dies; demo lives |
+| R4 | Reddit | r/developersIndia · cafe (banked) | Real-user roadmap. Not the old one-page five. |
 | R5 | X | @aakancvedi | India: pyramid + “10 juniors” is the product |
+
+**Killed this week:** r/cscareerquestions “why hire juniors” / debugger checks. Do not remake.
 
 Zero Reels from a single hot listing. Three X, two Reddit, five handles/rooms.
 

@@ -92,11 +92,13 @@ Full quotes: `documents/harvest-live.md`.
 
 | # | Live post | Heat | Fight | Reel |
 |---|---|---|---|---|
-| P1 | r/cscareerquestions · u/MaximumFlow7491 — why hire juniors | **113 comments** | Juniors plug the task into Claude; seniors get the same slop | R1 |
+| P4 | @gabriel1 — interviewed 50+ people | **2.0k likes · 376k views** | Vague “I led X” dies; concrete demo lives | **R1 (Tue)** |
 | P2 | @karpathy — Claude coding notes | **40.7k likes · 7.8M views** | Watch the agent like a hawk; errors are junior-shaped | R2 |
 | P3 | r/ExperiencedDevs · u/ClaudeyClerb — explain-after is cheap | **33 comments** | Predict *before* you run; that is the un-fakeable check | R3 |
-| P4 | @gabriel1 — interviewed 50+ people | **2.0k likes · 376k views** | Vague “I led X” dies; concrete demo lives | R4 |
+| P5b | r/developersIndia · cafe (banked) | live 31 Aug | Real user > internship grind | R4 |
 | P5 | @aakancvedi — Indian IT dying? | **8.5k likes · 888k views** | AI does what 10 juniors did; pyramid is the product | R5 |
+
+**Killed:** P1 debugger / “why hire juniors” slop-check. Ashok rejected 1 Sep. Do not remake.
 
 **Not used:** ATS how-tos. csMajors resume-prompt. @aibytekat ATS audit. Last week’s single-page developersIndia five (do not remake).
 
