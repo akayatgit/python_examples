@@ -98,7 +98,9 @@ Full quotes: `documents/harvest-live.md`.
 | P5b | r/developersIndia · cafe (banked) | live 31 Aug | Real user > internship grind | R4 |
 | P5 | @aakancvedi — Indian IT dying? | **8.5k likes · 888k views** | AI does what 10 juniors did; pyramid is the product | R5 |
 
-**Killed:** P1 debugger / “why hire juniors” slop-check. Ashok rejected 1 Sep. Do not remake.
+**Killed:** P1 debugger. Gabriel demo/HR. Ashok skipped 1 Sep.
+
+**Wed lock:** utility — 5 free sites (Cutshort, YC, Wellfound, Hiring Cafe, GitHub Student Pack). Source: r/cscareerquestions 143↑ + r/csMajors YC page.
 
 **Not used:** ATS how-tos. csMajors resume-prompt. @aibytekat ATS audit. Last week’s single-page developersIndia five (do not remake).
 

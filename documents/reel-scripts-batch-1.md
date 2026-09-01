@@ -16,76 +16,64 @@ Hook grammar is number + promise. The Google-90% line was an *example of shape*.
 
 ---
 
-## NEXT · Wed · ACTUAL SCRIPT (Notes only)
+## NEXT · Wed · ACTUAL SCRIPT (5 sites, browser only)
 
-One app. You type. You do not talk. You do not open LinkedIn.
+Harvest (off camera): r/cscareerquestions u/trusted-apiarist · 143↑ — LinkedIn is a wash; YC / HN / Wellfound.  
+Also: r/csMajors “YC startup jobs page.” X: Wellfound as the startup board.
 
-**Cover title:** `3 things that still get a junior hired`
+You do not talk. Open the site. That is the clip.
+
+**Cover title:** `5 free sites Naukri never shows you`
 
 **0–2 seconds — you typing.**  
 Text on you:
 
 ```
-3 things that still
-get a junior hired
+5 free sites
+Naukri never shows you
 ```
 
 CUT.
 
-**Shot 1 — Notes. Type:**
+**Shot 1 — browser:** https://cutshort.io  
+Search `fresher` or `intern`.  
+Text: `1/5  Cutshort — India startups, not Naukri`
 
-```
-1. A bug I caught in AI code:
-```
+**Shot 2 — browser:** https://www.workatastartup.com  
+Text: `2/5  YC — apply to the batch companies`
 
-Leave the line blank or fill one real bug in five words.  
-Text on screen: `1/3  A bug you caught`
+**Shot 3 — browser:** https://wellfound.com  
+Text: `3/5  Wellfound — founders, not HR portals`
 
-CUT.
+**Shot 4 — browser:** https://hiring.cafe  
+Text: `4/5  Hiring Cafe — pulls from career pages, fewer ghosts`
 
-**Shot 2 — next line. Type:**
+**Shot 5 — browser:** https://education.github.com/pack  
+Text: `5/5  GitHub Student Pack — free tools, not a job board`
 
-```
-2. A prompt I refused to ship:
-```
+Hold. Last card: `Save this. Open one tonight.`
 
-Text on screen: `2/3  A prompt you said no to`
-
-CUT.
-
-**Shot 3 — next line. Type:**
-
-```
-3. A human who used it:
-```
-
-Text on screen: `3/3  Someone who used it`
-
-CUT.
-
-**Shot 4 — circle whichever line is real. Delete the empty ones if two are blank.**  
-Text on screen: `Fill one. That’s the proof.`
-
-CUT.
-
-**Shot 5 — hold the filled line.**  
-Text on screen: `Save if you have none yet`
-
-STOP.
+STOP. Five tabs. No story. No DM.
 
 **Caption:**
 
 ```
-3 things that still get a junior hired.
+5 free sites Naukri never shows you.
 
-Not a better PDF. A bug you caught in AI code. A prompt you refused to ship. A human who used it.
+1. cutshort.io — India startups
+2. workatastartup.com — YC companies
+3. wellfound.com — talk to founders
+4. hiring.cafe — jobs from real career pages (fewer ghosts)
+5. education.github.com/pack — free student tools (Copilot etc.)
 
-Fill one. Then apply.
+People on Reddit keep saying LinkedIn is a wash. These are the tabs they open instead.
 
-Save if you have none yet.
+Save. Open one tonight.
 
-#freshers #aitools #offcampus #engineeringstudents #campusplacements
+#freshers #offcampus #aitools #engineeringstudents #campusplacements
 ```
+
+**Backup (only if a site is down):** https://aistudio.google.com — free Gemini. Overlay: `Free Gemini. No card.`
 
 ---
 
