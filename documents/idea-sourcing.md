@@ -32,6 +32,12 @@ Keep the official `reddit.com/r/{sub}/comments/{id}/…` permalink in the dump e
 
 **Twitter / X — mandatory. At least two live tweets.**
 
+For student-money hooks like “95% don’t know these 3 skills,” also search:
+
+- `@Ishansharma7390` video editing / graphic designer threads
+- `"highest paying" video editing` / `"1 Lakh" designer India`
+- `"college expenses"` freelance skills
+
 For the format that is working (hook + 5 YouTube thumbs), search these first:
 
 - `"watch these" YouTube videos`
