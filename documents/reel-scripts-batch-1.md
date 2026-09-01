@@ -10,116 +10,86 @@ Hook grammar is number + promise. The Google-90% line was an *example of shape*.
 
 ---
 
-## R1 · Tue · ACTUAL SCRIPT (read top to bottom)
+## R1 · Tue · SKIPPED (1 Sep)
 
-You do not talk. You do not hunt emails. You do not mail a stranger.
-
-**Cover title:** `This 4-step roadmap that gets you the interview`
+**Killed.** Personalized demo → apply box → “don’t mail HR, DM the manager.” Too many doors. Ashok skipped. Do not remake. Do not post a filler.
 
 ---
 
-**0–3 seconds — you at the desk, typing, silent.**  
-On-screen text:
+## NEXT · Wed · ACTUAL SCRIPT (Notes only)
+
+One app. You type. You do not talk. You do not open LinkedIn.
+
+**Cover title:** `3 things that still get a junior hired`
+
+**0–2 seconds — you typing.**  
+Text on you:
 
 ```
-This 4-step roadmap
-that gets you the interview
-
-Not HR.
-The person who needs the work.
-```
-
-CUT.
-
-**Shot 1 — LinkedIn search.**  
-Type the company + `hiring` + `engineer` or `manager`.  
-Open a profile that says **“Hiring”** or that posted “we need someone on my team.”  
-Skip any title that is only HR / Talent / Recruiter. If you only find HR, stop the Reel — this play is not for that company.
-
-On-screen text:
-
-```
-1/5
-Find the person who owns the work
+3 things that still
+get a junior hired
 ```
 
 CUT.
 
-**Shot 2 — their post or the JD they linked.**  
-Highlight **one sentence** of the actual work.
-
-On-screen text:
+**Shot 1 — Notes. Type:**
 
 ```
-2/5
-Steal one sentence they need done
+1. A bug I caught in AI code:
 ```
+
+Leave the line blank or fill one real bug in five words.  
+Text on screen: `1/3  A bug you caught`
 
 CUT.
 
-**Shot 3 — a simple page.**  
-That sentence at the top. One number. Click it.
-
-On-screen text:
+**Shot 2 — next line. Type:**
 
 ```
-3/5
-One page. One number. Their problem.
+2. A prompt I refused to ship:
 ```
+
+Text on screen: `2/3  A prompt you said no to`
 
 CUT.
 
-**Shot 4 — LinkedIn message to THAT person. One message.**  
-Type this (or close):
+**Shot 3 — next line. Type:**
 
 ```
-I saw you need [that sentence].
-I built a 20s page for it: [link]
-If it's useful I can do a small paid trial.
+3. A human who used it:
 ```
 
-Not HR. Not careers@. Not 50 people.
-
-On-screen text:
-
-```
-4/5
-One DM. Not the HR portal.
-```
+Text on screen: `3/3  Someone who used it`
 
 CUT.
 
-**Shot 5 — hold the unsent/sent DM.**  
-On-screen text:
+**Shot 4 — circle whichever line is real. Delete the empty ones if two are blank.**  
+Text on screen: `Fill one. That’s the proof.`
 
-```
-5/5
-Comment if you only know HR
-```
+CUT.
+
+**Shot 5 — hold the filled line.**  
+Text on screen: `Save if you have none yet`
 
 STOP.
 
----
-
-**Caption (paste this):**
+**Caption:**
 
 ```
-This 4-step roadmap that gets you the interview.
+3 things that still get a junior hired.
 
-He said it on X: don’t go through the normal apply form. HR is paid not to take a risk. If you are not from a brand college they have no excuse if you fail — so they skip you.
+Not a better PDF. A bug you caught in AI code. A prompt you refused to ship. A human who used it.
 
-Send the page to the manager or engineer who owns the work. One person. One DM. Their sentence on the page.
+Fill one. Then apply.
 
-If the only human you can find is HR, this play is dead this week. Don’t guess inboxes.
+Save if you have none yet.
 
-Comment if you only know HR.
-
-#freshers #offcampus #aitools #engineeringstudents #campusplacements
+#freshers #aitools #offcampus #engineeringstudents #campusplacements
 ```
 
 ---
 
-## R2 · Wed · T2 Workflow
+## R2 · Wed · T2 Workflow (banked — do not film unless Notes reel is done)
 
 **Harvest (do not film):** @karpathy — watch the agent; mistakes are junior-shaped.  
 **Cover / hook overlay:** `4 rules when the agent writes the code`  

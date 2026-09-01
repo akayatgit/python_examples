@@ -207,6 +207,7 @@ One variable per week. Week 1 we test the five templates *inside Hook → 5 scre
 - Company history paragraphs
 - TNEA / cutoff / counselling
 - Debugger / “AI PR hygiene” / slop-check Reels (Ashok rejected, 1 Sep)
+- Gabriel skip-HR / manager-DM / personalized-demo play (Ashok skipped, 1 Sep — too complicated)
 - Interview riddles with the answer in the caption
 - “10 AI tools you need”
 - ATS / resume-keyword / “paste the JD into ChatGPT”

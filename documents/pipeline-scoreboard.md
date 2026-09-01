@@ -10,8 +10,8 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 
 | # | Date | Template | Title | Views | Skip % | Avg watch (s) | Length (s) | Likes | Comments | Saves | Shares | Profile taps | Hook note (5 words) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| R1 | | T4 | This 4-step roadmap that gets you the interview | | | | | | | | | | |
-| R2 | | T2 | 4 rules when the agent writes the code | | | | | | | | | | |
+| R1 | 1 Sep | — | SKIPPED — demo/HR/manager play too complicated | — | — | — | — | — | — | — | — | — | killed |
+| R2 | | T5 | 3 things that still get a junior hired | | | | | | | | | | |
 | R3 | | T3 | 4 steps instead of explain this PR | | | | | | | | | | |
 | R4 | | T4 | This 4-step roadmap that gets you a real user | | | | | | | | | | |
 | R5 | | T5 | 3 proofs that replace 10 juniors | | | | | | | | | | |
