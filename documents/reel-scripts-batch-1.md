@@ -12,115 +12,105 @@ Hook grammar is number + promise. The Google-90% line was an *example of shape*.
 
 ## R1 · Tue · ACTUAL SCRIPT (read top to bottom)
 
-You do not talk. Every line below is **text you put on the video**.
+You do not talk. You do not hunt emails. You do not mail a stranger.
 
 **Cover title:** `This 4-step roadmap that gets you the interview`
 
 ---
 
 **0–3 seconds — you at the desk, typing, silent.**  
-On-screen text (big, then one small line under it):
+On-screen text:
 
 ```
 This 4-step roadmap
 that gets you the interview
 
-They skip 100 PDFs.
-They click one page with their name on it.
+Not 100 emails.
+One job they already posted.
 ```
 
 CUT.
 
-**2–8 seconds — Notes app, full screen.**  
-Type this exactly:
-
-```
-Swiggy
-Intern
-Chennai
-```
+**Shot 1 — LinkedIn or the company careers page.**  
+Open **one live opening**. Example: `SDE Intern · Chennai`.  
+Do not open a personal inbox. Do not type `@swiggy.com`.
 
 On-screen text:
 
 ```
 1/5
-Pick one company. One role.
+Open a job they already posted
 ```
 
 CUT.
 
-**8–14 seconds — same Notes, next lines.**  
-Type this exactly:
-
-```
-A one-page tracker for late deliveries
-on one Chennai route
-```
+**Shot 2 — same posting.**  
+Highlight **one sentence** they wrote (the work, not “about us”).  
+Copy that sentence into Notes.
 
 On-screen text:
 
 ```
 2/5
-Write what you would ship them
+The page is that one sentence
 ```
 
 CUT.
 
-**14–20 seconds — same Notes, last line.**  
-Type this exactly:
-
-```
-1 page · 1 route · 12 stops
-```
+**Shot 3 — a simple page / Notes.**  
+That sentence at the top. One number under it.  
+Example if the JD says “track orders”: `1 page · 12 sample orders`.
 
 On-screen text:
 
 ```
 3/5
-Put one number on it
+Build only that. One number.
 ```
 
 CUT.
 
-**20–28 seconds — browser.**  
-Open a simple page (or `shop.html`) that says **Swiggy** and **12 stops**. Click the button once or twice.
+**Shot 4 — the apply form on that same posting, or a reply to the person who posted it.**  
+Paste your link in the box that says additional info / cover note / portfolio.  
+Or LinkedIn: reply under **their** “we are hiring” post.  
+If there is no box and no hiring post, **stop**. Do not guess an email.
 
 On-screen text:
 
 ```
 4/5
-20 seconds of you clicking it
+Put the link where they asked
 ```
 
 CUT.
 
-**28–32 seconds — hold that page.**  
+**Shot 5 — hold that apply box with the link in it.**  
 On-screen text:
 
 ```
 5/5
-Comment the company you picked
+Comment the role you opened
 ```
 
-STOP. That is the whole Reel.
+STOP.
 
 ---
 
-**Caption (paste this, do not rewrite):**
+**Caption (paste this):**
 
 ```
 This 4-step roadmap that gets you the interview.
 
-They skip 100 identical PDFs. They open one page that already has their company name and a number on it. That page is the interview.
+You do not need their personal mail. You do not spray a page to 100 people. That is spam and they will treat it like spam.
 
-Pick one company. Write what you would ship them. Put one number on it. Click it for 20 seconds. Send that. Not another “I am a hardworking fresher” resume.
+Open one job they already posted. The page is one sentence from that post. One number. Paste the link in their apply box, or reply to the person who posted the job.
 
-Comment the company you picked.
+They skip 100 PDFs. They click one page that is clearly for this role.
+
+Comment the role you opened.
 
 #freshers #offcampus #aitools #engineeringstudents #campusplacements
 ```
-
-If Swiggy feels wrong, change only the company name in Notes and on the page. Do not change the five lines.
 
 ---
 
