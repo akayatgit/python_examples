@@ -168,3 +168,37 @@ Quotes below are verbatim from those pipes. Do not invent extra comments. Do not
 Zero Reels from a single hot listing. Three X, two Reddit, five handles/rooms.
 
 **Format for all five:** Hook (number + promise on working b-roll) → 5 screenshares. No talking. **No Reddit/X UI on camera.** Shot lists: `documents/reel-scripts-batch-1.md`.
+
+---
+
+## 1 Sep 2026 — “watch these videos” threads (the format he posted)
+
+Ashok posted: **You will never be the same Average guy / After you watch these 5 videos this week.** Skip 40.7% vs typical 59%. Saves 12. Keep this shape.
+
+X does this in two flavours. Both are stealable. Do not invent extra tweet IDs.
+
+### Flavour A — “watch these YouTube videos” (closest to his Reel)
+
+| Handle | Hook they used | Link |
+|---|---|---|
+| @hasantoxr | If you want to become a world-class AI engineer in 2026, **watch these 12 YouTube videos** (save them) | Profile + unroll: https://threadreaderapp.com/user/hasantoxr — Jul 30 thread. First two videos named: Karpathy *Deep Dive into LLMs like ChatGPT*; Karpathy *Let's reproduce GPT-2 (124M)*. Too long for an “average guy this week” Reel. Bank for a later AI-jobs Reel. |
+| @SuhailKakar | If you want to master Front-end Web Development, **watch these YouTube videos** | https://threadreaderapp.com/user/SuhailKakar — Nov 2022. Starts with freeCodeCamp HTML/CSS full course. |
+| @madzadev | If you want to learn Python, **watch these YouTube videos (start today)** | Same author page as https://threadreaderapp.com/thread/1631648668091842560 — Python + React course lists. |
+
+### Flavour B — “10 YouTube channels, not Netflix” (he picks one video from each)
+
+| Handle | Hook they used | Real status URL |
+|---|---|---|
+| @TechAI_X | YouTube has Free AI Education. **10 YouTube Channels** that teach AI better than a 4-year degree | https://x.com/TechAI_X/status/2036465525862310316 — 75 likes · 74 bookmarks · 5.5k views. Unroll: https://www.unrollnow.com/status/2036465525862310316 |
+| @heygurisingh | YouTube is free education. **Top 12 channels** to accelerate your learning | https://x.com/heygurisingh/status/1942658611496509802 — Iman Gadzhi, Ali Abdaal, Matt D'Avella, Nathaniel Drew, MIT OCW, Better Ideas, Stanford GSB, Crash Course, Big Think, Thomas Frank, freeCodeCamp, Tim Ferriss. Unroll: https://threadreaderapp.com/thread/1942658611496509802 |
+| @manishkumar_dev | Don't waste your time watching Useless Content. **Top 18 channels** that will teach you more in 2025 than a 4-year degree | https://x.com/manishkumar_dev/status/1923246263673422258 — **1,162 likes · 3,315 bookmarks · 365k views**. CrashCourse, Khan Academy, TED-Ed, Vsauce, Veritasium… Unroll: https://threadreaderapp.com/thread/1923246263673422258 |
+| @chrisxmunn | 1 BILLION hours viewed on YouTube every day. Most wasted. **12 great channels** + each channel’s **top video** | https://x.com/chrisxmunn/status/1482391934144446466 — Unroll: https://threadreaderapp.com/thread/1482391934144446466 |
+| @FluentInFinance | YouTube channel list (YC, TED-Ed, freeCodeCamp, CrashCourse, MIT OCW) | https://x.com/FluentInFinance/status/1765218382356374005 — Unroll: https://threadreaderapp.com/thread/1765218382356374005 |
+
+### LinkedIn (same hook, often 5 exact videos — use if X is only channels)
+
+- “Skip Netflix this weekend. Watch these YT videos instead.” — https://www.linkedin.com/posts/noam-nisand_skip-netflix-this-weekend-watch-these-yt-activity-7450853312624775169-MaaC
+- “Watch these 5 videos on FINANCE” — Ray Dalio *How the Economic Machine Works* is #1 — https://www.linkedin.com/posts/karandeep-singh-8b3138209_watch-these-5-videos-on-finance-and-master-activity-7472582786210598914-s7a2
+- “Watch these 5 YouTube videos and you'll know more about AI agents than 99% of people” — https://www.linkedin.com/posts/chetan-pujari-b611b6146_n8n-aiagents-aiautomation-activity-7382803366046744576-hr7B
+
+**Next Reel videos** (from Flavour B channels, not his four already posted): `documents/reel-scripts-batch-1.md`.

@@ -16,7 +16,73 @@ Hook is always: `You will never be the same [role] after [action] these [content
 
 ---
 
-## NEXT · Wed · 5 job sites (matches the Reddit post)
+## R2 · 1 Sep · POSTED (keep this shape)
+
+**What he actually posted:**
+
+```
+You will never be the same Average guy
+After you watch these 5 videos this week
+```
+
+Then YouTube thumbs. Caption: comment LINK. Insights early: 237 views, skip **40.7% vs typical 59%**, 12 saves / 5 likes.
+
+Videos he used (do not repeat these next):
+
+1. Ishan Sharma — 80 Minutes That Will Force You To Lock-in This 2025
+2. Unlock Mastery — The Dark Side Of Self-Improvement
+3. BeerBiceps — Communication Skills FREE Masterclass
+4. The Mindset Mentor Podcast — How to Be Consistent
+
+---
+
+## NEXT · same format · 5 new videos (from X threads)
+
+**Do not change the hook.** Same two lines as R2.
+
+**Where these 5 came from (off-camera, do not show the tweets):**
+
+- Channel list: https://x.com/heygurisingh/status/1942658611496509802 (Ali Abdaal, Matt D'Avella, Thomas Frank, Better Ideas)
+- Same family: https://x.com/manishkumar_dev/status/1923246263673422258
+- Communication slot (matches his BeerBiceps pick, new video): Charisma on Command
+
+**Then screenshot these YouTube pages, in order:**
+
+1. Ali Abdaal — *How to Get Ahead of 99% of People (Discipline Isn't Enough)*  
+   https://www.youtube.com/watch?v=lmCaQxk4b8c
+2. Thomas Frank — *How to ACTUALLY Stop Wasting Time on the Internet*  
+   https://www.youtube.com/watch?v=Ug9nlY9tWzk
+3. Charisma on Command — *This Simple Trick Makes People Love Talking to You*  
+   https://www.youtube.com/watch?v=v750VZ7kLbs
+4. Matt D'Avella — open https://www.youtube.com/@MattDAvella and screenshot the video with the most views (channel is in the Guri Singh thread)
+5. Better Ideas — open https://www.youtube.com/@betterideas and screenshot the video with the most views (same thread)
+
+Last card: `Comment LINK. I will send all 5.`
+
+**Caption:**
+
+```
+You will never be the same Average guy
+After you watch these 5 videos this week
+
+Comment LINK
+
+#lockin #selfimprovement #careergrowth #freshers #youtube
+```
+
+Film time: you at the desk + 5 YouTube screenshots. No talking. No Twitter on screen.
+
+---
+
+## After that · same hook · 5 job videos (only if he wants a career week)
+
+Keep the same two overlay lines. Change only the five thumbs to interview / job videos. Source threads in `documents/harvest-live.md` (Hasan Toor “watch these 12 YouTube videos”, Suhail Kakar front-end list). Do not film the 3.5-hour Karpathy video as “this week” — too long for his audience.
+
+---
+
+## Banked · 5 job sites (do not film unless he asks)
+
+He did **not** post the 6LPA job-sites Reel. Videos are winning. Keep this as a backup only.
 
 **Read this first:** https://www.reddit.com/r/cscareerquestions/comments/1iliq2m/for_anyone_interested_in_startups/  
 143 upvotes. He says LinkedIn is a wash, then lists these boards.

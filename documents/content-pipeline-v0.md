@@ -15,11 +15,11 @@ Hook is **always** this one sentence. Only the three words in brackets change:
 
 `You will never be the same [role] after [action] these [content].`
 
-Example (Ashok, 1 Sep): `You will never be the same “6LPA Guy” after using these 5 job sites.`
+Example he actually posted (1 Sep) and that held skip: `You will never be the same Average guy` / `After you watch these 5 videos this week.`
 
-Role = what Ashok writes (“6LPA Guy”, intern, etc.).  
-Action = using, trying, watching. Never “opening.”  
-Content = 5 job sites, 4 free tools. Do not invent a different hook.
+Role = what Ashok writes (“Average guy”, intern, etc.).  
+Action = watching, using, trying. Never “opening.”  
+Content = 5 YouTube videos this week. Do not invent a different hook.
 
 This is the only format until 4/5 hit 10k. We milk it.
 

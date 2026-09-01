@@ -11,7 +11,7 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 | # | Date | Template | Title | Views | Skip % | Avg watch (s) | Length (s) | Likes | Comments | Saves | Shares | Profile taps | Hook note (5 words) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | R1 | 1 Sep | — | SKIPPED — demo/HR/manager play too complicated | — | — | — | — | — | — | — | — | — | killed |
-| R2 | | T5 | You will never be the same “6LPA Guy” after using these 5 job sites | | | | | | | | | | |
+| R2 | 1 Sep | videos | You will never be the same Average guy / After you watch these 5 videos this week | 237 | 40.7 | 9 | ~19 | 5 | 0 | 12 | 0 | 0 | skip beat typical 59% |
 | R3 | | T3 | 4 steps instead of explain this PR | | | | | | | | | | |
 | R4 | | T4 | This 4-step roadmap that gets you a real user | | | | | | | | | | |
 | R5 | | T5 | 3 proofs that replace 10 juniors | | | | | | | | | | |

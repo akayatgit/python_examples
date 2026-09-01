@@ -32,7 +32,19 @@ Keep the official `reddit.com/r/{sub}/comments/{id}/…` permalink in the dump e
 
 **Twitter / X — mandatory. At least two live tweets.**
 
-Search last 7 days (or unroll / fxtwitter if x.com search 403s): `Claude Code`, `Cursor`, `"junior developer"`, `fresher`, `"I don't hire juniors"`, `slopacolypse`, `agentic`.
+For the format that is working (hook + 5 YouTube thumbs), search these first:
+
+- `"watch these" YouTube videos`
+- `"watch these 5 YouTube"`
+- `"YouTube is free education"`
+- `"10 YouTube channels that"`
+- `"Don't waste your time" YouTube channels`
+
+Handles that already post this: `@hasantoxr`, `@heygurisingh`, `@manishkumar_dev`, `@TechAI_X`, `@FluentInFinance`, `@SuhailKakar`, `@chrisxmunn`.
+
+If a thread lists **channels**, pick the top video on each channel (screenshot the YouTube page). If it lists **videos**, use those titles.
+
+Also search last 7 days (or unroll / fxtwitter if x.com search 403s): `Claude Code`, `Cursor`, `"junior developer"`, `fresher`, `"I don't hire juniors"`, `slopacolypse`, `agentic`.
 
 If x.com is blocked, resolve a real status ID then pull verbatim text:
 
