@@ -25,71 +25,76 @@ On-screen text:
 This 4-step roadmap
 that gets you the interview
 
-Not 100 emails.
-One job they already posted.
+Not HR.
+The person who needs the work.
 ```
 
 CUT.
 
-**Shot 1 — LinkedIn or the company careers page.**  
-Open **one live opening**. Example: `SDE Intern · Chennai`.  
-Do not open a personal inbox. Do not type `@swiggy.com`.
+**Shot 1 — LinkedIn search.**  
+Type the company + `hiring` + `engineer` or `manager`.  
+Open a profile that says **“Hiring”** or that posted “we need someone on my team.”  
+Skip any title that is only HR / Talent / Recruiter. If you only find HR, stop the Reel — this play is not for that company.
 
 On-screen text:
 
 ```
 1/5
-Open a job they already posted
+Find the person who owns the work
 ```
 
 CUT.
 
-**Shot 2 — same posting.**  
-Highlight **one sentence** they wrote (the work, not “about us”).  
-Copy that sentence into Notes.
+**Shot 2 — their post or the JD they linked.**  
+Highlight **one sentence** of the actual work.
 
 On-screen text:
 
 ```
 2/5
-The page is that one sentence
+Steal one sentence they need done
 ```
 
 CUT.
 
-**Shot 3 — a simple page / Notes.**  
-That sentence at the top. One number under it.  
-Example if the JD says “track orders”: `1 page · 12 sample orders`.
+**Shot 3 — a simple page.**  
+That sentence at the top. One number. Click it.
 
 On-screen text:
 
 ```
 3/5
-Build only that. One number.
+One page. One number. Their problem.
 ```
 
 CUT.
 
-**Shot 4 — the apply form on that same posting, or a reply to the person who posted it.**  
-Paste your link in the box that says additional info / cover note / portfolio.  
-Or LinkedIn: reply under **their** “we are hiring” post.  
-If there is no box and no hiring post, **stop**. Do not guess an email.
+**Shot 4 — LinkedIn message to THAT person. One message.**  
+Type this (or close):
+
+```
+I saw you need [that sentence].
+I built a 20s page for it: [link]
+If it's useful I can do a small paid trial.
+```
+
+Not HR. Not careers@. Not 50 people.
 
 On-screen text:
 
 ```
 4/5
-Put the link where they asked
+One DM. Not the HR portal.
 ```
 
 CUT.
 
-**Shot 5 — hold that apply box with the link in it.**  
+**Shot 5 — hold the unsent/sent DM.**  
 On-screen text:
 
 ```
 5/5
-Comment the role you opened
+Comment if you only know HR
 ```
 
 STOP.
@@ -101,13 +106,13 @@ STOP.
 ```
 This 4-step roadmap that gets you the interview.
 
-You do not need their personal mail. You do not spray a page to 100 people. That is spam and they will treat it like spam.
+He said it on X: don’t go through the normal apply form. HR is paid not to take a risk. If you are not from a brand college they have no excuse if you fail — so they skip you.
 
-Open one job they already posted. The page is one sentence from that post. One number. Paste the link in their apply box, or reply to the person who posted the job.
+Send the page to the manager or engineer who owns the work. One person. One DM. Their sentence on the page.
 
-They skip 100 PDFs. They click one page that is clearly for this role.
+If the only human you can find is HR, this play is dead this week. Don’t guess inboxes.
 
-Comment the role you opened.
+Comment if you only know HR.
 
 #freshers #offcampus #aitools #engineeringstudents #campusplacements
 ```
