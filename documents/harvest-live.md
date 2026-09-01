@@ -145,13 +145,25 @@ Quotes below are verbatim from those pipes. Do not invent extra comments. Do not
 | Reel | Platform | Room / handle | Why this one |
 |---|---|---|---|
 | R1 | — | SKIPPED 1 Sep | Gabriel demo/HR/manager. Too complicated. Do not remake. |
-| R2 (Wed) | Reddit + X | r/cscareerquestions · 143↑ u/trusted-apiarist; r/csMajors YC page | 5 free/underrated sites. Utility lane. |
-| R2 | X | @karpathy | How agents actually fail (junior-shaped bugs) |
-| R3 | Reddit | r/ExperiencedDevs | New interview check: predict *before* you run |
-| R4 | Reddit | r/developersIndia · cafe (banked) | Real-user roadmap. Not the old one-page five. |
-| R5 | X | @aakancvedi | India: pyramid + “10 juniors” is the product |
+| R2 Wed | Reddit | r/cscareerquestions · 143↑ [u/trusted-apiarist](https://www.reddit.com/r/cscareerquestions/comments/1iliq2m/for_anyone_interested_in_startups/) | LinkedIn is a wash. YC / HN / Wellfound. |
+| R2 also | Reddit | r/csMajors [where do you search](https://www.reddit.com/r/csMajors/comments/1vpgxpn/how_are_yall_searching_up_jobsroles/) | YC jobs + Simplify + Jobright |
+| later | X | @karpathy | Bank. IDE-heavy. |
+| later | X | @aakancvedi | Bank. |
 
-**Killed this week:** r/cscareerquestions “why hire juniors” / debugger checks. Do not remake.
+**Killed:** debugger. Gabriel HR/manager demo.
+
+## Utility bank (next Reels in this lane)
+
+| What | URL | Why it ships |
+|---|---|---|
+| Cutshort | https://cutshort.io | India startups. Live. |
+| YC Work at a Startup | https://www.workatastartup.com | Named in the 143↑ thread |
+| Wellfound | https://wellfound.com | Same thread + X remote threads |
+| Hiring Cafe | https://hiring.cafe | Career-page scrape, fewer ghosts |
+| GitHub Student Pack | https://education.github.com/pack | Free tools, not a job board |
+| Google AI Studio | https://aistudio.google.com | Free Gemini backup |
+| HN Who’s Hiring | news.ycombinator.com (monthly) | Same 143↑ thread. Don’t show Reddit. |
+| Welcome to the Jungle (ex Otta) | in that thread | Inbox matchmaking |
 
 Zero Reels from a single hot listing. Three X, two Reddit, five handles/rooms.
 
