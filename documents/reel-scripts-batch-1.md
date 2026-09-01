@@ -26,8 +26,8 @@ The five clips are **only names from that post.** Nothing extra.
 **Hook on you (do not change this sentence):**
 
 ```
-You will never be the same fresher
-after opening these 5 job sites
+You will never be the same developer
+after using these 5 job sites
 ```
 
 **Then open, in order:**
@@ -43,7 +43,7 @@ Last card: `Save. Open one tonight.`
 **Caption:**
 
 ```
-You will never be the same fresher after opening these 5 job sites.
+You will never be the same developer after using these 5 job sites.
 
 workatastartup.com
 wellfound.com
@@ -99,7 +99,7 @@ Comment hawk if you caught an assumption this week. Comment paste if you shipped
 
 | Clip | Picture | Overlay |
 |---|---|---|
-| Hook | Working tape | `4 steps instead of “explain this PR”` |
+| Hook | Working tape | `You will never be the same intern after doing these 4 interview steps` |
 | 1/5 | Notes app. Type 5 lines of what *should* happen. Terminal is empty. | `1/5  Predict before you run` |
 | 2/5 | Run `python test.py` (or any script you have). | `2/5  Run it` |
 | 3/5 | Back in Notes: `happened: ___` | `3/5  Write what actually happened` |
@@ -133,7 +133,7 @@ Comment predict if you have done this. Comment after if you only explained when 
 
 | Clip | Picture | Overlay |
 |---|---|---|
-| Hook | Working tape | `This 4-step roadmap that gets you a real user` |
+| Hook | Working tape | `You will never be the same fresher after doing these 4 user steps` |
 | 1/5 | Maps / Notes: a shop you can walk to. Type the name. | `1/5  Pick a place you can walk to` |
 | 2/5 | `shop.html`: that name on the page. One button. | `2/5  One page. Their name on it.` |
 | 3/5 | README: `cafe · paid? not yet · asked: website` | `3/5  Write the ask in one line` |
@@ -167,7 +167,7 @@ Comment your city.
 
 | Clip | Picture | Overlay |
 |---|---|---|
-| Hook | Working tape | `3 proofs that replace 10 juniors` |
+| Hook | Working tape | `You will never be the same junior after writing these 3 proofs` |
 | 1/5 | Notes: `bug I caught:` + fill one real line. | `1/5  A bug you caught in AI code` |
 | 2/5 | `prompt I rejected:` + fill or leave blank on purpose. | `2/5  A prompt you refused to ship` |
 | 3/5 | `user who used it:` + a name or “none yet.” | `3/5  A human who used it` |

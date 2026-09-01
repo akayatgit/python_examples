@@ -15,9 +15,11 @@ Hook is **always** this one sentence. Only the three words in brackets change:
 
 `You will never be the same [role] after [action] these [content].`
 
-Example: `You will never be the same fresher after opening these 5 job sites.`
+Example: `You will never be the same developer after using these 5 job sites.`
 
-Role = who is watching (fresher, intern, junior). Action = what they do in the video (opening, using, seeing). Content = what is on the screens (5 job sites, 4 free tools). Do not invent a different hook.
+Role = a job name (developer, engineer, intern). Never “fresher.”  
+Action = using, trying, watching. Never “opening.”  
+Content = 5 job sites, 4 free tools. Do not invent a different hook.
 
 This is the only format until 4/5 hit 10k. We milk it.
 
