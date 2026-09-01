@@ -51,20 +51,19 @@ is enough to manage your college expenses
 - https://x.com/Ishansharma7390/status/1665683517093601280 — graphic design, 1 Lakh/month India
 - LinkedIn: video + social + web for college earnings
 
-**The 3 skills (this is the Reel):**
+**The 3 videos (screenshot the YouTube page, same as yesterday):**
 
-| # | Skill | Open this and screenshot | Overlay on the clip |
+| # | Skill | Video | Link |
 |---|---|---|---|
-| 1 | Video editing | https://www.youtube.com/@CaseyFaris or search `CapCut reel editing` | `1/3  Video editing` |
-| 2 | Graphic design | https://www.canva.com — Instagram post / YouTube thumbnail | `2/3  Canva design` |
-| 3 | Copywriting | https://internshala.com/internships/content-writing-internship | `3/3  Copywriting` |
+| 1 | Video editing | Metics Media — *CapCut Tutorial for Beginners (2026)* | https://www.youtube.com/watch?v=j5_471mO14c |
+| 2 | Canva design | Wholesale Ted — *Canva Tutorial For Beginners: A Free Masterclass 2026* | https://www.youtube.com/watch?v=Dgha6qBtAwQ |
+| 3 | Copywriting | Alex Cattoni — *How To Become A Freelance Copywriter & Get Your First Client* | https://www.youtube.com/watch?v=B4jVhgiWFBY |
 
-Optional 4th/5th if he wants the same 5-beat as yesterday:
+Overlay on each clip: `1/3 Video editing` · `2/3 Canva` · `3/3 Copywriting`
 
-4. https://www.fiverr.com — search `video editing` — text: `Get the first ₹ here`
-5. Last card: `Comment SKILL. I will send the 3 links.`
+Last card: `Comment LINK`
 
-**Do not write 1 Lakh on screen.** Ishan says that. For his audience: one shop’s Reels covers mess + phone.
+**Do not write 1 Lakh on screen.** For his audience: one shop’s Reels covers mess + phone.
 
 **Caption:**
 
@@ -73,15 +72,20 @@ Optional 4th/5th if he wants the same 5-beat as yesterday:
 is enough to manage your college expenses
 
 1. Video editing
-2. Canva design
-3. Copywriting
+https://youtu.be/j5_471mO14c
 
-Comment SKILL
+2. Canva
+https://youtu.be/Dgha6qBtAwQ
+
+3. Copywriting
+https://youtu.be/B4jVhgiWFBY
+
+Comment LINK
 
 #college #freshers #sidehustle #freelancing #students
 ```
 
-You at the desk. Then 3 screens. No talking. No Twitter.
+You at the desk. Then 3 YouTube thumbs. No talking. No Twitter.
 
 ---
 

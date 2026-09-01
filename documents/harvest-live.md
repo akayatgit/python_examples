@@ -230,4 +230,8 @@ LinkedIn same 3-skill list: Video editing + Social media + Web — https://www.l
 
 Honest money (do not put “1 Lakh/month” on his overlay): one local shop’s Reels + posts is enough for mess + recharge. That is “manage college expenses.” The 1 Lakh line is Ishan’s, not ours.
 
-Where they get the first ₹ (screenshot these, not the tweets): Internshala, Fiverr, Canva, CapCut YouTube, Casey Faris on YouTube.
+**Learn-each-skill videos (2 Sep Reel screenshots):**
+
+1. Video editing — Metics Media, CapCut beginners 2026: https://www.youtube.com/watch?v=j5_471mO14c
+2. Canva — Wholesale Ted, free masterclass 2026: https://www.youtube.com/watch?v=Dgha6qBtAwQ
+3. Copywriting — Alex Cattoni, first freelance client: https://www.youtube.com/watch?v=B4jVhgiWFBY
