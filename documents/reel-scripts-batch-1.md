@@ -127,7 +127,7 @@ Comment predict if you have done this. Comment after if you only explained when 
 ## R4 · Fri · T4 Project
 
 **Harvest (do not film):** r/developersIndia · u/Dry-Bee-7232 — 2nd years, cafe paid them (banked; not the old hot-page five).  
-**Cover / hook overlay:** `You will never be the same fresher after doing these 4 user steps`  
+**Cover / hook overlay:** `You will never be the same developer after using these 4 user steps`  
 **Length:** 32–38s  
 **File:** `r4-screens.mp4`
 
