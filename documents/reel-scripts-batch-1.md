@@ -26,7 +26,7 @@ The five clips are **only names from that post.** Nothing extra.
 **Hook on you (do not change this sentence):**
 
 ```
-You will never be the same developer
+You will never be the same “6LPA Guy”
 after using these 5 job sites
 ```
 
@@ -43,7 +43,7 @@ Last card: `Save. Open one tonight.`
 **Caption:**
 
 ```
-You will never be the same developer after using these 5 job sites.
+You will never be the same “6LPA Guy” after using these 5 job sites.
 
 workatastartup.com
 wellfound.com
@@ -133,7 +133,7 @@ Comment predict if you have done this. Comment after if you only explained when 
 
 | Clip | Picture | Overlay |
 |---|---|---|
-| Hook | Working tape | `You will never be the same fresher after doing these 4 user steps` |
+| Hook | Working tape | `You will never be the same developer after using these 4 user steps` |
 | 1/5 | Maps / Notes: a shop you can walk to. Type the name. | `1/5  Pick a place you can walk to` |
 | 2/5 | `shop.html`: that name on the page. One button. | `2/5  One page. Their name on it.` |
 | 3/5 | README: `cafe · paid? not yet · asked: website` | `3/5  Write the ask in one line` |
