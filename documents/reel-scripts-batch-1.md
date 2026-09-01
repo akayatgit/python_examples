@@ -6,7 +6,7 @@ On camera: you working + five screenshares. Never open reddit.com or x.com in th
 **Sunday once:** 15s typing tape (silent). That is every hook.  
 **Then per Reel:** one file `rN-screens.mp4` — do the five steps in order, 1s pause between. CapCut splits.
 
-Hook grammar is number + promise. The Google-90% line was an *example of shape*. We do not ship fake stats.
+Hook is always: `You will never be the same [role] after [action] these [content].`
 
 ---
 
@@ -23,11 +23,11 @@ Hook grammar is number + promise. The Google-90% line was an *example of shape*.
 
 The five clips are **only names from that post.** Nothing extra.
 
-**Hook on you (this is the line on your face):**
+**Hook on you (do not change this sentence):**
 
 ```
-5 job sites
-besides Naukri and LinkedIn
+You will never be the same fresher
+after opening these 5 job sites
 ```
 
 **Then open, in order:**
@@ -43,7 +43,7 @@ Last card: `Save. Open one tonight.`
 **Caption:**
 
 ```
-5 job sites besides Naukri and LinkedIn.
+You will never be the same fresher after opening these 5 job sites.
 
 workatastartup.com
 wellfound.com
@@ -61,13 +61,13 @@ Save. Open one tonight.
 ## R2 · Wed · T2 Workflow (banked — do not film unless Notes reel is done)
 
 **Harvest (do not film):** @karpathy — watch the agent; mistakes are junior-shaped.  
-**Cover / hook overlay:** `4 rules when the agent writes the code`  
+**Cover / hook overlay:** `You will never be the same junior after using these 4 agent rules`  
 **Length:** 32–38s  
 **File:** `r2-screens.mp4`
 
 | Clip | Picture | Overlay |
 |---|---|---|
-| Hook | Working tape | `4 rules when the agent writes the code` |
+| Hook | Working tape | `You will never be the same junior after using these 4 agent rules` |
 | 1/5 | Fat function on screen (or a dump you paste in). Do not accept yet. | `1/5  Do not accept the first dump` |
 | 2/5 | Highlight one wrong assumption (a magic number, a guessed name). | `2/5  Find the assumption it never asked` |
 | 3/5 | Delete half the file / keep the short version. | `3/5  Cut 1000 lines to 100` |
@@ -93,7 +93,7 @@ Comment hawk if you caught an assumption this week. Comment paste if you shipped
 ## R3 · Thu · T3 Interview
 
 **Harvest (do not film):** r/ExperiencedDevs — explain-after is cheap.  
-**Cover / hook overlay:** `4 steps instead of “explain this PR”`  
+**Cover / hook overlay:** `You will never be the same intern after doing these 4 interview steps`  
 **Length:** 32–38s  
 **File:** `r3-screens.mp4`
 
@@ -127,7 +127,7 @@ Comment predict if you have done this. Comment after if you only explained when 
 ## R4 · Fri · T4 Project
 
 **Harvest (do not film):** r/developersIndia · u/Dry-Bee-7232 — 2nd years, cafe paid them (banked; not the old hot-page five).  
-**Cover / hook overlay:** `This 4-step roadmap that gets you a real user`  
+**Cover / hook overlay:** `You will never be the same fresher after doing these 4 user steps`  
 **Length:** 32–38s  
 **File:** `r4-screens.mp4`
 
@@ -161,7 +161,7 @@ Comment your city.
 ## R5 · Sat · T5 Signal
 
 **Harvest (do not film):** @aakancvedi — AI does what 10 juniors did.  
-**Cover / hook overlay:** `3 proofs that replace 10 juniors`  
+**Cover / hook overlay:** `You will never be the same junior after writing these 3 proofs`  
 **Length:** 28–34s  
 **File:** `r5-screens.mp4`
 

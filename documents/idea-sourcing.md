@@ -75,7 +75,7 @@ Shot-list header must include:
 
 ```
 Harvest (off-camera): r/subreddit or @handle — “short quote”
-Hook overlay: N things that [outcome]
+Hook: You will never be the same [role] after [action] these [content]
 File: rN-screens.mp4
 ```
 

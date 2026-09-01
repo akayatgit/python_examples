@@ -11,11 +11,13 @@ Every Reel is **Hook → 5 screens**.
 [2–end] 1/5…5/5  five short screenshares. That is the roadmap.
 ```
 
-Hook grammar (example only — do not ship fake Google stats):
+Hook is **always** this one sentence. Only the three words in brackets change:
 
-`This 4-check roadmap that stops an AI PR from getting bounced`
+`You will never be the same [role] after [action] these [content].`
 
-The *shape* is number + outcome. The *number* must be true to the harvest. Banned on the overlay: “90% of Google,” “FAANG secret,” any % we did not measure.
+Example: `You will never be the same fresher after opening these 5 job sites.`
+
+Role = who is watching (fresher, intern, junior). Action = what they do in the video (opening, using, seeing). Content = what is on the screens (5 job sites, 4 free tools). Do not invent a different hook.
 
 This is the only format until 4/5 hit 10k. We milk it.
 
@@ -75,13 +77,13 @@ No “Shop”, no “Kit”, no “Paid”, no “ATS”.
 
 Every Reel is one of these. If an idea does not fit, it does not ship.
 
-| ID | Name | Hook overlay (number + promise) | The 5 screens | Length | Clip 5 = CTA |
+| ID | Name | Hook (same sentence, fill the 3 slots) | The 5 screens | Length | Clip 5 = CTA |
 |---|---|---|---|---|---|
-| T1 | **Bounce** | `4 checks before you send an AI PR` | 4 checks + CTA | 28–38s | `Comment if this is your repo` |
-| T2 | **Workflow** | `4 rules when the agent writes the code` | 4 rules + CTA | 30–40s | `Comment which step you skip` |
-| T3 | **Interview** | `4 steps instead of “explain this PR”` | 4 steps + CTA | 30–40s | `Comment predict or after` |
-| T4 | **Project** | `4 things that beat “I led X”` | 4 proofs + CTA | 30–40s | `Comment your one number` |
-| T5 | **Signal** | `3 proofs that replace 10 juniors` | 3 proofs + 1 fill + CTA | 26–34s | `0–2 YOE? Save` |
+| T1 | **Bounce** | You will never be the same [role] after [action] these [content] | 4–5 screens + CTA | 28–38s | last card |
+| T2 | **Workflow** | same sentence | 4–5 screens + CTA | 30–40s | last card |
+| T3 | **Interview** | same sentence | 4–5 screens + CTA | 30–40s | last card |
+| T4 | **Project** | same sentence | 4–5 screens + CTA | 30–40s | last card |
+| T5 | **Signal** | same sentence | 4–5 screens + CTA | 26–34s | last card |
 
 Same skeleton every time. Do not invent a sixth clip.
 
@@ -101,7 +103,7 @@ Each clip ~5–6s. Label `1/5` top-left, same font all week.
 1. Face is in the first 2 seconds as **working b-roll**. You do not talk. You do not look at the lens.
 2. Hard cut at 2.0s into clip 1. Same cut every Reel.
 3. **Never on camera:** reddit.com, x.com, a subreddit name, a tweet embed, “as seen on Reddit.” Harvest is off-camera. The Reel is the roadmap.
-4. Hook is `N + outcome`. N is the real step count. No fake “90% of Google.”
+4. Hook is only `You will never be the same [role] after [action] these [content].` No other first line.
 5. Text is the script. Max 6 words per card. Middle third. `1/5` stays in the top-left safe zone.
 6. Give all N steps on screen. We are not teasing a paid file.
 7. Audio = one quiet CapCut “no copyright” bed, same track all week. No voice. No other creator’s original audio. No TTS until 10k is proven.
