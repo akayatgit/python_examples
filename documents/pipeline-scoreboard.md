@@ -12,7 +12,7 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | R1 | 1 Sep | — | SKIPPED — demo/HR/manager play too complicated | — | — | — | — | — | — | — | — | — | killed |
 | R2 | 1 Sep | videos | You will never be the same Average guy / After you watch these 5 videos this week | 237 | 40.7 | 9 | ~19 | 5 | 0 | 12 | 0 | 0 | skip beat typical 59% |
-| R3 | | T3 | 4 steps instead of explain this PR | | | | | | | | | | |
+| R3 | 2 Sep | 3 skills | 95% students dont know these 3 high paying skills is enough to manage your college expenses | | | | | | | | | | |
 | R4 | | T4 | This 4-step roadmap that gets you a real user | | | | | | | | | | |
 | R5 | | T5 | 3 proofs that replace 10 juniors | | | | | | | | | | |
 | R6 | | T1 | (re-harvest) | | | | | | | | | | |

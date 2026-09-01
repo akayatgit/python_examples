@@ -202,3 +202,32 @@ X does this in two flavours. Both are stealable. Do not invent extra tweet IDs.
 - “Watch these 5 YouTube videos and you'll know more about AI agents than 99% of people” — https://www.linkedin.com/posts/chetan-pujari-b611b6146_n8n-aiagents-aiautomation-activity-7382803366046744576-hr7B
 
 **Next Reel videos** (from Flavour B channels, not his four already posted): `documents/reel-scripts-batch-1.md`.
+
+---
+
+## 1 Sep evening — hook hunt for 2 Sep: “3 high paying skills / college expenses”
+
+Ashok’s tomorrow hook (do not rewrite):
+
+> 95% students dont know these 3 high paying skills is enough to manage your college expenses
+
+X already runs this family (percent + skill + money). Live posts:
+
+| Handle | Hook | Heat | Link |
+|---|---|---|---|
+| @Ishansharma7390 | I learned video editing by spending $0. Video Editor is one of the HIGHEST Paying Jobs. **5 FREE videos you NEED to watch today.** | **1,344 likes · 1,985 bookmarks · 165k views** | https://x.com/Ishansharma7390/status/1702561635540385836 |
+| @Ishansharma7390 | **81% of businesses need Graphic Designers.** Learn from home. Step by step to earn 1 Lakh/month as a designer in India. | 296 likes · 199 bookmarks · 35k views | https://x.com/Ishansharma7390/status/1665683517093601280 |
+| @Ishansharma7390 | **86% of businesses rely on video.** Be a pro editor in 60 days. DaVinci free / VN on phone. | (Jun 9 2023 thread on his profile) | https://threadreaderapp.com/user/Ishansharma7390 |
+| @GuptaSayujya | Video Editing is one of the most High Demand Jobs. Become an editor in 14 days. Free courses. | Rattibha: https://en.rattibha.com/thread/1693223862287151219 | https://x.com/GuptaSayujya/status/1693223862287151219 |
+
+LinkedIn same 3-skill list: Video editing + Social media + Web — https://www.linkedin.com/posts/vicky-sharma-7b40552b8_skills2025-sidehustle-freelancing-activity-7274478658206023680-SEXt
+
+**The 3 skills those posts keep naming (student, laptop, this week):**
+
+1. **Video editing** — CapCut / DaVinci (free). Ishan: first 100 edits free, then Fiverr / YTJobs / cold DM a creator.
+2. **Graphic design** — Canva. Ishan names GFXMentor, Ansh Mehra, thumbnail + Instagram posts.
+3. **Copywriting** — captions and ads for the same shops. Vicky Sharma’s third is web/SMM; for college pocket money, copy is faster than coding.
+
+Honest money (do not put “1 Lakh/month” on his overlay): one local shop’s Reels + posts is enough for mess + recharge. That is “manage college expenses.” The 1 Lakh line is Ishan’s, not ours.
+
+Where they get the first ₹ (screenshot these, not the tweets): Internshala, Fiverr, Canva, CapCut YouTube, Casey Faris on YouTube.
