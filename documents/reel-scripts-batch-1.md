@@ -16,64 +16,45 @@ Hook grammar is number + promise. The Google-90% line was an *example of shape*.
 
 ---
 
-## NEXT · Wed · ACTUAL SCRIPT (5 sites, browser only)
+## NEXT · Wed · 5 job sites (matches the Reddit post)
 
-Harvest (off camera): r/cscareerquestions u/trusted-apiarist · 143↑ — LinkedIn is a wash; YC / HN / Wellfound.  
-Also: r/csMajors “YC startup jobs page.” X: Wellfound as the startup board.
+**Read this first:** https://www.reddit.com/r/cscareerquestions/comments/1iliq2m/for_anyone_interested_in_startups/  
+143 upvotes. He says LinkedIn is a wash, then lists these boards.
 
-You do not talk. Open the site. That is the clip.
+The five clips are **only names from that post.** Nothing extra.
 
-**Cover title:** `5 free sites Naukri never shows you`
-
-**0–2 seconds — you typing.**  
-Text on you:
+**Hook on you (this is the line on your face):**
 
 ```
-5 free sites
-Naukri never shows you
+5 job sites
+besides Naukri and LinkedIn
 ```
 
-CUT.
+**Then open, in order:**
 
-**Shot 1 — browser:** https://cutshort.io  
-Search `fresher` or `intern`.  
-Text: `1/5  Cutshort — India startups, not Naukri`
+1. https://www.workatastartup.com — text: `YC Work at a Startup`
+2. https://wellfound.com — text: `Wellfound`
+3. https://news.ycombinator.com/jobs — text: `Hacker News jobs`
+4. https://www.welcometothejungle.com — text: `Welcome to the Jungle (old Otta)`
+5. https://startups.gallery — text: `Startups.Gallery`
 
-**Shot 2 — browser:** https://www.workatastartup.com  
-Text: `2/5  YC — apply to the batch companies`
-
-**Shot 3 — browser:** https://wellfound.com  
-Text: `3/5  Wellfound — founders, not HR portals`
-
-**Shot 4 — browser:** https://hiring.cafe  
-Text: `4/5  Hiring Cafe — pulls from career pages, fewer ghosts`
-
-**Shot 5 — browser:** https://education.github.com/pack  
-Text: `5/5  GitHub Student Pack — free tools, not a job board`
-
-Hold. Last card: `Save this. Open one tonight.`
-
-STOP. Five tabs. No story. No DM.
+Last card: `Save. Open one tonight.`
 
 **Caption:**
 
 ```
-5 free sites Naukri never shows you.
+5 job sites besides Naukri and LinkedIn.
 
-1. cutshort.io — India startups
-2. workatastartup.com — YC companies
-3. wellfound.com — talk to founders
-4. hiring.cafe — jobs from real career pages (fewer ghosts)
-5. education.github.com/pack — free student tools (Copilot etc.)
-
-People on Reddit keep saying LinkedIn is a wash. These are the tabs they open instead.
+workatastartup.com
+wellfound.com
+news.ycombinator.com/jobs
+welcometothejungle.com
+startups.gallery
 
 Save. Open one tonight.
 
 #freshers #offcampus #aitools #engineeringstudents #campusplacements
 ```
-
-**Backup (only if a site is down):** https://aistudio.google.com — free Gemini. Overlay: `Free Gemini. No card.`
 
 ---
 
