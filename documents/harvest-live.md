@@ -144,7 +144,7 @@ Quotes below are verbatim from those pipes. Do not invent extra comments. Do not
 
 | Reel | Platform | Room / handle | Why this one |
 |---|---|---|---|
-| R1 | X | @gabriel1 | Landing roadmap. Debugger/PR post killed (Ashok, 1 Sep). |
+| R1 | — | SKIPPED 1 Sep | Gabriel demo/HR/manager. Too complicated. Do not remake. |
 | R2 | X | @karpathy | How agents actually fail (junior-shaped bugs) |
 | R3 | Reddit | r/ExperiencedDevs | New interview check: predict *before* you run |
 | R4 | Reddit | r/developersIndia · cafe (banked) | Real-user roadmap. Not the old one-page five. |
