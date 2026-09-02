@@ -2,7 +2,34 @@
 
 **Identity (locked):** Akay — face who teaches Indian freshers and juniors how to use AI to get hired and keep the job.
 
+**Format lock (standing, 31 Aug):** no talking. Never show a Reddit or X post on camera.
+
+Every Reel is **Hook → 5 screens**.
+
+```
+[0–2s]  HOOK   you working, silent. Overlay = number + promise.
+[2–end] 1/5…5/5  five short screenshares. That is the roadmap.
+```
+
+Hook is **always** this one sentence. Only the three words in brackets change:
+
+`You will never be the same [role] after [action] these [content].`
+
+Example he actually posted (1 Sep) and that held skip: `You will never be the same Average guy` / `After you watch these 5 videos this week.`
+
+Role = what Ashok writes (“Average guy”, intern, etc.).  
+Action = watching, using, trying. Never “opening.”  
+Content = 5 YouTube videos this week. Do not invent a different hook.
+
+This is the only format until 4/5 hit 10k. We milk it.
+
 **Phase:** Value only. No products. No “comment X I send the kit.” No UPI. No Drive-for-sale. Prove the machine first.
+
+**Idea law (standing):** Every Reel starts as a post on **Reddit or Twitter/X**. We do not invent tips from career-blog muscle memory. Harvest → pick a fight people are already in → shot-list Hook → 5 screens. Never film the thread. SOP: `documents/idea-sourcing.md`. Latest pull: `documents/harvest-live.md`.
+
+**Diversity law:** do not lock a week from one page. A batch needs ≥2 platforms, ≥3 rooms/handles, and ≥2 X posts with real status IDs.
+
+**Killed topics:** ATS, “tailor your resume to the JD,” keyword stuffing, Naukri parse tricks. Saturated. Ashok has run them. They do not ship.
 
 **North star for this phase:** 10,000 Insights *views* on a Reel, **4 out of the last 5 posts**. Until that is true, we do not mention selling.
 
@@ -14,7 +41,7 @@ Two bars. Do not mix them.
 
 | Bar | Pass condition | Fail condition |
 |---|---|---|
-| **Pipeline (process)** | 10 Reels posted in 14 days, each from a template, scoreboard filled the same day, next 5 scripts exist before you film them | Miss a slot, invent a new format mid-week, skip the scoreboard |
+| **Pipeline (process)** | 10 Reels posted in 14 days, each Hook → 5 screens, scoreboard filled the same day, next 5 shot lists exist before Sunday | Miss a slot, invent talking, show a Reddit/X post, skip the scoreboard |
 | **Reach (proof)** | 4 of last 5 Reels ≥ 10,000 views **and** skip rate ≤ 45% on those 4 | One lucky 80k + four 400-view slides |
 
 A working pipeline can exist at 800 views. That is still a win for process. **Do not turn on selling** until the reach bar is hit. Views without a repeatable slot-fill are not a pipeline.
@@ -32,17 +59,17 @@ Account baseline (31 Aug 2026): August interview/job posts live at **300–1,600
 
 ```
 I show freshers how to get hired with AI.
-Face + screen. Real systems. No fluff.
+Hook + screen. Real systems. No fluff.
 TN + India · English
 Save the ones that hurt.
 ```
 
 **Link:** remove the scholarship Drive until we have a product. Empty link is better than a dead file. If Instagram requires a link, use your LinkedIn or a free Notion page of *public* tips — not a checkout.
 
-**Highlights (create empty, fill as Reels exist):** `Resume` · `Interview` · `Projects`  
-No “Shop”, no “Kit”, no “Paid”.
+**Highlights (create empty, fill as Reels exist):** `Market` · `Agents` · `Proof`  
+No “Shop”, no “Kit”, no “Paid”, no “ATS”.
 
-**Profile photo:** your face, well-lit, same crop for 90 days. People must recognize frame 1.
+**Profile photo:** your face, well-lit, same crop for 90 days. They must recognize the hook tape as you.
 
 **Never in bio/captions this phase:** kit, PDF, ₹, UPI, “comment WORD for the file”, “link in bio”, “I help you sell”, Watch Tower pitch.
 
@@ -52,40 +79,55 @@ No “Shop”, no “Kit”, no “Paid”.
 
 Every Reel is one of these. If an idea does not fit, it does not ship.
 
-| ID | Name | Promise | First frame | Length | End CTA (value only) |
+| ID | Name | Hook (same sentence, fill the 3 slots) | The 5 screens | Length | Clip 5 = CTA |
 |---|---|---|---|---|---|
-| T1 | **Reject** | Why you got 0 calls | Face + one brutal line, or a red-X resume | 28–40s | “Save this before you apply tonight.” |
-| T2 | **Workflow** | Do the task in N minutes | Face + timer or 1-2-3 on screen | 35–45s | “Comment which step you skip.” |
-| T3 | **Interview** | One question, bad vs AI-rebuilt | Face reacting, then the question huge | 30–40s | “Comment your answer in one line.” |
-| T4 | **Project** | A weekend build that looks like work | Demo/screen first 1s, then face | 35–45s | “Comment your branch. I’ll reply a project idea.” |
-| T5 | **Signal** | One hiring-news fact → one action this week | Number or headline huge | 25–35s | “Save if you’re a 2025/26 passout.” |
+| T1 | **Bounce** | You will never be the same [role] after [action] these [content] | 4–5 screens + CTA | 28–38s | last card |
+| T2 | **Workflow** | same sentence | 4–5 screens + CTA | 30–40s | last card |
+| T3 | **Interview** | same sentence | 4–5 screens + CTA | 30–40s | last card |
+| T4 | **Project** | same sentence | 4–5 screens + CTA | 30–40s | last card |
+| T5 | **Signal / Tech Pulse** | Ashok writes the hook (or the locked sentence) | 3 official-page thumbs + CTA (same as 2 Sep skills Reel) | 20–34s | last card |
+
+Same skeleton every time. Do not invent a sixth clip.
+
+```
+[0–2s] HOOK   working b-roll + number-promise overlay
+[2–8s]  1/5   screenshare
+[8–14s] 2/5   screenshare
+[14–20s] 3/5  screenshare
+[20–26s] 4/5  screenshare
+[26–32s] 5/5  screenshare or CTA card
+```
+
+Each clip ~5–6s. Label `1/5` top-left, same font all week.
 
 **Hard rules**
 
-1. Face in the first 2 seconds (except T4 may open on the product for 1s, then face).
-2. One idea. If you need a second idea, that is tomorrow’s Reel.
-3. Give the full tactic in the video. We are not teasing a paid file.
-4. On-screen text in the middle third (Reels tab crops top/bottom).
-5. English spoken. English + Tamil words on screen when it helps (`resume`, `call`, `reject`).
-6. Your voice or a quiet bed. No other creator’s original audio.
-7. Caption is SEO + the same CTA as the video. 3–5 hashtags max.
-8. If you explain a bug or riddle, the answer lives in the **video**, not as a spoiled first caption line — and you still ask for *their* version in comments.
+1. Face is in the first 2 seconds as **working b-roll**. You do not talk. You do not look at the lens.
+2. Hard cut at 2.0s into clip 1. Same cut every Reel.
+3. **Never on camera:** reddit.com, x.com, a subreddit name, a tweet embed, “as seen on Reddit.” Harvest is off-camera. The Reel is the roadmap.
+4. Hook is only `You will never be the same [role] after [action] these [content].` No other first line.
+5. Text is the script. Max 6 words per card. Middle third. `1/5` stays in the top-left safe zone.
+6. Give all N steps on screen. We are not teasing a paid file.
+7. Audio = one quiet CapCut “no copyright” bed, same track all week. No voice. No other creator’s original audio. No TTS until 10k is proven.
+8. Caption = hook overlay + 2 extra lines + CTA. Do not paste the Reddit/X thread into the caption.
+9. If a take cannot become N labeled screenshares, rewrite it. Do not add talking. Do not add a post screenshot.
 
 ---
 
 ## 4. Cadence
 
 - **5 Reels / week.** Slots: Tue, Wed, Thu, Fri, Sat. Local evening 7–9pm IST (when your student graph is awake) or 12–1pm. Pick one window and keep it for 14 days.
-- **Batch film Sunday.** All 5 in one sitting (60–90 min). Edit same day. Schedule or dump to drafts.
-- **Monday = script lock.** You do not film unscripted. Scripts live in `documents/reel-scripts-batch-1.md`.
+- **Batch Sunday (40 min, not 90).** One 15s working clip + one continuous screenshare per Reel (you do the 5 steps in order, pause between). CapCut splits on the pauses. Same preset.
+- **Monday = harvest + shot-list lock.** 30 min Reddit/X (`documents/idea-sourcing.md`), then lock 5 shot lists. You do not record unscripted. Lists live in `documents/reel-scripts-batch-1.md`.
 - **No carousels** until 4/5 Reels have cleared 10k. Carousels trained this account to 13 likes.
-- **Stories:** 3 frames the same day — hook screenshot, one tip, “Reel is up.” Not a second product.
+- **Stories:** 3 frames the same day — hook card, one screenshare still, “Reel is up.” No Reddit/X crop.
+- **Tech Pulse (add, do not replace):** 3 Stories on news days + **1 Reel/week** using T5 Signal. Harvest from X. Film official blogs / news headlines only. SOP in `documents/idea-sourcing.md`. First pack: `documents/reel-scripts-batch-1.md` → Tech Pulse.
 
 Weekly mix (do not skip a template for two weeks):
 
 | Day | Template |
 |---|---|
-| Tue | T1 Reject |
+| Tue | T1 Bounce |
 | Wed | T2 Workflow |
 | Thu | T3 Interview |
 | Fri | T4 Project |
@@ -93,45 +135,60 @@ Weekly mix (do not skip a template for two weeks):
 
 ---
 
-## 5. Filming SOP (phone only)
+## 5. Filming SOP — Hook → 5 screens
 
-**Setup (5 min, once, reuse)**
+This is the whole factory. If a step is not here, skip it.
 
-- Vertical 9:16. Rear camera or a stacked phone at eye level.
-- Face light from a window. Dark wall or plain curtain. No ceiling light on your forehead.
-- Same t-shirt/hoodie all week.
-- Screen recordings: iOS/Android screen record, 1080p, then crop.
+**Once (Sunday, 3 minutes) — the hook tape**
 
-**Shoot order per Reel**
+- Phone on books, side or over-shoulder. Window light. Same hoodie all week.
+- You type. You do not talk. You do not look at the camera.
+- Record **15 seconds**. That one clip is the hook for all 5 Reels. Different number-promise overlay, same tape.
+- Do not reshoot because your face looks “off.” Working is the point.
 
-1. Record the **hook line** to camera, 2 takes, pick the one with energy.
-2. Record the **screen bit** (ChatGPT / LinkedIn / ATS / terminal).
-3. Record the **close** (CTA + pause so the edit can loop).
-4. Do not restart the whole video for a small flub. Cut.
+**Then (Sunday, 20 minutes) — one screenshare per Reel**
 
-**Edit (CapCut or in-app)**
+- 9:16, or 16:9 cropped center. Big font. Dark theme. No Slack / WhatsApp. **No Reddit tab. No X tab.**
+- File: `rN-screens.mp4` only. One pass. Do step 1, pause 1s, step 2, pause, … step 5.
+- Each step is something you *do* (type, click, break, run). Not a slide deck. Not a social post.
+- If a step needs a second app, switch windows inside the same recording. Do not start a second file.
 
-- First frame must read without sound.
-- Cut any breath longer than 0.4s.
-- Big text: max 6 words per card. Change cards every 2–3s.
-- Last frame ≈ first frame (loop).
-- No logo sting. No “hey guys.”
+**Edit (CapCut, 15 minutes for all five)**
 
-**Time budget:** 12 min film + 10 min edit per Reel after week 1. If a Reel takes >30 min, the script was too fat. Cut it.
+Save a project called `akay-h2s`. Duplicate it.
+
+1. Hook tape 0:00–0:02 + overlay from the shot list.
+2. Split `rN-screens.mp4` on the pauses → clips `1/5` … `5/5`. ~5s each.
+3. Same font, same yellow/white, same `1/5` badge top-left, same quiet bed, all week.
+4. First frame must read with sound off. Last frame ≈ hook overlay (loop).
+5. No logo. No zoom spam. Hard cuts only.
+
+**Time budget:** 40 min Sunday for 5 Reels after week 1. If one Reel takes >12 min, drop a step, do not add talking, do not add a post screenshot.
+
+**What we will not do (effort kill list)**
+
+- Talk to camera. Learn a script. Light a second setup.
+- Voiceover. CapCut TTS. Green screen.
+- Film a new hook for every Reel.
+- Open Reddit or X in the recording.
+- Open a tool you do not already have installed.
+- Fake “90% of Google / FAANG secret” overlays.
 
 ---
 
 ## 6. Posting SOP
 
 1. Title/cover: 4–7 words, high contrast, same font all month.
-2. Caption = spoken promise + 2 lines of extra value + CTA + 3–5 tags.
+2. Caption = hook card + 2 lines of extra value + CTA + 3–5 tags.
 3. First comment (you, immediately): one extra example, not a link.
 4. Reply to comments for 30 minutes. This is distribution, not courtesy.
 5. Same day: fill `documents/pipeline-scoreboard.md`.
 6. Hour 3: glance skip rate + retention. Do not delete. Do not repost.
 
 **Hashtag pool (pick 4):**  
-`#freshers` `#campusplacements` `#aitools` `#resume` `#interviewprep` `#offcampus` `#chennai` `#tamilnadu` `#engineeringstudents`
+`#freshers` `#campusplacements` `#aitools` `#claudecode` `#cursorai` `#offcampus` `#chennai` `#tamilnadu` `#engineeringstudents`
+
+**Monday lock:** no shot list without a harvest `Source` (off-camera) + hook overlay + 5 clip names. If harvest is empty, remake last week’s best 5-clip roadmap from a *new* fight. Never invent. Never add talking. Never put the thread on screen.
 
 ---
 
@@ -141,11 +198,11 @@ Every Sunday, 20 minutes, before you write the next 5:
 
 1. Open scoreboard. Sort by views.
 2. **Keep** the template that hit highest views *and* lowest skip.
-3. **Rewrite only the hook** of any Reel that skipped >50% and still keep the body.
+3. **Rewrite only the hook card** of any Reel that skipped >50% and still keep the same screens.
 4. **Kill** any topic that got <20 comments and <10 saves — even if you liked it.
-5. Write next week’s 5 scripts before you close the laptop.
+5. Write next week’s 5 shot lists before you close the laptop.
 
-One variable per week. Week 1 we test the five templates. Week 2 we only change hooks on the weakest two. We do not add a sixth format.
+One variable per week. Week 1 we test the five templates *inside Hook → 5 screens*. Week 2 we only change hook overlays on the weakest two. We do not add talking. We do not add a Reddit crop. We do not add a sixth format.
 
 ---
 
@@ -154,10 +211,17 @@ One variable per week. Week 1 we test the five templates. Week 2 we only change 
 - Walk-in dumps, city lists, “100 openings”
 - Company history paragraphs
 - TNEA / cutoff / counselling
+- Debugger / “AI PR hygiene” / slop-check Reels (Ashok rejected, 1 Sep)
+- Gabriel skip-HR / manager-DM / personalized-demo play (Ashok skipped, 1 Sep — too complicated)
 - Interview riddles with the answer in the caption
 - “10 AI tools you need”
+- ATS / resume-keyword / “paste the JD into ChatGPT”
 - Other people’s audio
+- Talking to camera, voiceover, TTS, skits
 - Anything that requires a file in DM to be useful
+- A tip that does not exist as a Reddit or X post this month
+- A Reel that cannot be assembled as Hook → 5 screens
+- Any frame of Reddit, X, or a tweet/thread screenshot
 
 ---
 
@@ -176,6 +240,6 @@ Then — and only then — we ship the ₹499 kit behind a keyword. Not before.
 
 ## 10. Owner rules
 
-- Ashok films. Akay writes scripts, scoreboard, and the next batch.
-- If a script is not on the phone the night before, the slot is a reshoot of the best template, not a new idea.
+- Ashok records one working clip + the screen files. Akay harvests Reddit/X, writes shot lists, scoreboard, and the next batch.
+- If a shot list is not on the phone the night before, the slot is last week’s best Hook → 5 screens with a new overlay, not a new idea.
 - This file is the source of truth. Update it in place. Do not fork a v1 until 10k is proven.

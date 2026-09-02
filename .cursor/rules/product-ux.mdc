@@ -1,0 +1,21 @@
+---
+description: Standing product and content preferences from Ashok
+---
+
+# Standing preferences
+
+- Content ideas for `career_with_akay` always start on Reddit or Twitter/X. Akay harvests. Do not ask Ashok to paste links. SOP: `documents/idea-sourcing.md`. Live dump: `documents/harvest-live.md`.
+- A week is illegal if it comes from one listing. Need ≥2 platforms, ≥3 rooms/handles, ≥2 X posts with real `status/` URLs. One developersIndia hot page is a room, not a market.
+- ATS, resume-keyword, and “paste the JD into ChatGPT” are banned. Saturated. Do not ship.
+- Value first. No product / UPI / keyword-for-file until 4 of last 5 Reels hit 10k Insights views.
+- Format lock: no talking. Hook is always `You will never be the same [role] after [action] these [content].` Action = using / trying / watching — never “opening.”
+- Live winning format (1 Sep): Ashok posted `You will never be the same Average guy` / `After you watch these 5 videos this week` + YouTube thumbnail screenshots. Skip 40.7% vs typical 59%. Easy format: hook on him + 3–5 screenshots. No talking.
+- Ashok writes the hook. 2 Sep: `95% students dont know these 3 high paying skills is enough to manage your college expenses`. Do not replace his line. Body = the 3 skills those X threads name (video edit, Canva, copy) + where a student gets the first ₹.
+- Where the next 5 videos come from: X/Twitter “watch these videos” threads and “10 YouTube channels” threads. Off-camera only. On camera: his face + 5 YouTube thumbs. Never show the tweet.
+- Kill: debugger / AI-PR hygiene. Kill: gabriel “skip HR, DM the manager, personalized demo.” Ashok: too complicated (1 Sep). Do not remake.
+- Complexity kill: if a shot list needs more than **you + YouTube screenshots (or one laptop window)** or a decision tree (HR vs manager vs email), it does not ship.
+- Winning lane on this account: **5 videos this week** (then sites/tools only if he asks). Not strategy novels. Not debugger. Not “DM the manager.”
+- Documents live in `documents/` and are updated in place.
+- Tech Pulse (standing 2 Sep): also post tech news harvested from X. Do **not** replace the winning videos/skills Reels. Add: **3 Stories on news days** + **1 Reel/week** (T5 Signal). Harvest off-camera from X. On camera: official blog / news-site headline only (openai.com, TechCrunch, cursor.com). Never show x.com or a tweet. Each item = what happened + what it means for a fresher’s job. Skip rumors (no company confirm). Skip insult fights. Skip anything that teaches hacking. Ashok writes the hook.
+- Queue picker (standing 2 Sep): use **Akay Deck** (`deck/`). Dump harvest posts there. Right swipe = queue. Left swipe = reject. The Queue tab is the posting list. SOP: `documents/deck.md`. Still never film x.com.
+- Deck ship path (standing 2 Sep): **do not** run `vercel deploy --temporary` or mint a new Vercel URL. Clone / pull `akayatgit/python_examples`, commit on a `cursor/…-066c` branch, push, update the existing PR. The live app is the URL Ashok already claimed. To refresh that same URL, connect this GitHub repo to that Vercel project (root `vercel.json` already points at `deck/`).

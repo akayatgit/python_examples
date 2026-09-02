@@ -10,16 +10,27 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 
 | # | Date | Template | Title | Views | Skip % | Avg watch (s) | Length (s) | Likes | Comments | Saves | Shares | Profile taps | Hook note (5 words) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| R1 | | T1 | ATS never saw you | | | | | | | | | | |
-| R2 | | T2 | 12 applies / 20 min | | | | | | | | | | |
-| R3 | | T3 | Claude failed me | | | | | | | | | | |
-| R4 | | T4 | Not a college project | | | | | | | | | | |
-| R5 | | T5 | They cut freshers | | | | | | | | | | |
-| R6 | | T1 | LinkedIn empty | | | | | | | | | | |
-| R7 | | T2 | JD → resume 90s | | | | | | | | | | |
-| R8 | | T3 | Tell me about yourself | | | | | | | | | | |
-| R9 | | T4 | GitHub looks 19 | | | | | | | | | | |
-| R10 | | T5 | Off-campus funnel | | | | | | | | | | |
+| R1 | 1 Sep | — | SKIPPED — demo/HR/manager play too complicated | — | — | — | — | — | — | — | — | — | killed |
+| R2 | 1 Sep | videos | You will never be the same Average guy / After you watch these 5 videos this week | 237 | 40.7 | 9 | ~19 | 5 | 0 | 12 | 0 | 0 | skip beat typical 59% |
+| R3 | 2 Sep | 3 skills | 95% students dont know these 3 high paying skills is enough to manage your college expenses | | | | | | | | | | |
+| R4 | | T4 | This 4-step roadmap that gets you a real user | | | | | | | | | | |
+| R5 | | T5 | 3 proofs that replace 10 juniors | | | | | | | | | | |
+| R6 | | T1 | (re-harvest) | | | | | | | | | | |
+| R7 | | T2 | (re-harvest) | | | | | | | | | | |
+| R8 | | T3 | (re-harvest) | | | | | | | | | | |
+| R9 | | T4 | (re-harvest) | | | | | | | | | | |
+| R10 | | T5 | (re-harvest) | | | | | | | | | | |
+
+## Tech Pulse (add, do not replace career Reels)
+
+3 Stories on news days + 1 Reel/week. Fill the same day.
+
+| # | Date | Type | Title | Views | Skip % | Saves | Hook note |
+|---|---|---|---|---|---|---|---|
+| TP-S1 | | Story | OpenAI cuts Cursor (Nov 12) | | — | | |
+| TP-S2 | | Story | Astra critical cyber bar | | — | | |
+| TP-S3 | | Story | Don’t marry one model | | — | | |
+| TP-R1 | | Reel | 3 tech updates this week (after 2 Sep skills) | | | | |
 
 ## Sunday review (copy each week)
 

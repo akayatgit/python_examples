@@ -1,0 +1,6 @@
+.git
+documents
+.cursor
+test.py
+*.pyc
+__pycache__
