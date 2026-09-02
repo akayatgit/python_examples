@@ -44,17 +44,23 @@ JSON shape:
 3. **Copy queue as markdown** → paste into `documents/harvest-live.md`.
 4. Film only the **On camera** URL. Never x.com.
 
-**Live (Vercel, HTTPS)**
+**Live**
 
-- App: https://temporary-agile-iron-ppdbh3m.vercel.app
-- Claim (keep it, 60 minutes): https://vercel.com/claim-deployment?code=17de4812-3dad-4291-8d15-461d13ffcd72
+Use the Vercel URL you already claimed. **Do not create a new deployment** for each change.
+
+Ship path (standing):
+
+1. Pull `github.com/akayatgit/python_examples`.
+2. Commit on the existing Deck branch (`cursor/harvest-swipe-deck-066c`).
+3. Push and update PR https://github.com/akayatgit/python_examples/pull/4
+4. That PR is what updates the same claimed project — after you connect this GitHub repo in Vercel (Project → Settings → Git). Root `vercel.json` already serves `deck/`.
+
+Never `vercel deploy --temporary`. Never mint a second `temporary-*.vercel.app`.
 
 **Install on iPhone**
 
-1. Open the live URL in **Safari** (not Chrome).
+1. Open the claimed URL in **Safari** (not Chrome).
 2. Share → **Add to Home Screen** → Add.
 3. Open the **Deck** icon. Full screen. Works offline after first load.
-
-Redeploy from `deck/`: `npx vercel deploy --temporary --yes` (or `--prod` after you claim / add a `VERCEL_TOKEN`).
 
 **Kill rules still apply:** no ATS posts, no tweet UI on camera, no invented tweet IDs.
