@@ -46,8 +46,8 @@ JSON shape:
 
 **Live (Vercel, HTTPS)**
 
-- App: https://temporary-swift-neon-n6shm7m.vercel.app
-- Claim (keep it on your Vercel account, do this in 60 minutes or it dies): https://vercel.com/claim-deployment?code=3ac8387f-680f-4d28-807c-1f0fcbd52540
+- App: https://temporary-agile-iron-ppdbh3m.vercel.app
+- Claim (keep it, 60 minutes): https://vercel.com/claim-deployment?code=17de4812-3dad-4291-8d15-461d13ffcd72
 
 **Install on iPhone**
 
