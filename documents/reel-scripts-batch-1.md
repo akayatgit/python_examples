@@ -207,6 +207,84 @@ One food shop / salon / tuition centre on a retainer is “manage college expens
 
 ---
 
+## Tech Pulse · start after 2 Sep skills Reel
+
+**Lane:** tech news from X. Do **not** skip the skills Reel for this.  
+**On camera:** official pages only. Never open x.com.  
+Harvest: `documents/harvest-live.md` → 2 Sep morning.
+
+Ashok writes the hook. Two options — pick one, do not rewrite later:
+
+```
+3 tech updates this week
+your job already changed
+```
+
+or the old formula:
+
+```
+You will never be the same fresher
+after you see these 3 updates
+```
+
+### 3 Stories (can post today / tonight) — 3 frames each
+
+**Story 1 — Cursor cut**
+
+1. Hook card: `OpenAI cuts Cursor`
+2. Screenshot: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ — crop the headline + **November 12**
+3. Meaning card: `Dont lock to one model`
+
+**Story 2 — Astra**
+
+1. Hook card: `OpenAI Astra is coming`
+2. Screenshot: https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/ **or** https://openai.com/index/path-to-astra/ — headline only
+3. Meaning card: `Cyber + AI jobs get hotter`
+
+Do **not** explain how anything is hacked. Headline + job line only.
+
+**Story 3 — what to do**
+
+1. Hook card: `So what do you do`
+2. Screenshot: https://cursor.com/cursorbench — Fable 5.1 at the top (Claude still wins inside Cursor)
+3. Meaning card: `Learn Claude too. Stay`
+
+### Reel (same shape as 2 Sep: you + 3 thumbs)
+
+Overlay = the hook he picked.
+
+| # | Thumb (screenshot this page) | Overlay on clip |
+|---|---|---|
+| 1/3 | https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ | `OpenAI cuts Cursor Nov 12` |
+| 2/3 | https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/ | `Astra hits critical cyber bar` |
+| 3/3 | https://cursor.com/cursorbench | `Claude still runs Cursor` |
+
+Last card: `Dont marry one model`
+
+**Caption:**
+
+```
+3 tech updates this week
+your job already changed
+
+1. OpenAI ends Cursor access — 12 Nov
+2. Astra is coming. Cyber jobs get hotter
+3. Claude stays in Cursor. Learn more than one model
+
+Comment LINK
+
+#freshers #aitools #cursorai #openai #engineeringstudents
+```
+
+You at the desk. Then 3 official-page thumbs. No talking. No Twitter. No Elon. No Hugging Face rumor.
+
+Off-camera sources (do not show):  
+https://x.com/OpenAI/status/2093515564786540695  
+https://x.com/mntruell/status/2093532254006063557  
+https://x.com/NotTomBrown/status/2093541294027280657
+
+---
+
 ## NEXT after that · same format · 5 new videos (from X threads)
 
 **Do not change the hook.** Same two lines as R2.

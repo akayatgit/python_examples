@@ -21,6 +21,17 @@ Fill the same day you post. Insights numbers only (Views, not a third-party “p
 | R9 | | T4 | (re-harvest) | | | | | | | | | | |
 | R10 | | T5 | (re-harvest) | | | | | | | | | | |
 
+## Tech Pulse (add, do not replace career Reels)
+
+3 Stories on news days + 1 Reel/week. Fill the same day.
+
+| # | Date | Type | Title | Views | Skip % | Saves | Hook note |
+|---|---|---|---|---|---|---|---|
+| TP-S1 | | Story | OpenAI cuts Cursor (Nov 12) | | — | | |
+| TP-S2 | | Story | Astra critical cyber bar | | — | | |
+| TP-S3 | | Story | Don’t marry one model | | — | | |
+| TP-R1 | | Reel | 3 tech updates this week (after 2 Sep skills) | | | | |
+
 ## Sunday review (copy each week)
 
 **Date:**

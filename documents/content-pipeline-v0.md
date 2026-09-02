@@ -85,7 +85,7 @@ Every Reel is one of these. If an idea does not fit, it does not ship.
 | T2 | **Workflow** | same sentence | 4–5 screens + CTA | 30–40s | last card |
 | T3 | **Interview** | same sentence | 4–5 screens + CTA | 30–40s | last card |
 | T4 | **Project** | same sentence | 4–5 screens + CTA | 30–40s | last card |
-| T5 | **Signal** | same sentence | 4–5 screens + CTA | 26–34s | last card |
+| T5 | **Signal / Tech Pulse** | Ashok writes the hook (or the locked sentence) | 3 official-page thumbs + CTA (same as 2 Sep skills Reel) | 20–34s | last card |
 
 Same skeleton every time. Do not invent a sixth clip.
 
@@ -121,6 +121,7 @@ Each clip ~5–6s. Label `1/5` top-left, same font all week.
 - **Monday = harvest + shot-list lock.** 30 min Reddit/X (`documents/idea-sourcing.md`), then lock 5 shot lists. You do not record unscripted. Lists live in `documents/reel-scripts-batch-1.md`.
 - **No carousels** until 4/5 Reels have cleared 10k. Carousels trained this account to 13 likes.
 - **Stories:** 3 frames the same day — hook card, one screenshare still, “Reel is up.” No Reddit/X crop.
+- **Tech Pulse (add, do not replace):** 3 Stories on news days + **1 Reel/week** using T5 Signal. Harvest from X. Film official blogs / news headlines only. SOP in `documents/idea-sourcing.md`. First pack: `documents/reel-scripts-batch-1.md` → Tech Pulse.
 
 Weekly mix (do not skip a template for two weeks):
 

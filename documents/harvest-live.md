@@ -245,3 +245,25 @@ Reel screenshots (3 thumbs):
 Also in the playlist (do not need extra thumbs): Narayan R Reel Tamil `C6BN3c_LMIQ` · Tech Gratify thumbnail Tamil `zzlh4nfMCns` · Aishwarya Vignesh Upwork Tamil `X2bustFv1vI`.
 
 Watch ≈ 8–8.5h full / 5h this-week cut. Practice + outreach ≈ 17h. **~22h to first paid job.** Honest money: first job ₹2–5k; **beginner week after samples ₹1.5–3.5k** (₹0 if they only watch; ₹4–6k is a rare strong week); month 1 with 1–2 shops ₹5–12k (mess + phone). Not 1 Lakh.
+
+---
+
+## 2 Sep morning — Tech Pulse harvest (X off-camera)
+
+Ashok: start posting tech news from Twitter. Same law: never film x.com. Shot list: `documents/reel-scripts-batch-1.md` → Tech Pulse.
+
+Pulled 2 Sep 2026 via `api.fxtwitter.com`. Do not invent IDs.
+
+| Handle | What they said | Heat | Link | Use |
+|---|---|---|---|---|
+| @OpenAI | Ending partnership with Cursor after SpaceX buy. Direct model access ends **12 Nov**. Blog linked. | **22.2k likes · 15.3M views** | https://x.com/OpenAI/status/2093515564786540695 | **Reel 1/3 + Story 1.** On camera: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ |
+| @mntruell | Sorry to see the block. OpenAI models = **~5%** of Cursor traffic. Talking to resolve. | **24.1k likes · 6.0M views** | https://x.com/mntruell/status/2093532254006063557 | Off-camera proof. Do not screenshot the tweet. |
+| @NotTomBrown | Cursor trusted partner since Sonnet 3.5. Anthropic will **increase compute** for Claude in Cursor. | **10.3k likes · 8.3M views** | https://x.com/NotTomBrown/status/2093541294027280657 | Reel 3/3 meaning: Claude stays. |
+| @thsottiaux | “It boils down to trust.” Own API key + IDE extensions still work. | **10.1k likes · 4.2M views** | https://x.com/thsottiaux/status/2093515916076343774 | Bank. Not a thumb. |
+| @thsottiaux | 5% number needs a caveat. Tokens ≠ value. | **6.8k likes · 1.3M views** | https://x.com/thsottiaux/status/2093784314714657110 | Bank. |
+| TechCrunch (1 Sep) | OpenAI Astra hits **critical cybersecurity** bar. Limited access. | News 1 Sep | https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/ | **Reel 2/3 + Story 2.** Official write-up: https://openai.com/index/path-to-astra/ |
+| @business | Nvidia **talks** to buy Hugging Face >$13B (BI). | 87 likes · 40k views | https://x.com/business/status/2092823224962666953 | **Kill for now.** Talks, not confirmed. |
+| @elonmusk | Insult reply. | 45k likes | https://x.com/elonmusk/status/2093572368434127259 | **Kill.** No job meaning. |
+| @kimmonismus | Astra “ultima-alpha” scoop (pre-blog). | 844 likes | https://x.com/kimmonismus/status/2093731470493798711 | Skip. Official blog is better. |
+
+Job meaning (the only reason we post this): do not marry one model. Cursor users keep Claude. Astra = cyber jobs get hotter; we do **not** teach hacking.

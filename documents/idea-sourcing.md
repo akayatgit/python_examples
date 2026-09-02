@@ -50,6 +50,15 @@ Handles that already post this: `@hasantoxr`, `@heygurisingh`, `@manishkumar_dev
 
 If a thread lists **channels**, pick the top video on each channel (screenshot the YouTube page). If it lists **videos**, use those titles.
 
+**Tech Pulse (daily, 10 extra minutes):** tech news and model updates from X. Same rule: real `status/` URL + likes/views. Then screenshot the **official blog**, not the tweet.
+
+Skim these handles (steal the news, never film the tweet): `@OpenAI` `@AnthropicAI` `@cursor_ai` `@GoogleDeepMind` `@nvidia` `@huggingface` `@github` `@karpathy` `@sama` `@mntruell`.
+
+Search last 48 hours: `Astra`, `Claude Fable`, `CursorBench`, `"we just launched"`, `"now available"`, `acquisition` (only if the company confirmed).
+
+**Tech Pulse heat:** official company tweet ≥ ~2k likes **or** a news-site story plus a confirming company tweet.  
+**Tech Pulse kill:** rumor with no company post · insult / founder fight with no job meaning · anything that teaches how to hack · same story already posted this week.
+
 Also search last 7 days (or unroll / fxtwitter if x.com search 403s): `Claude Code`, `Cursor`, `"junior developer"`, `fresher`, `"I don't hire juniors"`, `slopacolypse`, `agentic`.
 
 If x.com is blocked, resolve a real status ID then pull verbatim text:
@@ -88,6 +97,7 @@ One post → one Reel. Do not mash three threads.
 | “They asked if I used AI” / take-home / “explain this PR” | T3 Interview |
 | “Stop building Titanic / demo or it didn’t happen” | T4 Project |
 | A number or a CEO/X quote people are yelling about | T5 Signal |
+| Tech news / model launch this week (X harvest, official blog on camera) | T5 Tech Pulse — 3 thumbs + CTA. Also 3 Stories. |
 
 Shot-list header must include:
 
