@@ -10,7 +10,7 @@ ATS / resume-tailor / keyword hacks are banned even if they trend. That lane is 
 
 ## Monday harvest (30 minutes, timer on)
 
-Open these, in this order. Sort by **hot** then **week**. Screenshot anything with heat. Write the dump into `documents/harvest-live.md` (overwrite).
+Open these, in this order. Sort by **hot** then **week**. Screenshot anything with heat. Write the dump into `documents/harvest-live.md` (overwrite). Also paste the same posts into **Akay Deck** (`deck/` Dump tab, or JSON). Ashok swipes there: right = queue, left = reject. SOP: `documents/deck.md`.
 
 **Reddit — at least three rooms, not one listing**
 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0e1c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Deck" />
+  <title>Akay Deck</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="./icons/icon-180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./app.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="brand">
+        <div class="logo">D</div>
+        <div>
+          <h1>Akay Deck</h1>
+          <p class="sub">Dump → swipe → queue</p>
+        </div>
+      </div>
+      <div class="counts">
+        <span>Dump <b id="c-dump">0</b></span>
+        <span>Queue <b id="c-queue">0</b></span>
+        <span>No <b id="c-no">0</b></span>
+      </div>
+    </header>
+
+    <div id="install" class="install">
+      iPhone: Safari → Share → Add to Home Screen. Then open Deck from the icon.
+    </div>
+
+    <nav>
+      <button data-tab="swipe" class="on">Swipe</button>
+      <button data-tab="dump">Dump</button>
+      <button data-tab="queue">Queue</button>
+      <button data-tab="rejected">Rejected</button>
+    </nav>
+
+    <p id="toast" class="sub"></p>
+
+    <main>
+      <section id="panel-swipe" class="panel on">
+        <div id="swipe-stage"></div>
+        <div class="swipe-bar">
+          <button class="circle no" id="no-btn" aria-label="Reject">✕</button>
+          <button class="circle undo" id="undo-btn" aria-label="Undo">Undo</button>
+          <button class="circle yes" id="yes-btn" aria-label="Queue">♥</button>
+        </div>
+      </section>
+
+      <section id="panel-dump" class="panel">
+        <div class="hint">
+          <b>This is the inbox.</b> Akay dumps harvest posts here (JSON or title + link).
+          You swipe them on the Swipe tab. Right = queue. Left = no.
+        </div>
+
+        <label>Add one post</label>
+        <input id="f-title" placeholder="Title / fight" />
+        <input id="f-url" placeholder="https://x.com/... or reddit link" inputmode="url" />
+        <div class="row">
+          <input id="f-author" placeholder="@handle or u/name" />
+          <select id="f-platform">
+            <option value="x">X / Twitter</option>
+            <option value="reddit">Reddit</option>
+            <option value="news">News / blog</option>
+            <option value="youtube">YouTube</option>
+          </select>
+        </div>
+        <div class="row">
+          <input id="f-room" placeholder="Room / handle" />
+          <input id="f-heat" placeholder="Likes / comments" />
+        </div>
+        <select id="f-lane">
+          <option value="career">Career</option>
+          <option value="videos">Videos</option>
+          <option value="student-skills">Student skills</option>
+          <option value="tech-pulse">Tech Pulse</option>
+          <option value="utility">Utility</option>
+        </select>
+        <textarea id="f-quote" placeholder="Quote (verbatim)"></textarea>
+        <input id="f-notes" placeholder="Notes (on camera page, kill reason…)" />
+        <button class="btn gold" id="add-one">Add to dump</button>
+
+        <label>Bulk dump</label>
+        <textarea id="f-bulk" placeholder='JSON array, or blocks:
+
+OpenAI cuts Cursor
+https://x.com/OpenAI/status/...
+22k likes. Do not film the tweet.'></textarea>
+        <button class="btn gold" id="add-bulk">Dump these</button>
+        <button class="btn ghost" id="load-seed">Load harvest seed</button>
+        <button class="btn danger" id="reset-seed">Reset to seed</button>
+
+        <label>In the dump now</label>
+        <div id="dump-list" class="list"></div>
+      </section>
+
+      <section id="panel-queue" class="panel">
+        <div class="hint">
+          <b>This is the posting queue.</b> Order = what you film next.
+          Copy markdown into <code>documents/harvest-live.md</code>.
+        </div>
+        <button class="btn gold" id="copy-md">Copy queue as markdown</button>
+        <button class="btn ghost" id="copy-json">Copy JSON</button>
+        <button class="btn ghost" id="download-json">Download JSON</button>
+        <textarea id="export-box" placeholder="Export lands here if copy is blocked"></textarea>
+        <div id="queue-list" class="list"></div>
+      </section>
+
+      <section id="panel-rejected" class="panel">
+        <div class="hint">Left swipes. Restore if you change your mind.</div>
+        <div id="rejected-list" class="list"></div>
+      </section>
+    </main>
+  </div>
+  <script src="./seed.js"></script>
+  <script src="./store.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
