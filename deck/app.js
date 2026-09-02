@@ -16,11 +16,7 @@
       .sort((a, b) => (status === "queue" ? a.order - b.order : b.createdAt - a.createdAt));
   }
 
-  function renderCounts() {
-    $("c-dump").textContent = list("dump").length;
-    $("c-queue").textContent = list("queue").length;
-    $("c-no").textContent = list("rejected").length;
-  }
+  function renderCounts() {}
 
   function setTab(next) {
     tab = next;
@@ -315,18 +311,10 @@
     a.click();
   });
 
-  function maybeInstallHint() {
-    const standalone = window.navigator.standalone === true ||
-      window.matchMedia("(display-mode: standalone)").matches;
-    const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
-    if (ios && !standalone) $("install").classList.add("show");
-  }
-
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("./sw.js").catch(() => {});
   }
 
   renderCounts();
   setTab("swipe");
-  maybeInstallHint();
 })();

@@ -1,4 +1,4 @@
-const CACHE = "akay-deck-v1";
+const CACHE = "akay-deck-v2";
 const ASSETS = [
   "./",
   "./index.html",
