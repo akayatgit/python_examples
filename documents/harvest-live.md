@@ -244,4 +244,4 @@ Reel screenshots (3 thumbs):
 
 Also in the playlist (do not need extra thumbs): Narayan R Reel Tamil `C6BN3c_LMIQ` · Tech Gratify thumbnail Tamil `zzlh4nfMCns` · Aishwarya Vignesh Upwork Tamil `X2bustFv1vI`.
 
-Watch ≈ 8–8.5h full / 5h this-week cut. Practice + outreach ≈ 17h. **~22h to first paid job.** Honest money: first job ₹2–5k; month 1 with 1–2 shops ₹5–12k (mess + phone). Not 1 Lakh.
+Watch ≈ 8–8.5h full / 5h this-week cut. Practice + outreach ≈ 17h. **~22h to first paid job.** Honest money: first job ₹2–5k; **beginner week after samples ₹1.5–3.5k** (₹0 if they only watch; ₹4–6k is a rare strong week); month 1 with 1–2 shops ₹5–12k (mess + phone). Not 1 Lakh.

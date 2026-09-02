@@ -147,6 +147,17 @@ https://www.youtube.com/watch_videos?video_ids=BSTuxpc9FU0,C6BN3c_LMIQ,o_QIIGLeo
 - 10 captions pack: ₹500–1,500
 - Monthly retainer (12 posts + 4 Reels + captions): ₹5,000–12,000
 
+**Beginner money in one week (INR, after you have 3 samples):**
+
+| How the week goes | Approx | What they actually sold |
+|---|---|---|
+| Still only watching the playlist | ₹0 | Nothing. Learning week is unpaid. |
+| Closed 1 tiny job | ₹800–2,000 | 2 Reels **or** 6 Canva posts **or** 1 caption pack |
+| Normal first selling week | ₹1,500–3,500 | 1 local shop: ~4 Reels **or** 8–10 posts + captions |
+| Strong first week (rare) | ₹4,000–6,000 | 2 small shops, cheap beginner rates |
+
+Math behind the “normal” week: 4 Reels × ₹400 = ₹1,600 · or 8 posts × ₹250 = ₹2,000 · plus a ₹500 caption pack if they bundle. Do not promise ₹10k in week 1.
+
 One food shop / salon / tuition centre on a retainer is “manage college expenses.”
 
 ### Three points for each skill
