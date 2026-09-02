@@ -44,12 +44,17 @@ JSON shape:
 3. **Copy queue as markdown** → paste into `documents/harvest-live.md`.
 4. Film only the **On camera** URL. Never x.com.
 
+**Live (Vercel, HTTPS)**
+
+- App: https://temporary-swift-neon-n6shm7m.vercel.app
+- Claim (keep it on your Vercel account, do this in 60 minutes or it dies): https://vercel.com/claim-deployment?code=3ac8387f-680f-4d28-807c-1f0fcbd52540
+
 **Install on iPhone**
 
-1. Open the Deck URL in **Safari** (not Chrome).
+1. Open the live URL in **Safari** (not Chrome).
 2. Share → **Add to Home Screen** → Add.
-3. Open the **Deck** icon. It runs full screen, works offline after first load.
+3. Open the **Deck** icon. Full screen. Works offline after first load.
 
-Local: from repo root `python3 -m http.server 4173 --directory deck` then open `http://<that-machine>:4173` on the phone (same Wi‑Fi). For a real home-screen install iOS wants HTTPS — use a tunnel or GitHub Pages later.
+Redeploy from `deck/`: `npx vercel deploy --temporary --yes` (or `--prod` after you claim / add a `VERCEL_TOKEN`).
 
 **Kill rules still apply:** no ATS posts, no tweet UI on camera, no invented tweet IDs.
